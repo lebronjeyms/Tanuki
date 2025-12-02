@@ -29,7 +29,7 @@ online content sources.**
 
 </div>
 
-### In-App Screenshots
+### In-App Screenjhhhshots
 
 <div align="center">
     <img src="./metadata/en-US/images/phoneScreenshots/1.png" alt="Mobile view" width="250"/>
