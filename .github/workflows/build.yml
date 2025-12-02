@@ -3,6 +3,9 @@ name: start build
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build_release:
     name: Trigger Release builds 🚀
