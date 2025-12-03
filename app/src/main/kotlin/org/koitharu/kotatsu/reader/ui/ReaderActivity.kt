@@ -130,6 +130,7 @@ class ReaderActivity :
         viewBinding.zoomControl.listener = this
         viewBinding.actionsView.listener = this
         viewBinding.buttonTimer?.setOnClickListener(this)
+        viewBinding.buttonOptions?.setOnClickListener(this)
         idlingDetector.bindToLifecycle(this)
         screenOrientationHelper.applySettings()
         viewModel.isBookmarkAdded.observe(this) { viewBinding.actionsView.isBookmarkAdded = it }
@@ -252,6 +253,7 @@ class ReaderActivity :
     override fun onClick(v: View) {
         when (v.id) {
             R.id.button_timer -> onScrollTimerClick(isLongClick = false)
+            R.id.button_options -> openMenu()
         }
     }
 
