@@ -1,3 +1,4 @@
+
 name: Publish APK to Release
 
 on:
@@ -49,8 +50,6 @@ jobs:
 
           if keytool -list -v -keystore release-key.jks -storepass "${{ inputs.KEYSTORE_PASSWORD }}" >/dev/null 2>&1; then
             echo "Keystore appears to be valid JKS"
-          elif keytool -list -v -storetype PKCS12 -keystore release-key.jks -storepass "${{ inputs.KEYSTORE_PASSWORD }}" >/dev/null 2>&1; then
-            echo "Keystore appears to be PKCS12"
           else
             echo "ERROR: Keystore could not be parsed. This usually means KEYSTORE_BASE64 is empty/corrupted or the password is wrong." >&2
             exit 1
