@@ -30,12 +30,11 @@ jobs:
       - name: Restore Keystore from secret and validate
         run: |
           echo "Restoring keystore from secret..."
-          echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > release-key.jks
+          printf "%s" "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > release-key.jks
           echo "Keystore file size:"
           ls -lh release-key.jks
           file release-key.jks || true
           hexdump -C release-key.jks | head -n 20 || true
-          # try listing as both types, capture output
           if keytool -list -v -keystore release-key.jks -storepass "${KEYSTORE_PASSWORD}" >/dev/null 2>&1; then
             echo "Keystore appears to be valid JKS"
           elif keytool -list -v -storetype PKCS12 -keystore release-key.jks -storepass "${KEYSTORE_PASSWORD}" >/dev/null 2>&1; then
