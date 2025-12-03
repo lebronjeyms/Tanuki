@@ -56,24 +56,37 @@
 		android:visibility="gone"
 		app:layout_dodgeInsetEdges="bottom" />
 
-	<com.google.android.material.appbar.AppBarLayout
-		android:id="@+id/appbar_top"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:elevation="@dimen/m3_card_elevated_elevation"
-		app:elevation="@dimen/m3_card_elevated_elevation"
-		app:liftOnScroll="false">
+<com.google.android.material.appbar.AppBarLayout
+    android:id="@+id/appbar_top"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="@dimen/m3_card_elevated_elevation"
+    app:elevation="@dimen/m3_card_elevated_elevation"
+    app:liftOnScroll="false">
 
-		<com.google.android.material.appbar.MaterialToolbar
-			android:id="@id/toolbar"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:elevation="@dimen/m3_card_elevated_elevation"
-			app:elevation="@dimen/m3_card_elevated_elevation"
-			app:popupTheme="@style/ThemeOverlay.Kotatsu"
-			tools:menu="@menu/opt_reader" />
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/m3_card_elevated_elevation"
+        app:elevation="@dimen/m3_card_elevated_elevation"
+        app:popupTheme="@style/ThemeOverlay.Kotatsu"
+        tools:menu="@menu/opt_reader">
 
-	</com.google.android.material.appbar.AppBarLayout>
+        <!-- Options button on the right side -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_options"
+            style="?materialIconButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:contentDescription="@string/options"
+            app:icon="@drawable/abc_ic_menu_overflow_material"
+            app:iconTint="?attr/colorOnPrimary" />
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+</com.google.android.material.appbar.AppBarLayout>
 
 	<!-- Replaced DockedToolbarLayout with a simple container so ReaderActionsView
 		 can show a custom floating card-style toolbar with rounded corners. -->
