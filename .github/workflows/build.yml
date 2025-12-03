@@ -1,4 +1,4 @@
-name: start build
+name: Start Build
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ permissions:
 
 jobs:
   build_release:
-    name: Trigger Release builds 🚀
+    name: Trigger Release Build 🚀
     uses: ./.github/workflows/build_release.yml
     with:
       KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
