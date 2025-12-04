@@ -117,6 +117,10 @@ class ReaderActivity :
 
     // Tracks whether the foldable device is in an unfolded state (half-opened or flat)
     private var isFoldUnfolded: Boolean = false
+    
+    // Debounce time for menu button to prevent opening multiple menus
+    private var lastMenuClickTime: Long = 0
+    private val menuClickDebounceMs: Long = 500
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -253,7 +257,13 @@ class ReaderActivity :
     override fun onClick(v: View) {
         when (v.id) {
             R.id.button_timer -> onScrollTimerClick(isLongClick = false)
-            R.id.button_options -> openMenu()
+            R.id.button_options -> {
+                val currentTime = System.currentTimeMillis()
+                if (currentTime - lastMenuClickTime >= menuClickDebounceMs) {
+                    lastMenuClickTime = currentTime
+                    openMenu()
+                }
+            }
         }
     }
 
