@@ -22,7 +22,7 @@ android {
 		minSdk = 23
 		targetSdk = 36
 		versionCode = 1033
-		versionName = '9.4.1'
+		versionName = (project.hasProperty('versionName') ? project.property('versionName') : '9.4.1').toString()
 		generatedDensities = []
 		testInstrumentationRunner 'org.koitharu.kotatsu.HiltTestRunner'
 		ksp {
@@ -39,25 +39,40 @@ android {
 		}
 		resValue 'string', 'tg_backup_bot_token', localProperties.getProperty('tg_backup_bot_token', '')
 	}
+	signingConfigs {
+	    release {
+	        storeFile file("balls.jks")
+	        storePassword "bigfuhahh69"
+	        keyAlias "ballsack"
+	        keyPassword "bigfuhahh69"
+	        storeType "JKS"
+	    }
+	}
 	buildTypes {
-		debug {
-			applicationIdSuffix = '.debug'
-		}
-		release {
-			minifyEnabled true
-			shrinkResources true
-			proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-		}
-		nightly {
-			initWith release
-			applicationIdSuffix = '.nightly'
-		}
+	    debug {
+	        applicationIdSuffix = '.debug'
+	        signingConfig signingConfigs.release
+	    }
+	    release {
+	        minifyEnabled true
+	        shrinkResources true
+	        proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+	        signingConfig signingConfigs.release
+	    }
+	    nightly {
+	        initWith release
+	        applicationIdSuffix = '.nightly'
+	        signingConfig signingConfigs.release
+	    }
 	}
 	buildFeatures {
 		viewBinding true
 		buildConfig true
 	}
 	packagingOptions {
+		jniLibs {
+			useLegacyPackaging true
+		}
 		resources {
 			excludes += [
 				'META-INF/README.md',
@@ -123,9 +138,9 @@ dependencies {
 		parsersVersion = System.getProperty('parsersVersionOverride')
 	}
 	//noinspection UseTomlInstead
-	implementation("com.github.KotatsuApp:kotatsu-parsers:$parsersVersion") {
+	implementation("com.github.2lwg1cdpiW:kotatsu-parsers:0.6.8") {
 		exclude group: 'org.json', module: 'json'
-	}
+    }
 
 	coreLibraryDesugaring libs.desugar.jdk.libs
 	implementation libs.kotlin.stdlib
