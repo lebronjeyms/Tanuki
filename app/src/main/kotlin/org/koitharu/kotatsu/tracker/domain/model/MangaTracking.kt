@@ -1,6 +1,6 @@
-package org.koitharu.kotatsu.tracker.domain.model
+package org.tanukis.tanuki.tracker.domain.model
 
-import org.koitharu.kotatsu.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.Manga
 import java.time.Instant
 
 data class MangaTracking(

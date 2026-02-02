@@ -1,7 +1,7 @@
-package org.koitharu.kotatsu.stats.domain
+package org.tanukis.tanuki.stats.domain
 
 import androidx.annotation.StringRes
-import org.koitharu.kotatsu.R
+import org.tanukis.tanuki.R
 
 enum class StatsPeriod(
 	@StringRes val titleResId: Int,

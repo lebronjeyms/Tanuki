@@ -1,8 +1,8 @@
-package org.koitharu.kotatsu.reader.ui
+package org.tanukis.tanuki.reader.ui
 
-import org.koitharu.kotatsu.bookmarks.domain.Bookmark
-import org.koitharu.kotatsu.parsers.model.MangaChapter
-import org.koitharu.kotatsu.reader.ui.pager.ReaderPage
+import org.tanukis.tanuki.bookmarks.domain.Bookmark
+import org.tanukis.tanuki.parsers.model.MangaChapter
+import org.tanukis.tanuki.reader.ui.pager.ReaderPage
 
 interface ReaderNavigationCallback {
 

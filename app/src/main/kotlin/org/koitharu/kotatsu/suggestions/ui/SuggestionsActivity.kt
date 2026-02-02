@@ -1,5 +1,5 @@
-package org.koitharu.kotatsu.suggestions.ui
+package org.tanukis.tanuki.suggestions.ui
 
-import org.koitharu.kotatsu.core.ui.FragmentContainerActivity
+import org.tanukis.tanuki.core.ui.FragmentContainerActivity
 
 class SuggestionsActivity : FragmentContainerActivity(SuggestionsFragment::class.java)

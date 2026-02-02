@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.reader.ui.pager.doublepage
+package org.tanukis.tanuki.reader.ui.pager.doublepage
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,17 +11,17 @@ import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.yield
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.os.NetworkState
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.ui.list.lifecycle.RecyclerViewLifecycleDispatcher
-import org.koitharu.kotatsu.core.util.ext.firstVisibleItemPosition
-import org.koitharu.kotatsu.databinding.FragmentReaderDoubleBinding
-import org.koitharu.kotatsu.reader.domain.PageLoader
-import org.koitharu.kotatsu.reader.ui.ReaderState
-import org.koitharu.kotatsu.reader.ui.pager.BaseReaderAdapter
-import org.koitharu.kotatsu.reader.ui.pager.BaseReaderFragment
-import org.koitharu.kotatsu.reader.ui.pager.ReaderPage
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.os.NetworkState
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.ui.list.lifecycle.RecyclerViewLifecycleDispatcher
+import org.tanukis.tanuki.core.util.ext.firstVisibleItemPosition
+import org.tanukis.tanuki.databinding.FragmentReaderDoubleBinding
+import org.tanukis.tanuki.reader.domain.PageLoader
+import org.tanukis.tanuki.reader.ui.ReaderState
+import org.tanukis.tanuki.reader.ui.pager.BaseReaderAdapter
+import org.tanukis.tanuki.reader.ui.pager.BaseReaderFragment
+import org.tanukis.tanuki.reader.ui.pager.ReaderPage
 import javax.inject.Inject
 import kotlin.math.absoluteValue
 

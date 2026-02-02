@@ -1,18 +1,18 @@
-package org.koitharu.kotatsu.bookmarks.ui.adapter
+package org.tanukis.tanuki.bookmarks.ui.adapter
 
 import android.content.Context
-import org.koitharu.kotatsu.bookmarks.domain.Bookmark
-import org.koitharu.kotatsu.core.ui.BaseListAdapter
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.core.ui.list.fastscroll.FastScroller
-import org.koitharu.kotatsu.list.ui.adapter.ListHeaderClickListener
-import org.koitharu.kotatsu.list.ui.adapter.ListItemType
-import org.koitharu.kotatsu.list.ui.adapter.emptyStateListAD
-import org.koitharu.kotatsu.list.ui.adapter.errorStateListAD
-import org.koitharu.kotatsu.list.ui.adapter.listHeaderAD
-import org.koitharu.kotatsu.list.ui.adapter.loadingFooterAD
-import org.koitharu.kotatsu.list.ui.adapter.loadingStateAD
-import org.koitharu.kotatsu.list.ui.model.ListModel
+import org.tanukis.tanuki.bookmarks.domain.Bookmark
+import org.tanukis.tanuki.core.ui.BaseListAdapter
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.core.ui.list.fastscroll.FastScroller
+import org.tanukis.tanuki.list.ui.adapter.ListHeaderClickListener
+import org.tanukis.tanuki.list.ui.adapter.ListItemType
+import org.tanukis.tanuki.list.ui.adapter.emptyStateListAD
+import org.tanukis.tanuki.list.ui.adapter.errorStateListAD
+import org.tanukis.tanuki.list.ui.adapter.listHeaderAD
+import org.tanukis.tanuki.list.ui.adapter.loadingFooterAD
+import org.tanukis.tanuki.list.ui.adapter.loadingStateAD
+import org.tanukis.tanuki.list.ui.model.ListModel
 
 class BookmarksAdapter(
 	clickListener: OnListItemClickListener<Bookmark>,

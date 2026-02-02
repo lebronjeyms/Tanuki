@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.ui
+package org.tanukis.tanuki.core.ui
 
 import android.content.Context
 import android.os.Bundle
@@ -10,8 +10,8 @@ import androidx.core.view.ViewCompat
 import androidx.fragment.app.Fragment
 import androidx.viewbinding.ViewBinding
 import dagger.hilt.android.EntryPointAccessors
-import org.koitharu.kotatsu.core.exceptions.resolve.ExceptionResolver
-import org.koitharu.kotatsu.core.ui.util.ActionModeDelegate
+import org.tanukis.tanuki.core.exceptions.resolve.ExceptionResolver
+import org.tanukis.tanuki.core.ui.util.ActionModeDelegate
 
 abstract class BaseFragment<B : ViewBinding> :
 	OnApplyWindowInsetsListener,

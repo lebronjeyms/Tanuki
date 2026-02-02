@@ -1,11 +1,11 @@
-package org.koitharu.kotatsu.settings.search
+package org.tanukis.tanuki.settings.search
 
 import com.hannesdorfmann.adapterdelegates4.dsl.adapterDelegateViewBinding
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.ui.list.AdapterDelegateClickListenerAdapter
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.core.util.ext.textAndVisible
-import org.koitharu.kotatsu.databinding.ItemPreferenceBinding
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.ui.list.AdapterDelegateClickListenerAdapter
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.core.util.ext.textAndVisible
+import org.tanukis.tanuki.databinding.ItemPreferenceBinding
 
 fun settingsItemAD(
 	listener: OnListItemClickListener<SettingsItem>,

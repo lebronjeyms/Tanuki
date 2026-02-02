@@ -1,9 +1,9 @@
-package org.koitharu.kotatsu.backups.domain
+package org.tanukis.tanuki.backups.domain
 
 import android.content.Context
 import androidx.annotation.CheckResult
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
 import java.io.File
 import java.text.ParseException
 import java.text.SimpleDateFormat

@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core
+package org.tanukis.tanuki.core
 
 import android.app.PendingIntent
 import android.content.BroadcastReceiver
@@ -8,12 +8,12 @@ import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.app.PendingIntentCompat
 import androidx.core.net.toUri
-import org.koitharu.kotatsu.BuildConfig
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.nav.AppRouter
-import org.koitharu.kotatsu.core.util.ext.getSerializableExtraCompat
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.core.util.ext.report
+import org.tanukis.tanuki.BuildConfig
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.nav.AppRouter
+import org.tanukis.tanuki.core.util.ext.getSerializableExtraCompat
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.core.util.ext.report
 
 class ErrorReporterReceiver : BroadcastReceiver() {
 

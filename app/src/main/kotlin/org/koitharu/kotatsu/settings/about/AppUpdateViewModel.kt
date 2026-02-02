@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.about
+package org.tanukis.tanuki.settings.about
 
 import android.app.DownloadManager
 import android.content.Context
@@ -12,12 +12,12 @@ import kotlinx.coroutines.currentCoroutineContext
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.isActive
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.github.AppUpdateRepository
-import org.koitharu.kotatsu.core.ui.BaseViewModel
-import org.koitharu.kotatsu.core.util.ext.MutableEventFlow
-import org.koitharu.kotatsu.core.util.ext.call
-import org.koitharu.kotatsu.core.util.ext.requireValue
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.github.AppUpdateRepository
+import org.tanukis.tanuki.core.ui.BaseViewModel
+import org.tanukis.tanuki.core.util.ext.MutableEventFlow
+import org.tanukis.tanuki.core.util.ext.call
+import org.tanukis.tanuki.core.util.ext.requireValue
 import javax.inject.Inject
 
 @HiltViewModel

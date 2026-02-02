@@ -1,8 +1,8 @@
-package org.koitharu.kotatsu.backups.data.model
+package org.tanukis.tanuki.backups.data.model
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.koitharu.kotatsu.BuildConfig
+import org.tanukis.tanuki.BuildConfig
 
 @Serializable
 class BackupIndex(

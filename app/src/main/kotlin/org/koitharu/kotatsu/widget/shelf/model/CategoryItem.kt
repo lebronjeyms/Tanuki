@@ -1,7 +1,7 @@
-package org.koitharu.kotatsu.widget.shelf.model
+package org.tanukis.tanuki.widget.shelf.model
 
-import org.koitharu.kotatsu.list.ui.ListModelDiffCallback
-import org.koitharu.kotatsu.list.ui.model.ListModel
+import org.tanukis.tanuki.list.ui.ListModelDiffCallback
+import org.tanukis.tanuki.list.ui.model.ListModel
 
 data class CategoryItem(
 	val id: Long,

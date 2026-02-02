@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.browser
+package org.tanukis.tanuki.browser
 
 fun interface OnHistoryChangedListener {
 

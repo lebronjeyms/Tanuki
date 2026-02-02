@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.backups.ui.restore
+package org.tanukis.tanuki.backups.ui.restore
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,15 +11,15 @@ import androidx.fragment.app.viewModels
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.combine
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.nav.router
-import org.koitharu.kotatsu.core.ui.AlertDialogFragment
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.core.util.ext.getDisplayMessage
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.observeEvent
-import org.koitharu.kotatsu.core.util.ext.textAndVisible
-import org.koitharu.kotatsu.databinding.DialogRestoreBinding
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.nav.router
+import org.tanukis.tanuki.core.ui.AlertDialogFragment
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.core.util.ext.getDisplayMessage
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.observeEvent
+import org.tanukis.tanuki.core.util.ext.textAndVisible
+import org.tanukis.tanuki.databinding.DialogRestoreBinding
 import java.text.DateFormat
 import java.text.SimpleDateFormat
 import java.util.Date

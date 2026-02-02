@@ -1,7 +1,7 @@
-package org.koitharu.kotatsu.details.ui.model
+package org.tanukis.tanuki.details.ui.model
 
-import org.koitharu.kotatsu.list.ui.ListModelDiffCallback
-import org.koitharu.kotatsu.list.ui.model.ListModel
+import org.tanukis.tanuki.list.ui.ListModelDiffCallback
+import org.tanukis.tanuki.list.ui.model.ListModel
 
 data class MangaBranch(
 	val name: String?,

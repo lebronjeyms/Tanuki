@@ -1,12 +1,12 @@
-package org.koitharu.kotatsu.details.domain
+package org.tanukis.tanuki.details.domain
 
-import org.koitharu.kotatsu.core.db.MangaDatabase
-import org.koitharu.kotatsu.core.model.isLocal
-import org.koitharu.kotatsu.core.os.NetworkState
-import org.koitharu.kotatsu.core.parser.MangaRepository
-import org.koitharu.kotatsu.list.domain.ReadingProgress.Companion.PROGRESS_NONE
-import org.koitharu.kotatsu.local.data.LocalMangaRepository
-import org.koitharu.kotatsu.parsers.model.Manga
+import org.tanukis.tanuki.core.db.MangaDatabase
+import org.tanukis.tanuki.core.model.isLocal
+import org.tanukis.tanuki.core.os.NetworkState
+import org.tanukis.tanuki.core.parser.MangaRepository
+import org.tanukis.tanuki.list.domain.ReadingProgress.Companion.PROGRESS_NONE
+import org.tanukis.tanuki.local.data.LocalMangaRepository
+import org.tanukis.tanuki.parsers.model.Manga
 import javax.inject.Inject
 
 class ProgressUpdateUseCase @Inject constructor(

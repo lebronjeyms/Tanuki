@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.util.ext
+package org.tanukis.tanuki.core.util.ext
 
 import android.content.ContentResolver
 import android.content.Context
@@ -9,8 +9,8 @@ import android.provider.DocumentsContract
 import android.provider.OpenableColumns
 import androidx.annotation.RequiresApi
 import androidx.core.net.toFile
-import org.koitharu.kotatsu.parsers.util.nullIfEmpty
-import org.koitharu.kotatsu.parsers.util.removeSuffix
+import org.tanukis.tanuki.parsers.util.nullIfEmpty
+import org.tanukis.tanuki.parsers.util.removeSuffix
 import java.io.File
 import java.lang.reflect.Array as ArrayReflect
 

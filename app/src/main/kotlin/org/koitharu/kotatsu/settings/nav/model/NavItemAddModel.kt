@@ -1,6 +1,6 @@
-package org.koitharu.kotatsu.settings.nav.model
+package org.tanukis.tanuki.settings.nav.model
 
-import org.koitharu.kotatsu.list.ui.model.ListModel
+import org.tanukis.tanuki.list.ui.model.ListModel
 
 data class NavItemAddModel(
 	val canAdd: Boolean,

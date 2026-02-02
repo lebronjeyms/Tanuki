@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.reader.ui
+package org.tanukis.tanuki.reader.ui
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -16,19 +16,19 @@ import androidx.core.view.isVisible
 import androidx.core.view.updateLayoutParams
 import com.google.android.material.slider.Slider
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.nav.AppRouter
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.prefs.ReaderControl
-import org.koitharu.kotatsu.core.util.ext.hasVisibleChildren
-import org.koitharu.kotatsu.core.util.ext.isRtl
-import org.koitharu.kotatsu.core.util.ext.setContentDescriptionAndTooltip
-import org.koitharu.kotatsu.core.util.ext.setTooltipCompat
-import org.koitharu.kotatsu.core.util.ext.setValueRounded
-import org.koitharu.kotatsu.databinding.LayoutReaderActionsBinding
-import org.koitharu.kotatsu.details.ui.pager.ChaptersPagesSheet
-import org.koitharu.kotatsu.details.ui.pager.ChaptersPagesSheet.Companion.TAB_PAGES
-import org.koitharu.kotatsu.reader.ui.ReaderControlDelegate.OnInteractionListener
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.nav.AppRouter
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.prefs.ReaderControl
+import org.tanukis.tanuki.core.util.ext.hasVisibleChildren
+import org.tanukis.tanuki.core.util.ext.isRtl
+import org.tanukis.tanuki.core.util.ext.setContentDescriptionAndTooltip
+import org.tanukis.tanuki.core.util.ext.setTooltipCompat
+import org.tanukis.tanuki.core.util.ext.setValueRounded
+import org.tanukis.tanuki.databinding.LayoutReaderActionsBinding
+import org.tanukis.tanuki.details.ui.pager.ChaptersPagesSheet
+import org.tanukis.tanuki.details.ui.pager.ChaptersPagesSheet.Companion.TAB_PAGES
+import org.tanukis.tanuki.reader.ui.ReaderControlDelegate.OnInteractionListener
 import javax.inject.Inject
 import com.google.android.material.R as materialR
 

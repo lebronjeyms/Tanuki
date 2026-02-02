@@ -1,10 +1,10 @@
-package org.koitharu.kotatsu.backups.ui.restore
+package org.tanukis.tanuki.backups.ui.restore
 
 import androidx.annotation.StringRes
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.backups.domain.BackupSection
-import org.koitharu.kotatsu.list.ui.ListModelDiffCallback
-import org.koitharu.kotatsu.list.ui.model.ListModel
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.backups.domain.BackupSection
+import org.tanukis.tanuki.list.ui.ListModelDiffCallback
+import org.tanukis.tanuki.list.ui.model.ListModel
 
 data class BackupSectionModel(
 	val section: BackupSection,

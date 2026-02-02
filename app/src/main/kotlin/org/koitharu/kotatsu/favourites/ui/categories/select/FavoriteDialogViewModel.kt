@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.favourites.ui.categories.select
+package org.tanukis.tanuki.favourites.ui.categories.select
 
 import androidx.collection.MutableLongObjectMap
 import androidx.collection.MutableLongSet
@@ -12,20 +12,20 @@ import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.plus
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.model.FavouriteCategory
-import org.koitharu.kotatsu.core.model.ids
-import org.koitharu.kotatsu.core.model.parcelable.ParcelableManga
-import org.koitharu.kotatsu.core.nav.AppRouter
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.prefs.observeAsFlow
-import org.koitharu.kotatsu.core.ui.BaseViewModel
-import org.koitharu.kotatsu.core.util.ext.require
-import org.koitharu.kotatsu.favourites.domain.FavouritesRepository
-import org.koitharu.kotatsu.favourites.ui.categories.select.model.MangaCategoryItem
-import org.koitharu.kotatsu.list.ui.model.EmptyState
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.list.ui.model.LoadingState
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.model.FavouriteCategory
+import org.tanukis.tanuki.core.model.ids
+import org.tanukis.tanuki.core.model.parcelable.ParcelableManga
+import org.tanukis.tanuki.core.nav.AppRouter
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.prefs.observeAsFlow
+import org.tanukis.tanuki.core.ui.BaseViewModel
+import org.tanukis.tanuki.core.util.ext.require
+import org.tanukis.tanuki.favourites.domain.FavouritesRepository
+import org.tanukis.tanuki.favourites.ui.categories.select.model.MangaCategoryItem
+import org.tanukis.tanuki.list.ui.model.EmptyState
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.list.ui.model.LoadingState
 import javax.inject.Inject
 
 @HiltViewModel

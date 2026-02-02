@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.alternatives.ui
+package org.tanukis.tanuki.alternatives.ui
 
 import android.os.Bundle
 import android.view.View
@@ -8,28 +8,28 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.updatePadding
 import coil3.ImageLoader
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.exceptions.resolve.SnackbarErrorObserver
-import org.koitharu.kotatsu.core.model.getTitle
-import org.koitharu.kotatsu.core.nav.router
-import org.koitharu.kotatsu.core.ui.BaseActivity
-import org.koitharu.kotatsu.core.ui.BaseListAdapter
-import org.koitharu.kotatsu.core.ui.dialog.buildAlertDialog
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.core.util.ext.consumeAllSystemBarsInsets
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.observeEvent
-import org.koitharu.kotatsu.core.util.ext.systemBarsInsets
-import org.koitharu.kotatsu.databinding.ActivityAlternativesBinding
-import org.koitharu.kotatsu.list.ui.adapter.ListItemType
-import org.koitharu.kotatsu.list.ui.adapter.ListStateHolderListener
-import org.koitharu.kotatsu.list.ui.adapter.TypedListSpacingDecoration
-import org.koitharu.kotatsu.list.ui.adapter.buttonFooterAD
-import org.koitharu.kotatsu.list.ui.adapter.emptyStateListAD
-import org.koitharu.kotatsu.list.ui.adapter.loadingFooterAD
-import org.koitharu.kotatsu.list.ui.adapter.loadingStateAD
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.parsers.model.Manga
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.exceptions.resolve.SnackbarErrorObserver
+import org.tanukis.tanuki.core.model.getTitle
+import org.tanukis.tanuki.core.nav.router
+import org.tanukis.tanuki.core.ui.BaseActivity
+import org.tanukis.tanuki.core.ui.BaseListAdapter
+import org.tanukis.tanuki.core.ui.dialog.buildAlertDialog
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.core.util.ext.consumeAllSystemBarsInsets
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.observeEvent
+import org.tanukis.tanuki.core.util.ext.systemBarsInsets
+import org.tanukis.tanuki.databinding.ActivityAlternativesBinding
+import org.tanukis.tanuki.list.ui.adapter.ListItemType
+import org.tanukis.tanuki.list.ui.adapter.ListStateHolderListener
+import org.tanukis.tanuki.list.ui.adapter.TypedListSpacingDecoration
+import org.tanukis.tanuki.list.ui.adapter.buttonFooterAD
+import org.tanukis.tanuki.list.ui.adapter.emptyStateListAD
+import org.tanukis.tanuki.list.ui.adapter.loadingFooterAD
+import org.tanukis.tanuki.list.ui.adapter.loadingStateAD
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.parsers.model.Manga
 import javax.inject.Inject
 
 @AndroidEntryPoint

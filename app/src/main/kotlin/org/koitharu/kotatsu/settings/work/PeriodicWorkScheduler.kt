@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.work
+package org.tanukis.tanuki.settings.work
 
 interface PeriodicWorkScheduler {
 

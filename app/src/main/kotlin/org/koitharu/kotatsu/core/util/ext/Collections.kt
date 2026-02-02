@@ -1,9 +1,9 @@
-package org.koitharu.kotatsu.core.util.ext
+package org.tanukis.tanuki.core.util.ext
 
 import androidx.collection.ArrayMap
 import androidx.collection.ArraySet
 import androidx.collection.LongSet
-import org.koitharu.kotatsu.BuildConfig
+import org.tanukis.tanuki.BuildConfig
 import java.util.EnumSet
 
 fun <T> Collection<T>.asArrayList(): ArrayList<T> = if (this is ArrayList<*>) {

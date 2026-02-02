@@ -1,7 +1,7 @@
-package org.koitharu.kotatsu.local.domain
+package org.tanukis.tanuki.local.domain
 
-import org.koitharu.kotatsu.core.util.MultiMutex
-import org.koitharu.kotatsu.parsers.model.Manga
+import org.tanukis.tanuki.core.util.MultiMutex
+import org.tanukis.tanuki.parsers.model.Manga
 import javax.inject.Inject
 import javax.inject.Singleton
 

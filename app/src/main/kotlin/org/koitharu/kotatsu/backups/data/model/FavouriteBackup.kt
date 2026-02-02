@@ -1,10 +1,10 @@
-package org.koitharu.kotatsu.backups.data.model
+package org.tanukis.tanuki.backups.data.model
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.koitharu.kotatsu.core.db.entity.MangaWithTags
-import org.koitharu.kotatsu.favourites.data.FavouriteEntity
-import org.koitharu.kotatsu.favourites.data.FavouriteManga
+import org.tanukis.tanuki.core.db.entity.MangaWithTags
+import org.tanukis.tanuki.favourites.data.FavouriteEntity
+import org.tanukis.tanuki.favourites.data.FavouriteManga
 
 @Serializable
 class FavouriteBackup(

@@ -1,13 +1,13 @@
-package org.koitharu.kotatsu.settings.sources.catalog
+package org.tanukis.tanuki.settings.sources.catalog
 
 import android.content.Context
-import org.koitharu.kotatsu.core.model.getTitle
-import org.koitharu.kotatsu.core.ui.BaseListAdapter
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.core.ui.list.fastscroll.FastScroller
-import org.koitharu.kotatsu.list.ui.adapter.ListItemType
-import org.koitharu.kotatsu.list.ui.adapter.loadingStateAD
-import org.koitharu.kotatsu.list.ui.model.ListModel
+import org.tanukis.tanuki.core.model.getTitle
+import org.tanukis.tanuki.core.ui.BaseListAdapter
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.core.ui.list.fastscroll.FastScroller
+import org.tanukis.tanuki.list.ui.adapter.ListItemType
+import org.tanukis.tanuki.list.ui.adapter.loadingStateAD
+import org.tanukis.tanuki.list.ui.model.ListModel
 
 class SourcesCatalogAdapter(
 	listener: OnListItemClickListener<SourceCatalogItem.Source>,

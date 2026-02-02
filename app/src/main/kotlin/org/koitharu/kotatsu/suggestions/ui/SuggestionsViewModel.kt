@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.suggestions.ui
+package org.tanukis.tanuki.suggestions.ui
 
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -10,22 +10,22 @@ import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.onStart
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.plus
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.parser.MangaDataRepository
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.prefs.observeAsFlow
-import org.koitharu.kotatsu.core.util.ext.onFirst
-import org.koitharu.kotatsu.list.domain.MangaListMapper
-import org.koitharu.kotatsu.list.domain.QuickFilterListener
-import org.koitharu.kotatsu.list.ui.MangaListViewModel
-import org.koitharu.kotatsu.list.ui.model.EmptyState
-import org.koitharu.kotatsu.list.ui.model.LoadingState
-import org.koitharu.kotatsu.list.ui.model.toErrorState
-import org.koitharu.kotatsu.suggestions.domain.SuggestionRepository
-import org.koitharu.kotatsu.suggestions.domain.SuggestionsListQuickFilter
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.parser.MangaDataRepository
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.prefs.observeAsFlow
+import org.tanukis.tanuki.core.util.ext.onFirst
+import org.tanukis.tanuki.list.domain.MangaListMapper
+import org.tanukis.tanuki.list.domain.QuickFilterListener
+import org.tanukis.tanuki.list.ui.MangaListViewModel
+import org.tanukis.tanuki.list.ui.model.EmptyState
+import org.tanukis.tanuki.list.ui.model.LoadingState
+import org.tanukis.tanuki.list.ui.model.toErrorState
+import org.tanukis.tanuki.suggestions.domain.SuggestionRepository
+import org.tanukis.tanuki.suggestions.domain.SuggestionsListQuickFilter
 import javax.inject.Inject
-import org.koitharu.kotatsu.local.data.LocalStorageChanges
-import org.koitharu.kotatsu.local.domain.model.LocalManga
+import org.tanukis.tanuki.local.data.LocalStorageChanges
+import org.tanukis.tanuki.local.domain.model.LocalManga
 import kotlinx.coroutines.flow.SharedFlow
 
 @HiltViewModel

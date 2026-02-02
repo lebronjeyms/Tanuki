@@ -1,10 +1,10 @@
-package org.koitharu.kotatsu.favourites.ui.container
+package org.tanukis.tanuki.favourites.ui.container
 
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator.TabConfigurationStrategy
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.nav.AppRouter
-import org.koitharu.kotatsu.core.ui.util.PopupMenuMediator
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.nav.AppRouter
+import org.tanukis.tanuki.core.ui.util.PopupMenuMediator
 
 class FavouritesTabConfigurationStrategy(
 	private val adapter: FavouritesContainerAdapter,

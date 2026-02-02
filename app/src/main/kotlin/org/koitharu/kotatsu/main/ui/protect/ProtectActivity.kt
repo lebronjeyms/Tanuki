@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.main.ui.protect
+package org.tanukis.tanuki.main.ui.protect
 
 import android.content.Context
 import android.content.Intent
@@ -24,16 +24,16 @@ import androidx.lifecycle.withResumed
 import com.google.android.material.textfield.TextInputLayout
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.ui.BaseActivity
-import org.koitharu.kotatsu.core.ui.util.DefaultTextWatcher
-import org.koitharu.kotatsu.core.util.ext.consumeAllSystemBarsInsets
-import org.koitharu.kotatsu.core.util.ext.getDisplayMessage
-import org.koitharu.kotatsu.core.util.ext.getParcelableExtraCompat
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.observeEvent
-import org.koitharu.kotatsu.core.util.ext.systemBarsInsets
-import org.koitharu.kotatsu.databinding.ActivityProtectBinding
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.ui.BaseActivity
+import org.tanukis.tanuki.core.ui.util.DefaultTextWatcher
+import org.tanukis.tanuki.core.util.ext.consumeAllSystemBarsInsets
+import org.tanukis.tanuki.core.util.ext.getDisplayMessage
+import org.tanukis.tanuki.core.util.ext.getParcelableExtraCompat
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.observeEvent
+import org.tanukis.tanuki.core.util.ext.systemBarsInsets
+import org.tanukis.tanuki.databinding.ActivityProtectBinding
 import com.google.android.material.R as materialR
 
 @AndroidEntryPoint

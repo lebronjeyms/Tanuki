@@ -1,15 +1,15 @@
-package org.koitharu.kotatsu.history.data
+package org.tanukis.tanuki.history.data
 
 import dagger.Reusable
-import org.koitharu.kotatsu.core.db.MangaDatabase
-import org.koitharu.kotatsu.core.db.entity.toManga
-import org.koitharu.kotatsu.core.db.entity.toMangaTags
-import org.koitharu.kotatsu.history.domain.model.MangaWithHistory
-import org.koitharu.kotatsu.list.domain.ListFilterOption
-import org.koitharu.kotatsu.list.domain.ListSortOrder
-import org.koitharu.kotatsu.local.data.index.LocalMangaIndex
-import org.koitharu.kotatsu.local.domain.LocalObserveMapper
-import org.koitharu.kotatsu.parsers.model.Manga
+import org.tanukis.tanuki.core.db.MangaDatabase
+import org.tanukis.tanuki.core.db.entity.toManga
+import org.tanukis.tanuki.core.db.entity.toMangaTags
+import org.tanukis.tanuki.history.domain.model.MangaWithHistory
+import org.tanukis.tanuki.list.domain.ListFilterOption
+import org.tanukis.tanuki.list.domain.ListSortOrder
+import org.tanukis.tanuki.local.data.index.LocalMangaIndex
+import org.tanukis.tanuki.local.domain.LocalObserveMapper
+import org.tanukis.tanuki.parsers.model.Manga
 import javax.inject.Inject
 
 @Reusable

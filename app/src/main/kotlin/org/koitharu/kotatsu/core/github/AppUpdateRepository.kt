@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.github
+package org.tanukis.tanuki.core.github
 
 import android.content.Context
 import dagger.hilt.android.qualifiers.ApplicationContext
@@ -10,18 +10,18 @@ import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.json.JSONArray
 import org.json.JSONObject
-import org.koitharu.kotatsu.BuildConfig
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.network.BaseHttpClient
-import org.koitharu.kotatsu.core.os.AppValidator
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.util.ext.asArrayList
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.parsers.util.await
-import org.koitharu.kotatsu.parsers.util.json.mapJSONNotNull
-import org.koitharu.kotatsu.parsers.util.parseJsonArray
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
-import org.koitharu.kotatsu.parsers.util.suspendlazy.getOrNull
+import org.tanukis.tanuki.BuildConfig
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.network.BaseHttpClient
+import org.tanukis.tanuki.core.os.AppValidator
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.util.ext.asArrayList
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.parsers.util.await
+import org.tanukis.tanuki.parsers.util.json.mapJSONNotNull
+import org.tanukis.tanuki.parsers.util.parseJsonArray
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.parsers.util.suspendlazy.getOrNull
 import javax.inject.Inject
 import javax.inject.Singleton
 

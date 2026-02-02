@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.ui.dialog
+package org.tanukis.tanuki.core.ui.dialog
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,19 +7,19 @@ import android.view.ViewGroup
 import androidx.core.view.isVisible
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.github.AppUpdateRepository
-import org.koitharu.kotatsu.core.nav.AppRouter
-import org.koitharu.kotatsu.core.nav.router
-import org.koitharu.kotatsu.core.ui.AlertDialogFragment
-import org.koitharu.kotatsu.core.util.ext.copyToClipboard
-import org.koitharu.kotatsu.core.util.ext.getCauseUrl
-import org.koitharu.kotatsu.core.util.ext.isHttpUrl
-import org.koitharu.kotatsu.core.util.ext.isReportable
-import org.koitharu.kotatsu.core.util.ext.report
-import org.koitharu.kotatsu.core.util.ext.requireSerializable
-import org.koitharu.kotatsu.core.util.ext.setTextAndVisible
-import org.koitharu.kotatsu.databinding.DialogErrorDetailsBinding
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.github.AppUpdateRepository
+import org.tanukis.tanuki.core.nav.AppRouter
+import org.tanukis.tanuki.core.nav.router
+import org.tanukis.tanuki.core.ui.AlertDialogFragment
+import org.tanukis.tanuki.core.util.ext.copyToClipboard
+import org.tanukis.tanuki.core.util.ext.getCauseUrl
+import org.tanukis.tanuki.core.util.ext.isHttpUrl
+import org.tanukis.tanuki.core.util.ext.isReportable
+import org.tanukis.tanuki.core.util.ext.report
+import org.tanukis.tanuki.core.util.ext.requireSerializable
+import org.tanukis.tanuki.core.util.ext.setTextAndVisible
+import org.tanukis.tanuki.databinding.DialogErrorDetailsBinding
 import javax.inject.Inject
 
 @AndroidEntryPoint

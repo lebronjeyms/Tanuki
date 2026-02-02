@@ -1,11 +1,11 @@
-package org.koitharu.kotatsu.list.ui.adapter
+package org.tanukis.tanuki.list.ui.adapter
 
 import com.hannesdorfmann.adapterdelegates4.dsl.adapterDelegateViewBinding
-import org.koitharu.kotatsu.core.ui.widgets.ChipsView
-import org.koitharu.kotatsu.databinding.ItemQuickFilterBinding
-import org.koitharu.kotatsu.list.domain.ListFilterOption
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.list.ui.model.QuickFilter
+import org.tanukis.tanuki.core.ui.widgets.ChipsView
+import org.tanukis.tanuki.databinding.ItemQuickFilterBinding
+import org.tanukis.tanuki.list.domain.ListFilterOption
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.list.ui.model.QuickFilter
 
 fun quickFilterAD(
 	listener: QuickFilterClickListener,

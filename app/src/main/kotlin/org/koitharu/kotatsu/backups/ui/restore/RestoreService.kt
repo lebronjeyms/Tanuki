@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.backups.ui.restore
+package org.tanukis.tanuki.backups.ui.restore
 
 import android.annotation.SuppressLint
 import android.app.Notification
@@ -13,18 +13,18 @@ import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.cancelAndJoin
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.backups.data.BackupRepository
-import org.koitharu.kotatsu.backups.domain.BackupSection
-import org.koitharu.kotatsu.backups.ui.BaseBackupRestoreService
-import org.koitharu.kotatsu.core.nav.AppRouter
-import org.koitharu.kotatsu.core.util.ext.checkNotificationPermission
-import org.koitharu.kotatsu.core.util.ext.getSerializableExtraCompat
-import org.koitharu.kotatsu.core.util.ext.powerManager
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.core.util.ext.toUriOrNull
-import org.koitharu.kotatsu.core.util.ext.withPartialWakeLock
-import org.koitharu.kotatsu.core.util.progress.Progress
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.backups.data.BackupRepository
+import org.tanukis.tanuki.backups.domain.BackupSection
+import org.tanukis.tanuki.backups.ui.BaseBackupRestoreService
+import org.tanukis.tanuki.core.nav.AppRouter
+import org.tanukis.tanuki.core.util.ext.checkNotificationPermission
+import org.tanukis.tanuki.core.util.ext.getSerializableExtraCompat
+import org.tanukis.tanuki.core.util.ext.powerManager
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.core.util.ext.toUriOrNull
+import org.tanukis.tanuki.core.util.ext.withPartialWakeLock
+import org.tanukis.tanuki.core.util.progress.Progress
 import java.io.FileNotFoundException
 import java.util.zip.ZipInputStream
 import javax.inject.Inject

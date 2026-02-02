@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.sources
+package org.tanukis.tanuki.settings.sources
 
 import android.content.ComponentName
 import android.content.Context
@@ -14,8 +14,8 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.plus
-import org.koitharu.kotatsu.core.ui.BaseViewModel
-import org.koitharu.kotatsu.explore.data.MangaSourcesRepository
+import org.tanukis.tanuki.core.ui.BaseViewModel
+import org.tanukis.tanuki.explore.data.MangaSourcesRepository
 import javax.inject.Inject
 
 @HiltViewModel

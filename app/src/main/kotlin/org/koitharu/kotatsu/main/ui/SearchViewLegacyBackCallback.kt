@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.main.ui
+package org.tanukis.tanuki.main.ui
 
 import android.os.Build
 import androidx.activity.OnBackPressedCallback

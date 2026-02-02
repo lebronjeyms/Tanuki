@@ -1,11 +1,11 @@
-package org.koitharu.kotatsu.scrobbling.mal.domain
+package org.tanukis.tanuki.scrobbling.mal.domain
 
-import org.koitharu.kotatsu.core.db.MangaDatabase
-import org.koitharu.kotatsu.core.parser.MangaRepository
-import org.koitharu.kotatsu.scrobbling.common.domain.Scrobbler
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerService
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblingStatus
-import org.koitharu.kotatsu.scrobbling.mal.data.MALRepository
+import org.tanukis.tanuki.core.db.MangaDatabase
+import org.tanukis.tanuki.core.parser.MangaRepository
+import org.tanukis.tanuki.scrobbling.common.domain.Scrobbler
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerService
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblingStatus
+import org.tanukis.tanuki.scrobbling.mal.data.MALRepository
 import javax.inject.Inject
 import javax.inject.Singleton
 

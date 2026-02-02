@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.network
+package org.tanukis.tanuki.core.network
 
 import dagger.Lazy
 import okhttp3.Headers
@@ -7,16 +7,16 @@ import okhttp3.Interceptor.Chain
 import okhttp3.Request
 import okhttp3.Response
 import okio.IOException
-import org.koitharu.kotatsu.BuildConfig
-import org.koitharu.kotatsu.core.model.MangaSource
-import org.koitharu.kotatsu.core.parser.MangaLoaderContextImpl
-import org.koitharu.kotatsu.core.parser.MangaRepository
-import org.koitharu.kotatsu.core.parser.ParserMangaRepository
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.parsers.model.MangaParserSource
-import org.koitharu.kotatsu.parsers.model.MangaSource
-import org.koitharu.kotatsu.parsers.util.mergeWith
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.BuildConfig
+import org.tanukis.tanuki.core.model.MangaSource
+import org.tanukis.tanuki.core.parser.MangaLoaderContextImpl
+import org.tanukis.tanuki.core.parser.MangaRepository
+import org.tanukis.tanuki.core.parser.ParserMangaRepository
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.model.MangaSource
+import org.tanukis.tanuki.parsers.util.mergeWith
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
 import java.net.IDN
 import javax.inject.Inject
 import javax.inject.Singleton

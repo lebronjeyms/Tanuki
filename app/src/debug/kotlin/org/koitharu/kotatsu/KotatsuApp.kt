@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu
+package org.tanukis.tanuki
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -7,7 +7,7 @@ import android.os.StrictMode
 import androidx.core.content.edit
 import androidx.fragment.app.strictmode.FragmentStrictMode
 import leakcanary.LeakCanary
-import org.koitharu.kotatsu.core.BaseApp
+import org.tanukis.tanuki.core.BaseApp
 
 class KotatsuApp : BaseApp() {
 

@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.ui.dialog
+package org.tanukis.tanuki.core.ui.dialog
 
 import android.content.DialogInterface
 

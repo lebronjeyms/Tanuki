@@ -1,10 +1,10 @@
-package org.koitharu.kotatsu.core.ui.model
+package org.tanukis.tanuki.core.ui.model
 
 import android.content.Context
 import android.text.format.DateUtils
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.util.ext.getQuantityStringSafe
-import org.koitharu.kotatsu.core.util.ext.toMillis
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.util.ext.getQuantityStringSafe
+import org.tanukis.tanuki.core.util.ext.toMillis
 import java.time.LocalDate
 
 sealed class DateTimeAgo {

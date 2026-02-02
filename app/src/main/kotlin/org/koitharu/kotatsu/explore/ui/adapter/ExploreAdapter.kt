@@ -1,14 +1,14 @@
-package org.koitharu.kotatsu.explore.ui.adapter
+package org.tanukis.tanuki.explore.ui.adapter
 
-import org.koitharu.kotatsu.core.ui.BaseListAdapter
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.explore.ui.model.MangaSourceItem
-import org.koitharu.kotatsu.list.ui.adapter.ListItemType
-import org.koitharu.kotatsu.list.ui.adapter.emptyHintAD
-import org.koitharu.kotatsu.list.ui.adapter.listHeaderAD
-import org.koitharu.kotatsu.list.ui.adapter.loadingStateAD
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.parsers.model.Manga
+import org.tanukis.tanuki.core.ui.BaseListAdapter
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.explore.ui.model.MangaSourceItem
+import org.tanukis.tanuki.list.ui.adapter.ListItemType
+import org.tanukis.tanuki.list.ui.adapter.emptyHintAD
+import org.tanukis.tanuki.list.ui.adapter.listHeaderAD
+import org.tanukis.tanuki.list.ui.adapter.loadingStateAD
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.parsers.model.Manga
 
 class ExploreAdapter(
 	listener: ExploreListEventListener,

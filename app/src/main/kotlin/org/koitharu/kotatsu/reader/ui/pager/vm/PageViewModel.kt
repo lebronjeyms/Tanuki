@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.reader.ui.pager.vm
+package org.tanukis.tanuki.reader.ui.pager.vm
 
 import android.graphics.Rect
 import android.net.Uri
@@ -20,13 +20,13 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.plus
 import kotlinx.coroutines.withContext
 import okio.IOException
-import org.koitharu.kotatsu.core.exceptions.resolve.ExceptionResolver
-import org.koitharu.kotatsu.core.os.NetworkState
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.core.util.ext.throttle
-import org.koitharu.kotatsu.parsers.model.MangaPage
-import org.koitharu.kotatsu.reader.domain.PageLoader
-import org.koitharu.kotatsu.reader.ui.config.ReaderSettings
+import org.tanukis.tanuki.core.exceptions.resolve.ExceptionResolver
+import org.tanukis.tanuki.core.os.NetworkState
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.core.util.ext.throttle
+import org.tanukis.tanuki.parsers.model.MangaPage
+import org.tanukis.tanuki.reader.domain.PageLoader
+import org.tanukis.tanuki.reader.ui.config.ReaderSettings
 
 class PageViewModel(
 	private val loader: PageLoader,

@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.ui.list
+package org.tanukis.tanuki.core.ui.list
 
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView

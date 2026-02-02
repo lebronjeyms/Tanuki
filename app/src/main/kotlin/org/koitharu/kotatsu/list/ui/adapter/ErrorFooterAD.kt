@@ -1,10 +1,10 @@
-package org.koitharu.kotatsu.list.ui.adapter
+package org.tanukis.tanuki.list.ui.adapter
 
 import com.hannesdorfmann.adapterdelegates4.dsl.adapterDelegateViewBinding
-import org.koitharu.kotatsu.core.util.ext.getDisplayMessage
-import org.koitharu.kotatsu.databinding.ItemErrorFooterBinding
-import org.koitharu.kotatsu.list.ui.model.ErrorFooter
-import org.koitharu.kotatsu.list.ui.model.ListModel
+import org.tanukis.tanuki.core.util.ext.getDisplayMessage
+import org.tanukis.tanuki.databinding.ItemErrorFooterBinding
+import org.tanukis.tanuki.list.ui.model.ErrorFooter
+import org.tanukis.tanuki.list.ui.model.ListModel
 
 fun errorFooterAD(
 	listener: ListStateHolderListener?,

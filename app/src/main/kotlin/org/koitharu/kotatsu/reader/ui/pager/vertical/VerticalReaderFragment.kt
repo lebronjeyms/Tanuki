@@ -1,8 +1,8 @@
-package org.koitharu.kotatsu.reader.ui.pager.vertical
+package org.tanukis.tanuki.reader.ui.pager.vertical
 
 import androidx.viewpager2.widget.ViewPager2
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.reader.ui.pager.BasePagerReaderFragment
+import org.tanukis.tanuki.reader.ui.pager.BasePagerReaderFragment
 
 @AndroidEntryPoint
 class VerticalReaderFragment : BasePagerReaderFragment() {

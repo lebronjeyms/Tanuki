@@ -1,16 +1,16 @@
-package org.koitharu.kotatsu.history.domain
+package org.tanukis.tanuki.history.domain
 
 import kotlinx.coroutines.CoroutineStart
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.NonCancellable
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.core.util.ext.processLifecycleScope
-import org.koitharu.kotatsu.history.data.HistoryRepository
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
-import org.koitharu.kotatsu.reader.ui.ReaderState
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.core.util.ext.processLifecycleScope
+import org.tanukis.tanuki.history.data.HistoryRepository
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.reader.ui.ReaderState
 import javax.inject.Inject
 
 class HistoryUpdateUseCase @Inject constructor(

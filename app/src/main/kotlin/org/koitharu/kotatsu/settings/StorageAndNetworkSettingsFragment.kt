@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings
+package org.tanukis.tanuki.settings
 
 import android.content.SharedPreferences
 import android.os.Bundle
@@ -7,16 +7,16 @@ import androidx.fragment.app.viewModels
 import androidx.preference.ListPreference
 import androidx.preference.Preference
 import com.google.android.material.snackbar.Snackbar
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.exceptions.resolve.SnackbarErrorObserver
-import org.koitharu.kotatsu.core.network.DoHProvider
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.ui.BasePreferenceFragment
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.observeEvent
-import org.koitharu.kotatsu.core.util.ext.setDefaultValueCompat
-import org.koitharu.kotatsu.parsers.util.names
-import org.koitharu.kotatsu.settings.userdata.storage.StorageUsagePreference
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.exceptions.resolve.SnackbarErrorObserver
+import org.tanukis.tanuki.core.network.DoHProvider
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.ui.BasePreferenceFragment
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.observeEvent
+import org.tanukis.tanuki.core.util.ext.setDefaultValueCompat
+import org.tanukis.tanuki.parsers.util.names
+import org.tanukis.tanuki.settings.userdata.storage.StorageUsagePreference
 import java.net.Proxy
 
 class StorageAndNetworkSettingsFragment :

@@ -1,14 +1,14 @@
-package org.koitharu.kotatsu.list.ui.adapter
+package org.tanukis.tanuki.list.ui.adapter
 
 import androidx.core.view.isVisible
 import com.hannesdorfmann.adapterdelegates4.dsl.adapterDelegateViewBinding
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.ui.list.AdapterDelegateClickListenerAdapter
-import org.koitharu.kotatsu.core.util.ext.textAndVisible
-import org.koitharu.kotatsu.databinding.ItemMangaListDetailsBinding
-import org.koitharu.kotatsu.list.ui.ListModelDiffCallback
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.list.ui.model.MangaDetailedListModel
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.ui.list.AdapterDelegateClickListenerAdapter
+import org.tanukis.tanuki.core.util.ext.textAndVisible
+import org.tanukis.tanuki.databinding.ItemMangaListDetailsBinding
+import org.tanukis.tanuki.list.ui.ListModelDiffCallback
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.list.ui.model.MangaDetailedListModel
 
 fun mangaListDetailedItemAD(
 	clickListener: MangaDetailsClickListener,

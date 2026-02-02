@@ -1,8 +1,8 @@
-package org.koitharu.kotatsu.details.ui.model
+package org.tanukis.tanuki.details.ui.model
 
-import org.koitharu.kotatsu.core.model.MangaHistory
-import org.koitharu.kotatsu.details.data.MangaDetails
-import org.koitharu.kotatsu.details.data.ReadingTime
+import org.tanukis.tanuki.core.model.MangaHistory
+import org.tanukis.tanuki.details.data.MangaDetails
+import org.tanukis.tanuki.details.data.ReadingTime
 
 data class HistoryInfo(
 	val totalChapters: Int,

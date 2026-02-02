@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.local.data
+package org.tanukis.tanuki.local.data
 
 import android.Manifest
 import android.content.ContentResolver
@@ -17,17 +17,17 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.runInterruptible
 import kotlinx.coroutines.withContext
 import okhttp3.Cache
-import org.koitharu.kotatsu.core.LocalizedAppContext
-import org.koitharu.kotatsu.core.exceptions.NonFileUriException
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.util.ext.computeSize
-import org.koitharu.kotatsu.core.util.ext.getStorageName
-import org.koitharu.kotatsu.core.util.ext.isFileUri
-import org.koitharu.kotatsu.core.util.ext.isReadable
-import org.koitharu.kotatsu.core.util.ext.isWriteable
-import org.koitharu.kotatsu.core.util.ext.resolveFile
-import org.koitharu.kotatsu.core.util.ext.takeIfWriteable
-import org.koitharu.kotatsu.parsers.util.mapToSet
+import org.tanukis.tanuki.core.LocalizedAppContext
+import org.tanukis.tanuki.core.exceptions.NonFileUriException
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.util.ext.computeSize
+import org.tanukis.tanuki.core.util.ext.getStorageName
+import org.tanukis.tanuki.core.util.ext.isFileUri
+import org.tanukis.tanuki.core.util.ext.isReadable
+import org.tanukis.tanuki.core.util.ext.isWriteable
+import org.tanukis.tanuki.core.util.ext.resolveFile
+import org.tanukis.tanuki.core.util.ext.takeIfWriteable
+import org.tanukis.tanuki.parsers.util.mapToSet
 import java.io.File
 import javax.inject.Inject
 

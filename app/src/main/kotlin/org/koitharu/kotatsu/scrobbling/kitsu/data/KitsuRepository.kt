@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.scrobbling.kitsu.data
+package org.tanukis.tanuki.scrobbling.kitsu.data
 
 import android.content.Context
 import dagger.hilt.android.qualifiers.ApplicationContext
@@ -9,24 +9,24 @@ import okhttp3.Request
 import okhttp3.RequestBody.Companion.toRequestBody
 import okio.IOException
 import org.json.JSONObject
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.db.MangaDatabase
-import org.koitharu.kotatsu.core.util.ext.parseJsonOrNull
-import org.koitharu.kotatsu.parsers.util.await
-import org.koitharu.kotatsu.parsers.util.json.getFloatOrDefault
-import org.koitharu.kotatsu.parsers.util.json.getIntOrDefault
-import org.koitharu.kotatsu.parsers.util.json.getStringOrNull
-import org.koitharu.kotatsu.parsers.util.json.mapJSON
-import org.koitharu.kotatsu.parsers.util.parseJson
-import org.koitharu.kotatsu.parsers.util.urlEncoded
-import org.koitharu.kotatsu.scrobbling.common.data.ScrobblerRepository
-import org.koitharu.kotatsu.scrobbling.common.data.ScrobblerStorage
-import org.koitharu.kotatsu.scrobbling.common.data.ScrobblingEntity
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerManga
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerMangaInfo
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerService
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerUser
-import org.koitharu.kotatsu.scrobbling.kitsu.data.KitsuInterceptor.Companion.VND_JSON
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.db.MangaDatabase
+import org.tanukis.tanuki.core.util.ext.parseJsonOrNull
+import org.tanukis.tanuki.parsers.util.await
+import org.tanukis.tanuki.parsers.util.json.getFloatOrDefault
+import org.tanukis.tanuki.parsers.util.json.getIntOrDefault
+import org.tanukis.tanuki.parsers.util.json.getStringOrNull
+import org.tanukis.tanuki.parsers.util.json.mapJSON
+import org.tanukis.tanuki.parsers.util.parseJson
+import org.tanukis.tanuki.parsers.util.urlEncoded
+import org.tanukis.tanuki.scrobbling.common.data.ScrobblerRepository
+import org.tanukis.tanuki.scrobbling.common.data.ScrobblerStorage
+import org.tanukis.tanuki.scrobbling.common.data.ScrobblingEntity
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerManga
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerMangaInfo
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerService
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerUser
+import org.tanukis.tanuki.scrobbling.kitsu.data.KitsuInterceptor.Companion.VND_JSON
 
 private const val BASE_WEB_URL = "https://kitsu.app"
 

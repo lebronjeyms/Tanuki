@@ -1,11 +1,11 @@
-package org.koitharu.kotatsu.list.ui.model
+package org.tanukis.tanuki.list.ui.model
 
-import org.koitharu.kotatsu.core.ui.model.MangaOverride
-import org.koitharu.kotatsu.core.ui.widgets.ChipsView
-import org.koitharu.kotatsu.list.domain.ReadingProgress
-import org.koitharu.kotatsu.list.ui.ListModelDiffCallback.Companion.PAYLOAD_ANYTHING_CHANGED
-import org.koitharu.kotatsu.list.ui.ListModelDiffCallback.Companion.PAYLOAD_PROGRESS_CHANGED
-import org.koitharu.kotatsu.parsers.model.Manga
+import org.tanukis.tanuki.core.ui.model.MangaOverride
+import org.tanukis.tanuki.core.ui.widgets.ChipsView
+import org.tanukis.tanuki.list.domain.ReadingProgress
+import org.tanukis.tanuki.list.ui.ListModelDiffCallback.Companion.PAYLOAD_ANYTHING_CHANGED
+import org.tanukis.tanuki.list.ui.ListModelDiffCallback.Companion.PAYLOAD_PROGRESS_CHANGED
+import org.tanukis.tanuki.parsers.model.Manga
 
 data class MangaDetailedListModel(
 	override val manga: Manga,

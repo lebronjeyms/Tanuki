@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.main.ui.welcome
+package org.tanukis.tanuki.main.ui.welcome
 
 import android.content.Context
 import androidx.core.os.ConfigurationCompat
@@ -6,18 +6,18 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow
-import org.koitharu.kotatsu.core.LocalizedAppContext
-import org.koitharu.kotatsu.core.ui.BaseViewModel
-import org.koitharu.kotatsu.core.util.LocaleComparator
-import org.koitharu.kotatsu.core.util.ext.mapSortedByCount
-import org.koitharu.kotatsu.core.util.ext.sortedWithSafe
-import org.koitharu.kotatsu.core.util.ext.toList
-import org.koitharu.kotatsu.core.util.ext.toLocale
-import org.koitharu.kotatsu.explore.data.MangaSourcesRepository
-import org.koitharu.kotatsu.filter.ui.model.FilterProperty
-import org.koitharu.kotatsu.parsers.model.ContentType
-import org.koitharu.kotatsu.parsers.model.MangaParserSource
-import org.koitharu.kotatsu.parsers.util.mapToSet
+import org.tanukis.tanuki.core.LocalizedAppContext
+import org.tanukis.tanuki.core.ui.BaseViewModel
+import org.tanukis.tanuki.core.util.LocaleComparator
+import org.tanukis.tanuki.core.util.ext.mapSortedByCount
+import org.tanukis.tanuki.core.util.ext.sortedWithSafe
+import org.tanukis.tanuki.core.util.ext.toList
+import org.tanukis.tanuki.core.util.ext.toLocale
+import org.tanukis.tanuki.explore.data.MangaSourcesRepository
+import org.tanukis.tanuki.filter.ui.model.FilterProperty
+import org.tanukis.tanuki.parsers.model.ContentType
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.util.mapToSet
 import java.util.EnumSet
 import java.util.Locale
 import javax.inject.Inject

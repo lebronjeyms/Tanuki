@@ -1,12 +1,12 @@
-package org.koitharu.kotatsu.core.network
+package org.tanukis.tanuki.core.network
 
 import okhttp3.Interceptor
 import okhttp3.Response
 import okio.IOException
-import org.koitharu.kotatsu.core.exceptions.CloudFlareBlockedException
-import org.koitharu.kotatsu.core.exceptions.CloudFlareProtectedException
-import org.koitharu.kotatsu.parsers.model.MangaSource
-import org.koitharu.kotatsu.parsers.network.CloudFlareHelper
+import org.tanukis.tanuki.core.exceptions.CloudFlareBlockedException
+import org.tanukis.tanuki.core.exceptions.CloudFlareProtectedException
+import org.tanukis.tanuki.parsers.model.MangaSource
+import org.tanukis.tanuki.parsers.network.CloudFlareHelper
 
 class CloudFlareInterceptor : Interceptor {
 

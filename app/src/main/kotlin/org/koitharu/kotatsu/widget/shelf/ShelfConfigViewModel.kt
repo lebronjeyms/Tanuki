@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.widget.shelf
+package org.tanukis.tanuki.widget.shelf
 
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -9,9 +9,9 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.plus
-import org.koitharu.kotatsu.core.ui.BaseViewModel
-import org.koitharu.kotatsu.favourites.domain.FavouritesRepository
-import org.koitharu.kotatsu.widget.shelf.model.CategoryItem
+import org.tanukis.tanuki.core.ui.BaseViewModel
+import org.tanukis.tanuki.favourites.domain.FavouritesRepository
+import org.tanukis.tanuki.widget.shelf.model.CategoryItem
 import javax.inject.Inject
 
 @HiltViewModel

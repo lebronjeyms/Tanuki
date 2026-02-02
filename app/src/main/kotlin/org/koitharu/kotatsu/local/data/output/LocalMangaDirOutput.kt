@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.local.data.output
+package org.tanukis.tanuki.local.data.output
 
 import androidx.core.net.toFile
 import androidx.core.net.toUri
@@ -7,18 +7,18 @@ import kotlinx.coroutines.runInterruptible
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import okhttp3.internal.closeQuietly
-import org.koitharu.kotatsu.core.model.isLocal
-import org.koitharu.kotatsu.core.util.MimeTypes
-import org.koitharu.kotatsu.core.util.ext.MimeType
-import org.koitharu.kotatsu.core.util.ext.deleteAwait
-import org.koitharu.kotatsu.core.util.ext.takeIfReadable
-import org.koitharu.kotatsu.core.util.ext.toFileNameSafe
-import org.koitharu.kotatsu.core.zip.ZipOutput
-import org.koitharu.kotatsu.local.data.MangaIndex
-import org.koitharu.kotatsu.local.data.input.LocalMangaParser
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.model.MangaChapter
-import org.koitharu.kotatsu.parsers.util.nullIfEmpty
+import org.tanukis.tanuki.core.model.isLocal
+import org.tanukis.tanuki.core.util.MimeTypes
+import org.tanukis.tanuki.core.util.ext.MimeType
+import org.tanukis.tanuki.core.util.ext.deleteAwait
+import org.tanukis.tanuki.core.util.ext.takeIfReadable
+import org.tanukis.tanuki.core.util.ext.toFileNameSafe
+import org.tanukis.tanuki.core.zip.ZipOutput
+import org.tanukis.tanuki.local.data.MangaIndex
+import org.tanukis.tanuki.local.data.input.LocalMangaParser
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaChapter
+import org.tanukis.tanuki.parsers.util.nullIfEmpty
 import java.io.File
 
 class LocalMangaDirOutput(

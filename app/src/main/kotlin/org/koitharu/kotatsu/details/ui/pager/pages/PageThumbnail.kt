@@ -1,7 +1,7 @@
-package org.koitharu.kotatsu.details.ui.pager.pages
+package org.tanukis.tanuki.details.ui.pager.pages
 
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.reader.ui.pager.ReaderPage
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.reader.ui.pager.ReaderPage
 
 data class PageThumbnail(
 	val isCurrent: Boolean,

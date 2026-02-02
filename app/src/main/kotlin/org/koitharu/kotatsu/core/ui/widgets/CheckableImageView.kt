@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.ui.widgets
+package org.tanukis.tanuki.core.ui.widgets
 
 import android.content.Context
 import android.os.Parcel

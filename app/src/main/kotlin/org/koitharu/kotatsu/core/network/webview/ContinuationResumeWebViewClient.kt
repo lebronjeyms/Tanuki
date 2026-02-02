@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.network.webview
+package org.tanukis.tanuki.core.network.webview
 
 import android.webkit.WebView
 import android.webkit.WebViewClient

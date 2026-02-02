@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.util
+package org.tanukis.tanuki.core.util
 
 import android.view.View
 import androidx.annotation.OptIn

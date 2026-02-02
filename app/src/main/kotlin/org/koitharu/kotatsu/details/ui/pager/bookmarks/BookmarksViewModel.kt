@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.details.ui.pager.bookmarks
+package org.tanukis.tanuki.details.ui.pager.bookmarks
 
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -12,23 +12,23 @@ import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.plus
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.bookmarks.domain.Bookmark
-import org.koitharu.kotatsu.bookmarks.domain.BookmarksRepository
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.prefs.observeAsStateFlow
-import org.koitharu.kotatsu.core.ui.BaseViewModel
-import org.koitharu.kotatsu.core.ui.util.ReversibleAction
-import org.koitharu.kotatsu.core.util.ext.MutableEventFlow
-import org.koitharu.kotatsu.core.util.ext.call
-import org.koitharu.kotatsu.core.util.ext.requireValue
-import org.koitharu.kotatsu.details.data.MangaDetails
-import org.koitharu.kotatsu.list.ui.model.EmptyState
-import org.koitharu.kotatsu.list.ui.model.ListHeader
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.list.ui.model.LoadingState
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.reader.ui.PageSaveHelper
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.bookmarks.domain.Bookmark
+import org.tanukis.tanuki.bookmarks.domain.BookmarksRepository
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.prefs.observeAsStateFlow
+import org.tanukis.tanuki.core.ui.BaseViewModel
+import org.tanukis.tanuki.core.ui.util.ReversibleAction
+import org.tanukis.tanuki.core.util.ext.MutableEventFlow
+import org.tanukis.tanuki.core.util.ext.call
+import org.tanukis.tanuki.core.util.ext.requireValue
+import org.tanukis.tanuki.details.data.MangaDetails
+import org.tanukis.tanuki.list.ui.model.EmptyState
+import org.tanukis.tanuki.list.ui.model.ListHeader
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.list.ui.model.LoadingState
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.reader.ui.PageSaveHelper
 import javax.inject.Inject
 
 @HiltViewModel

@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.sync.domain
+package org.tanukis.tanuki.sync.domain
 
 data class SyncAuthResult(
 	val syncURL: String,

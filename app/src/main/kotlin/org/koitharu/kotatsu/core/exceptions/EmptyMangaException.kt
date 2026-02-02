@@ -1,7 +1,7 @@
-package org.koitharu.kotatsu.core.exceptions
+package org.tanukis.tanuki.core.exceptions
 
-import org.koitharu.kotatsu.details.ui.pager.EmptyMangaReason
-import org.koitharu.kotatsu.parsers.model.Manga
+import org.tanukis.tanuki.details.ui.pager.EmptyMangaReason
+import org.tanukis.tanuki.parsers.model.Manga
 
 class EmptyMangaException(
     val reason: EmptyMangaReason?,

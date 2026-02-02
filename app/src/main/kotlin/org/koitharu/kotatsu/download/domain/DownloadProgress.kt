@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.download.domain
+package org.tanukis.tanuki.download.domain
 
 data class DownloadProgress(
 	val totalChapters: Int,

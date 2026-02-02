@@ -1,8 +1,8 @@
-package org.koitharu.kotatsu.list.domain
+package org.tanukis.tanuki.list.domain
 
 import androidx.annotation.StringRes
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.parsers.util.find
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.parsers.util.find
 import java.util.EnumSet
 
 enum class ListSortOrder(

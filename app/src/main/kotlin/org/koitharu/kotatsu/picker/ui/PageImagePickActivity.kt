@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.picker.ui
+package org.tanukis.tanuki.picker.ui
 
 import android.content.Intent
 import android.os.Bundle
@@ -13,22 +13,22 @@ import androidx.core.view.updatePadding
 import androidx.fragment.app.commit
 import com.google.android.material.appbar.AppBarLayout
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.BuildConfig
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.exceptions.resolve.DialogErrorObserver
-import org.koitharu.kotatsu.core.nav.AppRouter
-import org.koitharu.kotatsu.core.ui.BaseActivity
-import org.koitharu.kotatsu.core.util.ext.consume
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.observeEvent
-import org.koitharu.kotatsu.databinding.ActivityPickerBinding
-import org.koitharu.kotatsu.main.ui.owners.AppBarOwner
-import org.koitharu.kotatsu.main.ui.owners.SnackbarOwner
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.picker.ui.manga.MangaPickerFragment
-import org.koitharu.kotatsu.picker.ui.page.PagePickerFragment
-import org.koitharu.kotatsu.reader.ui.PageSaveHelper
-import org.koitharu.kotatsu.reader.ui.pager.ReaderPage
+import org.tanukis.tanuki.BuildConfig
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.exceptions.resolve.DialogErrorObserver
+import org.tanukis.tanuki.core.nav.AppRouter
+import org.tanukis.tanuki.core.ui.BaseActivity
+import org.tanukis.tanuki.core.util.ext.consume
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.observeEvent
+import org.tanukis.tanuki.databinding.ActivityPickerBinding
+import org.tanukis.tanuki.main.ui.owners.AppBarOwner
+import org.tanukis.tanuki.main.ui.owners.SnackbarOwner
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.picker.ui.manga.MangaPickerFragment
+import org.tanukis.tanuki.picker.ui.page.PagePickerFragment
+import org.tanukis.tanuki.reader.ui.PageSaveHelper
+import org.tanukis.tanuki.reader.ui.pager.ReaderPage
 import java.io.File
 import javax.inject.Inject
 

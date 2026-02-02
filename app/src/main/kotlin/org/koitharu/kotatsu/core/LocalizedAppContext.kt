@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core
+package org.tanukis.tanuki.core
 
 import javax.inject.Qualifier
 

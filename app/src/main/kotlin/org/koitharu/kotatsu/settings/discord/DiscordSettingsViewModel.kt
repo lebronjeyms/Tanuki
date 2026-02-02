@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.discord
+package org.tanukis.tanuki.settings.discord
 
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -10,11 +10,11 @@ import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.plus
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.ui.BaseViewModel
-import org.koitharu.kotatsu.core.util.ext.isNetworkError
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
-import org.koitharu.kotatsu.scrobbling.discord.data.DiscordRepository
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.ui.BaseViewModel
+import org.tanukis.tanuki.core.util.ext.isNetworkError
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.scrobbling.discord.data.DiscordRepository
 import javax.inject.Inject
 
 @HiltViewModel

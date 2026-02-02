@@ -1,11 +1,11 @@
-package org.koitharu.kotatsu.details.ui.pager.pages
+package org.tanukis.tanuki.details.ui.pager.pages
 
 import android.net.Uri
 import android.view.View
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.coroutines.flow.FlowCollector
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.util.ShareHelper
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.util.ShareHelper
 
 class PagesSavedObserver(
 	private val snackbarHost: View,

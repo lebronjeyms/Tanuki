@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.protect
+package org.tanukis.tanuki.settings.protect
 
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -8,12 +8,12 @@ import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.plus
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.ui.BaseViewModel
-import org.koitharu.kotatsu.core.util.ext.MutableEventFlow
-import org.koitharu.kotatsu.core.util.ext.call
-import org.koitharu.kotatsu.parsers.util.isNumeric
-import org.koitharu.kotatsu.parsers.util.md5
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.ui.BaseViewModel
+import org.tanukis.tanuki.core.util.ext.MutableEventFlow
+import org.tanukis.tanuki.core.util.ext.call
+import org.tanukis.tanuki.parsers.util.isNumeric
+import org.tanukis.tanuki.parsers.util.md5
 import javax.inject.Inject
 
 @HiltViewModel

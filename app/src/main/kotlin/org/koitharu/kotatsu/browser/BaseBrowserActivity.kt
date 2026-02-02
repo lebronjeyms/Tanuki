@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.browser
+package org.tanukis.tanuki.browser
 
 import android.os.Bundle
 import android.view.View
@@ -6,19 +6,19 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.isVisible
 import androidx.core.view.updatePadding
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.core.model.MangaSource
-import org.koitharu.kotatsu.core.nav.AppRouter
-import org.koitharu.kotatsu.core.network.CommonHeaders
-import org.koitharu.kotatsu.core.network.proxy.ProxyProvider
-import org.koitharu.kotatsu.core.network.webview.adblock.AdBlock
-import org.koitharu.kotatsu.core.parser.MangaRepository
-import org.koitharu.kotatsu.core.parser.ParserMangaRepository
-import org.koitharu.kotatsu.core.ui.BaseActivity
-import org.koitharu.kotatsu.core.util.ext.configureForParser
-import org.koitharu.kotatsu.core.util.ext.consumeAll
-import org.koitharu.kotatsu.databinding.ActivityBrowserBinding
-import org.koitharu.kotatsu.parsers.model.MangaSource
-import org.koitharu.kotatsu.parsers.util.nullIfEmpty
+import org.tanukis.tanuki.core.model.MangaSource
+import org.tanukis.tanuki.core.nav.AppRouter
+import org.tanukis.tanuki.core.network.CommonHeaders
+import org.tanukis.tanuki.core.network.proxy.ProxyProvider
+import org.tanukis.tanuki.core.network.webview.adblock.AdBlock
+import org.tanukis.tanuki.core.parser.MangaRepository
+import org.tanukis.tanuki.core.parser.ParserMangaRepository
+import org.tanukis.tanuki.core.ui.BaseActivity
+import org.tanukis.tanuki.core.util.ext.configureForParser
+import org.tanukis.tanuki.core.util.ext.consumeAll
+import org.tanukis.tanuki.databinding.ActivityBrowserBinding
+import org.tanukis.tanuki.parsers.model.MangaSource
+import org.tanukis.tanuki.parsers.util.nullIfEmpty
 import javax.inject.Inject
 
 @AndroidEntryPoint

@@ -1,14 +1,14 @@
-package org.koitharu.kotatsu.sync.data
+package org.tanukis.tanuki.sync.data
 
 import android.accounts.Account
 import android.accounts.AccountManager
 import android.content.Context
 import okhttp3.Interceptor
 import okhttp3.Response
-import org.koitharu.kotatsu.BuildConfig
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.db.DATABASE_VERSION
-import org.koitharu.kotatsu.core.network.CommonHeaders
+import org.tanukis.tanuki.BuildConfig
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.db.DATABASE_VERSION
+import org.tanukis.tanuki.core.network.CommonHeaders
 
 class SyncInterceptor(
 	context: Context,

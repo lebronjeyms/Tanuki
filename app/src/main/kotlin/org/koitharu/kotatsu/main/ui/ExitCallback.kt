@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.main.ui
+package org.tanukis.tanuki.main.ui
 
 import android.view.View
 import androidx.activity.OnBackPressedCallback
@@ -13,10 +13,10 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.launch
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.prefs.observeAsFlow
-import org.koitharu.kotatsu.main.ui.owners.BottomNavOwner
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.prefs.observeAsFlow
+import org.tanukis.tanuki.main.ui.owners.BottomNavOwner
 
 class ExitCallback(
 	private val activity: MainActivity,

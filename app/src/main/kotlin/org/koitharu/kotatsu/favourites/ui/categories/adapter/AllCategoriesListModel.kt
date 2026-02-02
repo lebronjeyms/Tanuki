@@ -1,8 +1,8 @@
-package org.koitharu.kotatsu.favourites.ui.categories.adapter
+package org.tanukis.tanuki.favourites.ui.categories.adapter
 
-import org.koitharu.kotatsu.favourites.domain.model.Cover
-import org.koitharu.kotatsu.list.ui.ListModelDiffCallback
-import org.koitharu.kotatsu.list.ui.model.ListModel
+import org.tanukis.tanuki.favourites.domain.model.Cover
+import org.tanukis.tanuki.list.ui.ListModelDiffCallback
+import org.tanukis.tanuki.list.ui.model.ListModel
 
 data class AllCategoriesListModel(
 	val mangaCount: Int,

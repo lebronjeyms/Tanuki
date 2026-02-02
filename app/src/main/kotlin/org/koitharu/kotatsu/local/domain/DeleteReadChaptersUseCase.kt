@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.local.domain
+package org.tanukis.tanuki.local.domain
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.buffer
@@ -6,18 +6,18 @@ import kotlinx.coroutines.flow.channelFlow
 import kotlinx.coroutines.flow.fold
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
-import org.koitharu.kotatsu.core.model.ids
-import org.koitharu.kotatsu.core.model.isLocal
-import org.koitharu.kotatsu.core.parser.MangaRepository
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.history.data.HistoryRepository
-import org.koitharu.kotatsu.local.data.LocalMangaRepository
-import org.koitharu.kotatsu.local.domain.model.LocalManga
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.model.MangaChapter
-import org.koitharu.kotatsu.parsers.util.findById
-import org.koitharu.kotatsu.parsers.util.recoverCatchingCancellable
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.core.model.ids
+import org.tanukis.tanuki.core.model.isLocal
+import org.tanukis.tanuki.core.parser.MangaRepository
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.history.data.HistoryRepository
+import org.tanukis.tanuki.local.data.LocalMangaRepository
+import org.tanukis.tanuki.local.domain.model.LocalManga
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaChapter
+import org.tanukis.tanuki.parsers.util.findById
+import org.tanukis.tanuki.parsers.util.recoverCatchingCancellable
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
 import javax.inject.Inject
 
 class DeleteReadChaptersUseCase @Inject constructor(

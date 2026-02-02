@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.list.ui
+package org.tanukis.tanuki.list.ui
 
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
@@ -12,20 +12,20 @@ import kotlinx.coroutines.flow.merge
 import kotlinx.coroutines.flow.onStart
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.plus
-import org.koitharu.kotatsu.core.model.isNsfw
-import org.koitharu.kotatsu.core.parser.MangaDataRepository
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.prefs.ListMode
-import org.koitharu.kotatsu.core.prefs.observeAsFlow
-import org.koitharu.kotatsu.core.prefs.observeAsStateFlow
-import org.koitharu.kotatsu.core.ui.BaseViewModel
-import org.koitharu.kotatsu.core.ui.util.ReversibleAction
-import org.koitharu.kotatsu.core.util.ext.MutableEventFlow
-import org.koitharu.kotatsu.list.domain.ListFilterOption
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.local.data.LocalStorageChanges
-import org.koitharu.kotatsu.local.domain.model.LocalManga
+import org.tanukis.tanuki.core.model.isNsfw
+import org.tanukis.tanuki.core.parser.MangaDataRepository
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.prefs.ListMode
+import org.tanukis.tanuki.core.prefs.observeAsFlow
+import org.tanukis.tanuki.core.prefs.observeAsStateFlow
+import org.tanukis.tanuki.core.ui.BaseViewModel
+import org.tanukis.tanuki.core.ui.util.ReversibleAction
+import org.tanukis.tanuki.core.util.ext.MutableEventFlow
+import org.tanukis.tanuki.list.domain.ListFilterOption
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.local.data.LocalStorageChanges
+import org.tanukis.tanuki.local.domain.model.LocalManga
 
 abstract class MangaListViewModel(
 	private val settings: AppSettings,

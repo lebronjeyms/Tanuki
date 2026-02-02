@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.widget.shelf
+package org.tanukis.tanuki.widget.shelf
 
 import android.appwidget.AppWidgetManager
 import android.content.Intent
@@ -8,18 +8,18 @@ import androidx.activity.viewModels
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.updatePadding
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.exceptions.resolve.SnackbarErrorObserver
-import org.koitharu.kotatsu.core.prefs.AppWidgetConfig
-import org.koitharu.kotatsu.core.ui.BaseActivity
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.core.util.ext.consumeAllSystemBarsInsets
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.observeEvent
-import org.koitharu.kotatsu.core.util.ext.systemBarsInsets
-import org.koitharu.kotatsu.databinding.ActivityAppwidgetShelfBinding
-import org.koitharu.kotatsu.widget.shelf.adapter.CategorySelectAdapter
-import org.koitharu.kotatsu.widget.shelf.model.CategoryItem
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.exceptions.resolve.SnackbarErrorObserver
+import org.tanukis.tanuki.core.prefs.AppWidgetConfig
+import org.tanukis.tanuki.core.ui.BaseActivity
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.core.util.ext.consumeAllSystemBarsInsets
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.observeEvent
+import org.tanukis.tanuki.core.util.ext.systemBarsInsets
+import org.tanukis.tanuki.databinding.ActivityAppwidgetShelfBinding
+import org.tanukis.tanuki.widget.shelf.adapter.CategorySelectAdapter
+import org.tanukis.tanuki.widget.shelf.model.CategoryItem
 
 @AndroidEntryPoint
 class ShelfWidgetConfigActivity :

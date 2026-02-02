@@ -1,12 +1,12 @@
-package org.koitharu.kotatsu.picker.ui.manga
+package org.tanukis.tanuki.picker.ui.manga
 
 import android.view.View
 import androidx.fragment.app.viewModels
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.list.ui.MangaListFragment
-import org.koitharu.kotatsu.list.ui.model.MangaListModel
-import org.koitharu.kotatsu.picker.ui.PageImagePickActivity
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.list.ui.MangaListFragment
+import org.tanukis.tanuki.list.ui.model.MangaListModel
+import org.tanukis.tanuki.picker.ui.PageImagePickActivity
 
 @AndroidEntryPoint
 class MangaPickerFragment : MangaListFragment() {

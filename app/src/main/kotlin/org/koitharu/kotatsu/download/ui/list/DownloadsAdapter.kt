@@ -1,12 +1,12 @@
-package org.koitharu.kotatsu.download.ui.list
+package org.tanukis.tanuki.download.ui.list
 
 import androidx.lifecycle.LifecycleOwner
-import org.koitharu.kotatsu.core.ui.BaseListAdapter
-import org.koitharu.kotatsu.list.ui.adapter.ListItemType
-import org.koitharu.kotatsu.list.ui.adapter.emptyStateListAD
-import org.koitharu.kotatsu.list.ui.adapter.listHeaderAD
-import org.koitharu.kotatsu.list.ui.adapter.loadingStateAD
-import org.koitharu.kotatsu.list.ui.model.ListModel
+import org.tanukis.tanuki.core.ui.BaseListAdapter
+import org.tanukis.tanuki.list.ui.adapter.ListItemType
+import org.tanukis.tanuki.list.ui.adapter.emptyStateListAD
+import org.tanukis.tanuki.list.ui.adapter.listHeaderAD
+import org.tanukis.tanuki.list.ui.adapter.loadingStateAD
+import org.tanukis.tanuki.list.ui.model.ListModel
 
 class DownloadsAdapter(
 	lifecycleOwner: LifecycleOwner,

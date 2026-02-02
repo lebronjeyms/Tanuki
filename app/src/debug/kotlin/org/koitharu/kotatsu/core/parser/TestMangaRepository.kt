@@ -1,15 +1,15 @@
-package org.koitharu.kotatsu.core.parser
+package org.tanukis.tanuki.core.parser
 
-import org.koitharu.kotatsu.core.cache.MemoryContentCache
-import org.koitharu.kotatsu.core.model.TestMangaSource
-import org.koitharu.kotatsu.parsers.MangaLoaderContext
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.model.MangaChapter
-import org.koitharu.kotatsu.parsers.model.MangaListFilter
-import org.koitharu.kotatsu.parsers.model.MangaListFilterCapabilities
-import org.koitharu.kotatsu.parsers.model.MangaListFilterOptions
-import org.koitharu.kotatsu.parsers.model.MangaPage
-import org.koitharu.kotatsu.parsers.model.SortOrder
+import org.tanukis.tanuki.core.cache.MemoryContentCache
+import org.tanukis.tanuki.core.model.TestMangaSource
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaChapter
+import org.tanukis.tanuki.parsers.model.MangaListFilter
+import org.tanukis.tanuki.parsers.model.MangaListFilterCapabilities
+import org.tanukis.tanuki.parsers.model.MangaListFilterOptions
+import org.tanukis.tanuki.parsers.model.MangaPage
+import org.tanukis.tanuki.parsers.model.SortOrder
 import java.util.EnumSet
 
 /*

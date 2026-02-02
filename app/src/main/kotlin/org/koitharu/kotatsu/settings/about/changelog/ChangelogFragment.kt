@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.about.changelog
+package org.tanukis.tanuki.settings.about.changelog
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,17 +12,17 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.flow.map
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.exceptions.resolve.DialogErrorObserver
-import org.koitharu.kotatsu.core.ui.BaseFragment
-import org.koitharu.kotatsu.core.util.ext.consumeAll
-import org.koitharu.kotatsu.core.util.ext.container
-import org.koitharu.kotatsu.core.util.ext.end
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.observeEvent
-import org.koitharu.kotatsu.core.util.ext.showOrHide
-import org.koitharu.kotatsu.core.util.ext.start
-import org.koitharu.kotatsu.databinding.FragmentChangelogBinding
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.exceptions.resolve.DialogErrorObserver
+import org.tanukis.tanuki.core.ui.BaseFragment
+import org.tanukis.tanuki.core.util.ext.consumeAll
+import org.tanukis.tanuki.core.util.ext.container
+import org.tanukis.tanuki.core.util.ext.end
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.observeEvent
+import org.tanukis.tanuki.core.util.ext.showOrHide
+import org.tanukis.tanuki.core.util.ext.start
+import org.tanukis.tanuki.databinding.FragmentChangelogBinding
 
 @AndroidEntryPoint
 class ChangelogFragment : BaseFragment<FragmentChangelogBinding>() {

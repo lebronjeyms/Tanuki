@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.scrobbling.common.domain
+package org.tanukis.tanuki.scrobbling.common.domain
 
 import androidx.annotation.FloatRange
 import androidx.collection.LongSparseArray
@@ -10,22 +10,22 @@ import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.map
-import org.koitharu.kotatsu.core.db.MangaDatabase
-import org.koitharu.kotatsu.core.parser.MangaRepository
-import org.koitharu.kotatsu.core.util.ext.findKeyByValue
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.core.util.ext.sanitize
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.util.findById
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
-import org.koitharu.kotatsu.scrobbling.common.data.ScrobblerRepository
-import org.koitharu.kotatsu.scrobbling.common.data.ScrobblingEntity
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerManga
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerMangaInfo
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerService
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerUser
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblingInfo
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblingStatus
+import org.tanukis.tanuki.core.db.MangaDatabase
+import org.tanukis.tanuki.core.parser.MangaRepository
+import org.tanukis.tanuki.core.util.ext.findKeyByValue
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.core.util.ext.sanitize
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.util.findById
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.scrobbling.common.data.ScrobblerRepository
+import org.tanukis.tanuki.scrobbling.common.data.ScrobblingEntity
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerManga
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerMangaInfo
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerService
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerUser
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblingInfo
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblingStatus
 import java.util.EnumMap
 
 abstract class Scrobbler(

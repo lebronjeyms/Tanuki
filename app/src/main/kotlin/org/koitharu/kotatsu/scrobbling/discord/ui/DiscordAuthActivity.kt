@@ -1,12 +1,12 @@
-package org.koitharu.kotatsu.scrobbling.discord.ui
+package org.tanukis.tanuki.scrobbling.discord.ui
 
 import android.os.Bundle
 import android.view.MenuItem
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.browser.BaseBrowserActivity
-import org.koitharu.kotatsu.core.parser.ParserMangaRepository
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.parsers.model.MangaSource
+import org.tanukis.tanuki.browser.BaseBrowserActivity
+import org.tanukis.tanuki.core.parser.ParserMangaRepository
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.parsers.model.MangaSource
 import javax.inject.Inject
 
 @AndroidEntryPoint

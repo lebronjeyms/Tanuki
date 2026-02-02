@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.prefs
+package org.tanukis.tanuki.core.prefs
 
 import java.util.EnumSet
 

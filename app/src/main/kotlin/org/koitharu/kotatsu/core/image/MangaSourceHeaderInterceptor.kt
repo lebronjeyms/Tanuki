@@ -1,12 +1,12 @@
-package org.koitharu.kotatsu.core.image
+package org.tanukis.tanuki.core.image
 
 import coil3.intercept.Interceptor
 import coil3.network.httpHeaders
 import coil3.request.ImageResult
-import org.koitharu.kotatsu.core.model.unwrap
-import org.koitharu.kotatsu.core.network.CommonHeaders
-import org.koitharu.kotatsu.core.util.ext.mangaSourceKey
-import org.koitharu.kotatsu.parsers.model.MangaParserSource
+import org.tanukis.tanuki.core.model.unwrap
+import org.tanukis.tanuki.core.network.CommonHeaders
+import org.tanukis.tanuki.core.util.ext.mangaSourceKey
+import org.tanukis.tanuki.parsers.model.MangaParserSource
 
 class MangaSourceHeaderInterceptor : Interceptor {
 

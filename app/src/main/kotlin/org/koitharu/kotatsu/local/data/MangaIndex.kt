@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.local.data
+package org.tanukis.tanuki.local.data
 
 import androidx.annotation.WorkerThread
 import okio.FileSystem
@@ -8,27 +8,27 @@ import okio.buffer
 import org.jetbrains.annotations.Blocking
 import org.json.JSONArray
 import org.json.JSONObject
-import org.koitharu.kotatsu.BuildConfig
-import org.koitharu.kotatsu.core.model.MangaSource
-import org.koitharu.kotatsu.core.model.isLocal
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.parsers.model.ContentRating
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.model.MangaChapter
-import org.koitharu.kotatsu.parsers.model.MangaSource
-import org.koitharu.kotatsu.parsers.model.MangaState
-import org.koitharu.kotatsu.parsers.model.MangaTag
-import org.koitharu.kotatsu.parsers.model.RATING_UNKNOWN
-import org.koitharu.kotatsu.parsers.util.json.getBooleanOrDefault
-import org.koitharu.kotatsu.parsers.util.json.getEnumValueOrNull
-import org.koitharu.kotatsu.parsers.util.json.getFloatOrDefault
-import org.koitharu.kotatsu.parsers.util.json.getIntOrDefault
-import org.koitharu.kotatsu.parsers.util.json.getLongOrDefault
-import org.koitharu.kotatsu.parsers.util.json.getStringOrNull
-import org.koitharu.kotatsu.parsers.util.json.mapJSONToSet
-import org.koitharu.kotatsu.parsers.util.json.toStringSet
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
-import org.koitharu.kotatsu.parsers.util.toTitleCase
+import org.tanukis.tanuki.BuildConfig
+import org.tanukis.tanuki.core.model.MangaSource
+import org.tanukis.tanuki.core.model.isLocal
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.parsers.model.ContentRating
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaChapter
+import org.tanukis.tanuki.parsers.model.MangaSource
+import org.tanukis.tanuki.parsers.model.MangaState
+import org.tanukis.tanuki.parsers.model.MangaTag
+import org.tanukis.tanuki.parsers.model.RATING_UNKNOWN
+import org.tanukis.tanuki.parsers.util.json.getBooleanOrDefault
+import org.tanukis.tanuki.parsers.util.json.getEnumValueOrNull
+import org.tanukis.tanuki.parsers.util.json.getFloatOrDefault
+import org.tanukis.tanuki.parsers.util.json.getIntOrDefault
+import org.tanukis.tanuki.parsers.util.json.getLongOrDefault
+import org.tanukis.tanuki.parsers.util.json.getStringOrNull
+import org.tanukis.tanuki.parsers.util.json.mapJSONToSet
+import org.tanukis.tanuki.parsers.util.json.toStringSet
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.parsers.util.toTitleCase
 import java.io.File
 
 class MangaIndex(source: String?) {

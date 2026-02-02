@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.sources.manage
+package org.tanukis.tanuki.settings.sources.manage
 
 import android.content.Context
 import androidx.room.InvalidationTracker
@@ -13,19 +13,19 @@ import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.LocalizedAppContext
-import org.koitharu.kotatsu.core.db.TABLE_SOURCES
-import org.koitharu.kotatsu.core.model.getTitle
-import org.koitharu.kotatsu.core.model.isNsfw
-import org.koitharu.kotatsu.core.model.unwrap
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.util.ext.lifecycleScope
-import org.koitharu.kotatsu.explore.data.MangaSourcesRepository
-import org.koitharu.kotatsu.explore.data.SourcesSortOrder
-import org.koitharu.kotatsu.parsers.model.MangaParserSource
-import org.koitharu.kotatsu.parsers.util.mapToSet
-import org.koitharu.kotatsu.settings.sources.model.SourceConfigItem
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.LocalizedAppContext
+import org.tanukis.tanuki.core.db.TABLE_SOURCES
+import org.tanukis.tanuki.core.model.getTitle
+import org.tanukis.tanuki.core.model.isNsfw
+import org.tanukis.tanuki.core.model.unwrap
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.util.ext.lifecycleScope
+import org.tanukis.tanuki.explore.data.MangaSourcesRepository
+import org.tanukis.tanuki.explore.data.SourcesSortOrder
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.util.mapToSet
+import org.tanukis.tanuki.settings.sources.model.SourceConfigItem
 import javax.inject.Inject
 
 @ViewModelScoped

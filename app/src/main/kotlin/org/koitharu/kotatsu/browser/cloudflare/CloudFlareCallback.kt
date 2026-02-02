@@ -1,6 +1,6 @@
-package org.koitharu.kotatsu.browser.cloudflare
+package org.tanukis.tanuki.browser.cloudflare
 
-import org.koitharu.kotatsu.browser.BrowserCallback
+import org.tanukis.tanuki.browser.BrowserCallback
 
 interface CloudFlareCallback : BrowserCallback {
 

@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.userdata.storage
+package org.tanukis.tanuki.settings.userdata.storage
 
 import android.os.Bundle
 import android.view.View
@@ -7,17 +7,17 @@ import androidx.preference.Preference
 import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.StateFlow
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.exceptions.resolve.SnackbarErrorObserver
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.ui.BasePreferenceFragment
-import org.koitharu.kotatsu.core.ui.dialog.buildAlertDialog
-import org.koitharu.kotatsu.core.ui.util.ReversibleActionObserver
-import org.koitharu.kotatsu.core.util.FileSize
-import org.koitharu.kotatsu.core.util.ext.getQuantityStringSafe
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.observeEvent
-import org.koitharu.kotatsu.local.data.CacheDir
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.exceptions.resolve.SnackbarErrorObserver
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.ui.BasePreferenceFragment
+import org.tanukis.tanuki.core.ui.dialog.buildAlertDialog
+import org.tanukis.tanuki.core.ui.util.ReversibleActionObserver
+import org.tanukis.tanuki.core.util.FileSize
+import org.tanukis.tanuki.core.util.ext.getQuantityStringSafe
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.observeEvent
+import org.tanukis.tanuki.local.data.CacheDir
 
 @AndroidEntryPoint
 class DataCleanupSettingsFragment : BasePreferenceFragment(R.string.data_removal) {

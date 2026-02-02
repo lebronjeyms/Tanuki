@@ -1,15 +1,15 @@
-package org.koitharu.kotatsu.list.ui.model
+package org.tanukis.tanuki.list.ui.model
 
 import android.content.Context
 import androidx.core.text.bold
 import androidx.core.text.buildSpannedString
-import org.koitharu.kotatsu.core.model.getTitle
-import org.koitharu.kotatsu.core.model.withOverride
-import org.koitharu.kotatsu.core.ui.model.MangaOverride
-import org.koitharu.kotatsu.list.ui.ListModelDiffCallback.Companion.PAYLOAD_ANYTHING_CHANGED
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.model.MangaSource
-import org.koitharu.kotatsu.parsers.util.ifNullOrEmpty
+import org.tanukis.tanuki.core.model.getTitle
+import org.tanukis.tanuki.core.model.withOverride
+import org.tanukis.tanuki.core.ui.model.MangaOverride
+import org.tanukis.tanuki.list.ui.ListModelDiffCallback.Companion.PAYLOAD_ANYTHING_CHANGED
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaSource
+import org.tanukis.tanuki.parsers.util.ifNullOrEmpty
 
 sealed class MangaListModel : ListModel {
 

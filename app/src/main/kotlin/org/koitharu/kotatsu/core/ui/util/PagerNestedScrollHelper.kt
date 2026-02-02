@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.ui.util
+package org.tanukis.tanuki.core.ui.util
 
 import android.view.View
 import androidx.coordinatorlayout.widget.CoordinatorLayout

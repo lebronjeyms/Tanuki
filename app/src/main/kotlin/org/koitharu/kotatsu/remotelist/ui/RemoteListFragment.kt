@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.remotelist.ui
+package org.tanukis.tanuki.remotelist.ui
 
 import android.os.Bundle
 import android.view.Menu
@@ -11,22 +11,22 @@ import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.distinctUntilChangedBy
 import kotlinx.coroutines.flow.drop
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.model.getTitle
-import org.koitharu.kotatsu.core.nav.router
-import org.koitharu.kotatsu.core.ui.list.ListSelectionController
-import org.koitharu.kotatsu.core.ui.util.MenuInvalidator
-import org.koitharu.kotatsu.core.util.ext.addMenuProvider
-import org.koitharu.kotatsu.core.util.ext.getCauseUrl
-import org.koitharu.kotatsu.core.util.ext.isHttpUrl
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.observeEvent
-import org.koitharu.kotatsu.core.util.ext.withArgs
-import org.koitharu.kotatsu.databinding.FragmentListBinding
-import org.koitharu.kotatsu.filter.ui.FilterCoordinator
-import org.koitharu.kotatsu.list.ui.MangaListFragment
-import org.koitharu.kotatsu.parsers.model.MangaSource
-import org.koitharu.kotatsu.search.domain.SearchKind
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.model.getTitle
+import org.tanukis.tanuki.core.nav.router
+import org.tanukis.tanuki.core.ui.list.ListSelectionController
+import org.tanukis.tanuki.core.ui.util.MenuInvalidator
+import org.tanukis.tanuki.core.util.ext.addMenuProvider
+import org.tanukis.tanuki.core.util.ext.getCauseUrl
+import org.tanukis.tanuki.core.util.ext.isHttpUrl
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.observeEvent
+import org.tanukis.tanuki.core.util.ext.withArgs
+import org.tanukis.tanuki.databinding.FragmentListBinding
+import org.tanukis.tanuki.filter.ui.FilterCoordinator
+import org.tanukis.tanuki.list.ui.MangaListFragment
+import org.tanukis.tanuki.parsers.model.MangaSource
+import org.tanukis.tanuki.search.domain.SearchKind
 
 @AndroidEntryPoint
 class RemoteListFragment : MangaListFragment(), FilterCoordinator.Owner, View.OnClickListener {

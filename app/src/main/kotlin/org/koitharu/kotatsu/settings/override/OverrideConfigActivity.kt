@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.override
+package org.tanukis.tanuki.settings.override
 
 import android.content.Intent
 import android.net.Uri
@@ -12,18 +12,18 @@ import androidx.core.view.isVisible
 import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.filterNotNull
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.ui.BaseActivity
-import org.koitharu.kotatsu.core.ui.model.MangaOverride
-import org.koitharu.kotatsu.core.util.ext.consumeAll
-import org.koitharu.kotatsu.core.util.ext.getDisplayMessage
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.observeEvent
-import org.koitharu.kotatsu.core.util.ext.tryLaunch
-import org.koitharu.kotatsu.databinding.ActivityOverrideEditBinding
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.util.ifNullOrEmpty
-import org.koitharu.kotatsu.picker.ui.PageImagePickContract
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.ui.BaseActivity
+import org.tanukis.tanuki.core.ui.model.MangaOverride
+import org.tanukis.tanuki.core.util.ext.consumeAll
+import org.tanukis.tanuki.core.util.ext.getDisplayMessage
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.observeEvent
+import org.tanukis.tanuki.core.util.ext.tryLaunch
+import org.tanukis.tanuki.databinding.ActivityOverrideEditBinding
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.util.ifNullOrEmpty
+import org.tanukis.tanuki.picker.ui.PageImagePickContract
 import com.google.android.material.R as materialR
 
 @AndroidEntryPoint

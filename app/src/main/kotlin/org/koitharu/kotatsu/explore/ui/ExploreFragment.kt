@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.explore.ui
+package org.tanukis.tanuki.explore.ui
 
 import android.content.DialogInterface
 import android.content.Intent
@@ -18,32 +18,32 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.exceptions.resolve.SnackbarErrorObserver
-import org.koitharu.kotatsu.core.model.LocalMangaSource
-import org.koitharu.kotatsu.core.nav.router
-import org.koitharu.kotatsu.core.parser.external.ExternalMangaSource
-import org.koitharu.kotatsu.core.ui.BaseFragment
-import org.koitharu.kotatsu.core.ui.dialog.BigButtonsAlertDialog
-import org.koitharu.kotatsu.core.ui.list.ListSelectionController
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.core.ui.util.RecyclerViewOwner
-import org.koitharu.kotatsu.core.ui.util.ReversibleActionObserver
-import org.koitharu.kotatsu.core.ui.util.SpanSizeResolver
-import org.koitharu.kotatsu.core.util.ext.addMenuProvider
-import org.koitharu.kotatsu.core.util.ext.consumeAllSystemBarsInsets
-import org.koitharu.kotatsu.core.util.ext.findAppCompatDelegate
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.observeEvent
-import org.koitharu.kotatsu.core.util.ext.systemBarsInsets
-import org.koitharu.kotatsu.databinding.FragmentExploreBinding
-import org.koitharu.kotatsu.explore.ui.adapter.ExploreAdapter
-import org.koitharu.kotatsu.explore.ui.adapter.ExploreListEventListener
-import org.koitharu.kotatsu.explore.ui.model.MangaSourceItem
-import org.koitharu.kotatsu.list.ui.adapter.TypedListSpacingDecoration
-import org.koitharu.kotatsu.list.ui.model.ListHeader
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.model.MangaParserSource
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.exceptions.resolve.SnackbarErrorObserver
+import org.tanukis.tanuki.core.model.LocalMangaSource
+import org.tanukis.tanuki.core.nav.router
+import org.tanukis.tanuki.core.parser.external.ExternalMangaSource
+import org.tanukis.tanuki.core.ui.BaseFragment
+import org.tanukis.tanuki.core.ui.dialog.BigButtonsAlertDialog
+import org.tanukis.tanuki.core.ui.list.ListSelectionController
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.core.ui.util.RecyclerViewOwner
+import org.tanukis.tanuki.core.ui.util.ReversibleActionObserver
+import org.tanukis.tanuki.core.ui.util.SpanSizeResolver
+import org.tanukis.tanuki.core.util.ext.addMenuProvider
+import org.tanukis.tanuki.core.util.ext.consumeAllSystemBarsInsets
+import org.tanukis.tanuki.core.util.ext.findAppCompatDelegate
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.observeEvent
+import org.tanukis.tanuki.core.util.ext.systemBarsInsets
+import org.tanukis.tanuki.databinding.FragmentExploreBinding
+import org.tanukis.tanuki.explore.ui.adapter.ExploreAdapter
+import org.tanukis.tanuki.explore.ui.adapter.ExploreListEventListener
+import org.tanukis.tanuki.explore.ui.model.MangaSourceItem
+import org.tanukis.tanuki.list.ui.adapter.TypedListSpacingDecoration
+import org.tanukis.tanuki.list.ui.model.ListHeader
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaParserSource
 
 @AndroidEntryPoint
 class ExploreFragment :

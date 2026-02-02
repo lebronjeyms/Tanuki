@@ -1,9 +1,9 @@
-package org.koitharu.kotatsu.local.data.output
+package org.tanukis.tanuki.local.data.output
 
 import androidx.core.net.toFile
 import androidx.core.net.toUri
-import org.koitharu.kotatsu.core.model.isLocal
-import org.koitharu.kotatsu.parsers.model.Manga
+import org.tanukis.tanuki.core.model.isLocal
+import org.tanukis.tanuki.parsers.model.Manga
 
 class LocalMangaUtil(
 	private val manga: Manga,

@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.favourites.ui.categories.adapter
+package org.tanukis.tanuki.favourites.ui.categories.adapter
 
 import android.annotation.SuppressLint
 import android.view.MotionEvent
@@ -9,13 +9,13 @@ import android.view.View.OnTouchListener
 import androidx.core.view.isGone
 import androidx.core.view.isVisible
 import com.hannesdorfmann.adapterdelegates4.dsl.adapterDelegateViewBinding
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.util.ext.getQuantityStringSafe
-import org.koitharu.kotatsu.core.util.ext.setTooltipCompat
-import org.koitharu.kotatsu.databinding.ItemCategoriesAllBinding
-import org.koitharu.kotatsu.databinding.ItemCategoryBinding
-import org.koitharu.kotatsu.favourites.ui.categories.FavouriteCategoriesListListener
-import org.koitharu.kotatsu.list.ui.model.ListModel
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.util.ext.getQuantityStringSafe
+import org.tanukis.tanuki.core.util.ext.setTooltipCompat
+import org.tanukis.tanuki.databinding.ItemCategoriesAllBinding
+import org.tanukis.tanuki.databinding.ItemCategoryBinding
+import org.tanukis.tanuki.favourites.ui.categories.FavouriteCategoriesListListener
+import org.tanukis.tanuki.list.ui.model.ListModel
 
 @SuppressLint("ClickableViewAccessibility")
 fun categoryAD(

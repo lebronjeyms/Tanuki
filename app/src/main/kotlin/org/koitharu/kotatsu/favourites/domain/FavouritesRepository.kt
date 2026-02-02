@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.favourites.domain
+package org.tanukis.tanuki.favourites.domain
 
 import androidx.room.withTransaction
 import dagger.Reusable
@@ -8,27 +8,27 @@ import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.mapLatest
-import org.koitharu.kotatsu.core.db.MangaDatabase
-import org.koitharu.kotatsu.core.db.TABLE_FAVOURITES
-import org.koitharu.kotatsu.core.db.TABLE_FAVOURITE_CATEGORIES
-import org.koitharu.kotatsu.core.db.entity.toEntities
-import org.koitharu.kotatsu.core.db.entity.toEntity
-import org.koitharu.kotatsu.core.db.entity.toMangaList
-import org.koitharu.kotatsu.core.model.FavouriteCategory
-import org.koitharu.kotatsu.core.model.toMangaSources
-import org.koitharu.kotatsu.core.ui.util.ReversibleHandle
-import org.koitharu.kotatsu.core.util.ext.mapItems
-import org.koitharu.kotatsu.favourites.data.FavouriteCategoryEntity
-import org.koitharu.kotatsu.favourites.data.FavouriteEntity
-import org.koitharu.kotatsu.favourites.data.toFavouriteCategory
-import org.koitharu.kotatsu.favourites.data.toMangaList
-import org.koitharu.kotatsu.favourites.domain.model.Cover
-import org.koitharu.kotatsu.list.domain.ListFilterOption
-import org.koitharu.kotatsu.list.domain.ListSortOrder
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.model.MangaSource
-import org.koitharu.kotatsu.parsers.util.levenshteinDistance
-import org.koitharu.kotatsu.search.domain.SearchKind
+import org.tanukis.tanuki.core.db.MangaDatabase
+import org.tanukis.tanuki.core.db.TABLE_FAVOURITES
+import org.tanukis.tanuki.core.db.TABLE_FAVOURITE_CATEGORIES
+import org.tanukis.tanuki.core.db.entity.toEntities
+import org.tanukis.tanuki.core.db.entity.toEntity
+import org.tanukis.tanuki.core.db.entity.toMangaList
+import org.tanukis.tanuki.core.model.FavouriteCategory
+import org.tanukis.tanuki.core.model.toMangaSources
+import org.tanukis.tanuki.core.ui.util.ReversibleHandle
+import org.tanukis.tanuki.core.util.ext.mapItems
+import org.tanukis.tanuki.favourites.data.FavouriteCategoryEntity
+import org.tanukis.tanuki.favourites.data.FavouriteEntity
+import org.tanukis.tanuki.favourites.data.toFavouriteCategory
+import org.tanukis.tanuki.favourites.data.toMangaList
+import org.tanukis.tanuki.favourites.domain.model.Cover
+import org.tanukis.tanuki.list.domain.ListFilterOption
+import org.tanukis.tanuki.list.domain.ListSortOrder
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaSource
+import org.tanukis.tanuki.parsers.util.levenshteinDistance
+import org.tanukis.tanuki.search.domain.SearchKind
 import javax.inject.Inject
 
 @Reusable

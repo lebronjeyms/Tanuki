@@ -1,20 +1,20 @@
-package org.koitharu.kotatsu.filter.ui.tags
+package org.tanukis.tanuki.filter.ui.tags
 
 import android.content.Context
 import com.hannesdorfmann.adapterdelegates4.dsl.adapterDelegateViewBinding
-import org.koitharu.kotatsu.core.ui.BaseListAdapter
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.core.ui.list.fastscroll.FastScroller
-import org.koitharu.kotatsu.core.util.ext.setChecked
-import org.koitharu.kotatsu.databinding.ItemCheckableNewBinding
-import org.koitharu.kotatsu.filter.ui.model.TagCatalogItem
-import org.koitharu.kotatsu.list.ui.ListModelDiffCallback
-import org.koitharu.kotatsu.list.ui.adapter.ListItemType
-import org.koitharu.kotatsu.list.ui.adapter.errorFooterAD
-import org.koitharu.kotatsu.list.ui.adapter.errorStateListAD
-import org.koitharu.kotatsu.list.ui.adapter.loadingFooterAD
-import org.koitharu.kotatsu.list.ui.adapter.loadingStateAD
-import org.koitharu.kotatsu.list.ui.model.ListModel
+import org.tanukis.tanuki.core.ui.BaseListAdapter
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.core.ui.list.fastscroll.FastScroller
+import org.tanukis.tanuki.core.util.ext.setChecked
+import org.tanukis.tanuki.databinding.ItemCheckableNewBinding
+import org.tanukis.tanuki.filter.ui.model.TagCatalogItem
+import org.tanukis.tanuki.list.ui.ListModelDiffCallback
+import org.tanukis.tanuki.list.ui.adapter.ListItemType
+import org.tanukis.tanuki.list.ui.adapter.errorFooterAD
+import org.tanukis.tanuki.list.ui.adapter.errorStateListAD
+import org.tanukis.tanuki.list.ui.adapter.loadingFooterAD
+import org.tanukis.tanuki.list.ui.adapter.loadingStateAD
+import org.tanukis.tanuki.list.ui.model.ListModel
 
 class TagsCatalogAdapter(
 	listener: OnListItemClickListener<TagCatalogItem>,

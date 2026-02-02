@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.sources
+package org.tanukis.tanuki.settings.sources
 
 import android.os.Bundle
 import android.view.View
@@ -10,21 +10,21 @@ import androidx.preference.Preference
 import androidx.preference.SwitchPreferenceCompat
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.filterNotNull
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.exceptions.resolve.SnackbarErrorObserver
-import org.koitharu.kotatsu.core.model.getTitle
-import org.koitharu.kotatsu.core.nav.AppRouter
-import org.koitharu.kotatsu.core.nav.router
-import org.koitharu.kotatsu.core.parser.EmptyMangaRepository
-import org.koitharu.kotatsu.core.parser.ParserMangaRepository
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.prefs.SourceSettings
-import org.koitharu.kotatsu.core.ui.BasePreferenceFragment
-import org.koitharu.kotatsu.core.ui.util.ReversibleActionObserver
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.observeEvent
-import org.koitharu.kotatsu.core.util.ext.withArgs
-import org.koitharu.kotatsu.parsers.model.MangaSource
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.exceptions.resolve.SnackbarErrorObserver
+import org.tanukis.tanuki.core.model.getTitle
+import org.tanukis.tanuki.core.nav.AppRouter
+import org.tanukis.tanuki.core.nav.router
+import org.tanukis.tanuki.core.parser.EmptyMangaRepository
+import org.tanukis.tanuki.core.parser.ParserMangaRepository
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.prefs.SourceSettings
+import org.tanukis.tanuki.core.ui.BasePreferenceFragment
+import org.tanukis.tanuki.core.ui.util.ReversibleActionObserver
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.observeEvent
+import org.tanukis.tanuki.core.util.ext.withArgs
+import org.tanukis.tanuki.parsers.model.MangaSource
 import java.io.File
 
 @AndroidEntryPoint

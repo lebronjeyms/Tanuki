@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.ui.widgets
+package org.tanukis.tanuki.core.ui.widgets
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -11,11 +11,11 @@ import androidx.core.content.withStyledAttributes
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.AdapterDataObserver
 import androidx.viewpager2.widget.ViewPager2
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.util.ext.getThemeColorStateList
-import org.koitharu.kotatsu.core.util.ext.measureDimension
-import org.koitharu.kotatsu.core.util.ext.resolveDp
-import org.koitharu.kotatsu.parsers.util.toIntUp
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.util.ext.getThemeColorStateList
+import org.tanukis.tanuki.core.util.ext.measureDimension
+import org.tanukis.tanuki.core.util.ext.resolveDp
+import org.tanukis.tanuki.parsers.util.toIntUp
 import com.google.android.material.R as materialR
 
 class DotsIndicator @JvmOverloads constructor(

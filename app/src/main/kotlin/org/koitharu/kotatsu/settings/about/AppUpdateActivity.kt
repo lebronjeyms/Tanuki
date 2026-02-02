@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.about
+package org.tanukis.tanuki.settings.about
 
 import android.Manifest
 import android.app.DownloadManager
@@ -24,21 +24,21 @@ import io.noties.markwon.Markwon
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.withContext
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.github.AppVersion
-import org.koitharu.kotatsu.core.nav.router
-import org.koitharu.kotatsu.core.ui.BaseActivity
-import org.koitharu.kotatsu.core.util.FileSize
-import org.koitharu.kotatsu.core.util.ext.consumeAllSystemBarsInsets
-import org.koitharu.kotatsu.core.util.ext.getDisplayMessage
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.observeEvent
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.core.util.ext.setTextAndVisible
-import org.koitharu.kotatsu.core.util.ext.showOrHide
-import org.koitharu.kotatsu.core.util.ext.systemBarsInsets
-import org.koitharu.kotatsu.core.util.ext.textAndVisible
-import org.koitharu.kotatsu.databinding.ActivityAppUpdateBinding
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.github.AppVersion
+import org.tanukis.tanuki.core.nav.router
+import org.tanukis.tanuki.core.ui.BaseActivity
+import org.tanukis.tanuki.core.util.FileSize
+import org.tanukis.tanuki.core.util.ext.consumeAllSystemBarsInsets
+import org.tanukis.tanuki.core.util.ext.getDisplayMessage
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.observeEvent
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.core.util.ext.setTextAndVisible
+import org.tanukis.tanuki.core.util.ext.showOrHide
+import org.tanukis.tanuki.core.util.ext.systemBarsInsets
+import org.tanukis.tanuki.core.util.ext.textAndVisible
+import org.tanukis.tanuki.databinding.ActivityAppUpdateBinding
 
 @AndroidEntryPoint
 class AppUpdateActivity : BaseActivity<ActivityAppUpdateBinding>(), View.OnClickListener {

@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.utils
+package org.tanukis.tanuki.settings.utils
 
 import android.content.Context
 import android.util.AttributeSet

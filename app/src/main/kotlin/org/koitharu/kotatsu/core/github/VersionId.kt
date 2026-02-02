@@ -1,6 +1,6 @@
-package org.koitharu.kotatsu.core.github
+package org.tanukis.tanuki.core.github
 
-import org.koitharu.kotatsu.parsers.util.digits
+import org.tanukis.tanuki.parsers.util.digits
 import java.util.Locale
 
 data class VersionId(

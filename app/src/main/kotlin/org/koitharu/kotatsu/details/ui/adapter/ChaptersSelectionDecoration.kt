@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.details.ui.adapter
+package org.tanukis.tanuki.details.ui.adapter
 
 import android.content.Context
 import android.graphics.Canvas
@@ -10,11 +10,11 @@ import androidx.cardview.widget.CardView
 import androidx.core.content.ContextCompat
 import androidx.core.graphics.ColorUtils
 import androidx.recyclerview.widget.RecyclerView
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.ui.list.decor.AbstractSelectionItemDecoration
-import org.koitharu.kotatsu.core.util.ext.getItem
-import org.koitharu.kotatsu.core.util.ext.getThemeColor
-import org.koitharu.kotatsu.details.ui.model.ChapterListItem
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.ui.list.decor.AbstractSelectionItemDecoration
+import org.tanukis.tanuki.core.util.ext.getItem
+import org.tanukis.tanuki.core.util.ext.getThemeColor
+import org.tanukis.tanuki.details.ui.model.ChapterListItem
 import androidx.appcompat.R as appcompatR
 import com.google.android.material.R as materialR
 

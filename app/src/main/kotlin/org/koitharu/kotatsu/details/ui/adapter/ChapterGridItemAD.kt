@@ -1,15 +1,15 @@
-package org.koitharu.kotatsu.details.ui.adapter
+package org.tanukis.tanuki.details.ui.adapter
 
 import android.graphics.Typeface
 import androidx.core.view.isVisible
 import com.hannesdorfmann.adapterdelegates4.dsl.adapterDelegateViewBinding
-import org.koitharu.kotatsu.core.ui.list.AdapterDelegateClickListenerAdapter
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.core.util.ext.getThemeColorStateList
-import org.koitharu.kotatsu.core.util.ext.setTooltipCompat
-import org.koitharu.kotatsu.databinding.ItemChapterGridBinding
-import org.koitharu.kotatsu.details.ui.model.ChapterListItem
-import org.koitharu.kotatsu.list.ui.model.ListModel
+import org.tanukis.tanuki.core.ui.list.AdapterDelegateClickListenerAdapter
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.core.util.ext.getThemeColorStateList
+import org.tanukis.tanuki.core.util.ext.setTooltipCompat
+import org.tanukis.tanuki.databinding.ItemChapterGridBinding
+import org.tanukis.tanuki.details.ui.model.ChapterListItem
+import org.tanukis.tanuki.list.ui.model.ListModel
 
 fun chapterGridItemAD(
 	clickListener: OnListItemClickListener<ChapterListItem>,

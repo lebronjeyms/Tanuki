@@ -1,12 +1,12 @@
-package org.koitharu.kotatsu.local.domain.model
+package org.tanukis.tanuki.local.domain.model
 
 import android.net.Uri
 import androidx.core.net.toFile
 import androidx.core.net.toUri
-import org.koitharu.kotatsu.core.util.ext.contains
-import org.koitharu.kotatsu.core.util.ext.creationTime
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.model.MangaTag
+import org.tanukis.tanuki.core.util.ext.contains
+import org.tanukis.tanuki.core.util.ext.creationTime
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaTag
 import java.io.File
 
 data class LocalManga(

@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.favourites.ui.categories.edit
+package org.tanukis.tanuki.favourites.ui.categories.edit
 
 import android.content.Context
 import android.os.Bundle
@@ -11,20 +11,20 @@ import androidx.activity.viewModels
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.isVisible
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.model.FavouriteCategory
-import org.koitharu.kotatsu.core.ui.BaseActivity
-import org.koitharu.kotatsu.core.ui.util.DefaultTextWatcher
-import org.koitharu.kotatsu.core.util.ext.consumeAllSystemBarsInsets
-import org.koitharu.kotatsu.core.util.ext.getDisplayMessage
-import org.koitharu.kotatsu.core.util.ext.getSerializableCompat
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.observeEvent
-import org.koitharu.kotatsu.core.util.ext.setChecked
-import org.koitharu.kotatsu.core.util.ext.sortedByOrdinal
-import org.koitharu.kotatsu.core.util.ext.systemBarsInsets
-import org.koitharu.kotatsu.databinding.ActivityCategoryEditBinding
-import org.koitharu.kotatsu.list.domain.ListSortOrder
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.model.FavouriteCategory
+import org.tanukis.tanuki.core.ui.BaseActivity
+import org.tanukis.tanuki.core.ui.util.DefaultTextWatcher
+import org.tanukis.tanuki.core.util.ext.consumeAllSystemBarsInsets
+import org.tanukis.tanuki.core.util.ext.getDisplayMessage
+import org.tanukis.tanuki.core.util.ext.getSerializableCompat
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.observeEvent
+import org.tanukis.tanuki.core.util.ext.setChecked
+import org.tanukis.tanuki.core.util.ext.sortedByOrdinal
+import org.tanukis.tanuki.core.util.ext.systemBarsInsets
+import org.tanukis.tanuki.databinding.ActivityCategoryEditBinding
+import org.tanukis.tanuki.list.domain.ListSortOrder
 
 @AndroidEntryPoint
 class FavouritesCategoryEditActivity :

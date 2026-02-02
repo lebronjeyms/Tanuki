@@ -1,7 +1,7 @@
-package org.koitharu.kotatsu.list.ui.adapter
+package org.tanukis.tanuki.list.ui.adapter
 
 import android.view.View
-import org.koitharu.kotatsu.core.ui.widgets.TipView
+import org.tanukis.tanuki.core.ui.widgets.TipView
 
 interface MangaListListener : MangaDetailsClickListener, ListStateHolderListener, ListHeaderClickListener,
 	TipView.OnButtonClickListener, QuickFilterClickListener {

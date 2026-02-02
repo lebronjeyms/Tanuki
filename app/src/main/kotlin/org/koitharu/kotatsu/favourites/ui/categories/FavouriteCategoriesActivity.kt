@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.favourites.ui.categories
+package org.tanukis.tanuki.favourites.ui.categories
 
 import android.os.Bundle
 import android.view.View
@@ -12,22 +12,22 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
 import coil3.ImageLoader
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.exceptions.resolve.SnackbarErrorObserver
-import org.koitharu.kotatsu.core.model.FavouriteCategory
-import org.koitharu.kotatsu.core.nav.router
-import org.koitharu.kotatsu.core.ui.BaseActivity
-import org.koitharu.kotatsu.core.ui.list.ListSelectionController
-import org.koitharu.kotatsu.core.util.ext.consumeAllSystemBarsInsets
-import org.koitharu.kotatsu.core.util.ext.end
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.observeEvent
-import org.koitharu.kotatsu.core.util.ext.systemBarsInsets
-import org.koitharu.kotatsu.databinding.ActivityCategoriesBinding
-import org.koitharu.kotatsu.favourites.ui.categories.adapter.CategoriesAdapter
-import org.koitharu.kotatsu.list.ui.adapter.ListStateHolderListener
-import org.koitharu.kotatsu.list.ui.adapter.TypedListSpacingDecoration
-import org.koitharu.kotatsu.list.ui.model.ListModel
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.exceptions.resolve.SnackbarErrorObserver
+import org.tanukis.tanuki.core.model.FavouriteCategory
+import org.tanukis.tanuki.core.nav.router
+import org.tanukis.tanuki.core.ui.BaseActivity
+import org.tanukis.tanuki.core.ui.list.ListSelectionController
+import org.tanukis.tanuki.core.util.ext.consumeAllSystemBarsInsets
+import org.tanukis.tanuki.core.util.ext.end
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.observeEvent
+import org.tanukis.tanuki.core.util.ext.systemBarsInsets
+import org.tanukis.tanuki.databinding.ActivityCategoriesBinding
+import org.tanukis.tanuki.favourites.ui.categories.adapter.CategoriesAdapter
+import org.tanukis.tanuki.list.ui.adapter.ListStateHolderListener
+import org.tanukis.tanuki.list.ui.adapter.TypedListSpacingDecoration
+import org.tanukis.tanuki.list.ui.model.ListModel
 import javax.inject.Inject
 
 @AndroidEntryPoint

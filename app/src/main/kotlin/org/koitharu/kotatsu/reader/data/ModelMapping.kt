@@ -1,7 +1,7 @@
-package org.koitharu.kotatsu.reader.data
+package org.tanukis.tanuki.reader.data
 
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.model.MangaChapter
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaChapter
 
 fun Manga.filterChapters(branch: String?): Manga {
 	if (chapters.isNullOrEmpty()) return this

@@ -1,11 +1,11 @@
-package org.koitharu.kotatsu.reader.ui.pager.reversed
+package org.tanukis.tanuki.reader.ui.pager.reversed
 
 import androidx.viewpager2.widget.ViewPager2
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.reader.ui.ReaderState
-import org.koitharu.kotatsu.reader.ui.pager.BasePagerReaderFragment
-import org.koitharu.kotatsu.reader.ui.pager.ReaderPage
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.reader.ui.ReaderState
+import org.tanukis.tanuki.reader.ui.pager.BasePagerReaderFragment
+import org.tanukis.tanuki.reader.ui.pager.ReaderPage
 import javax.inject.Inject
 
 @AndroidEntryPoint

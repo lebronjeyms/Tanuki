@@ -1,19 +1,19 @@
-package org.koitharu.kotatsu.filter.ui
+package org.tanukis.tanuki.filter.ui
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combine
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.model.titleResId
-import org.koitharu.kotatsu.core.ui.widgets.ChipsView
-import org.koitharu.kotatsu.filter.data.PersistableFilter
-import org.koitharu.kotatsu.filter.ui.model.FilterHeaderModel
-import org.koitharu.kotatsu.filter.ui.model.FilterProperty
-import org.koitharu.kotatsu.parsers.model.MangaListFilter
-import org.koitharu.kotatsu.parsers.model.MangaListFilterCapabilities
-import org.koitharu.kotatsu.parsers.model.MangaSource
-import org.koitharu.kotatsu.parsers.model.MangaTag
-import org.koitharu.kotatsu.parsers.util.toTitleCase
-import org.koitharu.kotatsu.search.domain.MangaSearchRepository
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.model.titleResId
+import org.tanukis.tanuki.core.ui.widgets.ChipsView
+import org.tanukis.tanuki.filter.data.PersistableFilter
+import org.tanukis.tanuki.filter.ui.model.FilterHeaderModel
+import org.tanukis.tanuki.filter.ui.model.FilterProperty
+import org.tanukis.tanuki.parsers.model.MangaListFilter
+import org.tanukis.tanuki.parsers.model.MangaListFilterCapabilities
+import org.tanukis.tanuki.parsers.model.MangaSource
+import org.tanukis.tanuki.parsers.model.MangaTag
+import org.tanukis.tanuki.parsers.util.toTitleCase
+import org.tanukis.tanuki.search.domain.MangaSearchRepository
 import javax.inject.Inject
 import androidx.appcompat.R as appcompatR
 

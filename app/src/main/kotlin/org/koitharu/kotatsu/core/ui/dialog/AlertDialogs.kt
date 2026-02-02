@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.ui.dialog
+package org.tanukis.tanuki.core.ui.dialog
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -20,9 +20,9 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.hannesdorfmann.adapterdelegates4.AdapterDelegate
 import com.hannesdorfmann.adapterdelegates4.AdapterDelegatesManager
 import com.hannesdorfmann.adapterdelegates4.ListDelegationAdapter
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.databinding.DialogCheckboxBinding
-import org.koitharu.kotatsu.databinding.ViewDialogAutocompleteBinding
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.databinding.DialogCheckboxBinding
+import org.tanukis.tanuki.databinding.ViewDialogAutocompleteBinding
 import com.google.android.material.R as materialR
 
 inline fun buildAlertDialog(

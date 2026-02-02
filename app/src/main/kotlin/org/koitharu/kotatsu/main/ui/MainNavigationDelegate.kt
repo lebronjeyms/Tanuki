@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.main.ui
+package org.tanukis.tanuki.main.ui
 
 import android.os.Bundle
 import android.view.Gravity
@@ -26,24 +26,24 @@ import kotlinx.coroutines.flow.callbackFlow
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.onEach
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.bookmarks.ui.AllBookmarksFragment
-import org.koitharu.kotatsu.core.nav.AppRouter
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.prefs.NavItem
-import org.koitharu.kotatsu.core.ui.util.RecyclerViewOwner
-import org.koitharu.kotatsu.core.ui.widgets.SlidingBottomNavigationView
-import org.koitharu.kotatsu.core.util.ext.buildBundle
-import org.koitharu.kotatsu.core.util.ext.setContentDescriptionAndTooltip
-import org.koitharu.kotatsu.core.util.ext.smoothScrollToTop
-import org.koitharu.kotatsu.databinding.NavigationRailFabBinding
-import org.koitharu.kotatsu.explore.ui.ExploreFragment
-import org.koitharu.kotatsu.favourites.ui.container.FavouritesContainerFragment
-import org.koitharu.kotatsu.history.ui.HistoryListFragment
-import org.koitharu.kotatsu.local.ui.LocalListFragment
-import org.koitharu.kotatsu.suggestions.ui.SuggestionsFragment
-import org.koitharu.kotatsu.tracker.ui.feed.FeedFragment
-import org.koitharu.kotatsu.tracker.ui.updates.UpdatesFragment
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.bookmarks.ui.AllBookmarksFragment
+import org.tanukis.tanuki.core.nav.AppRouter
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.prefs.NavItem
+import org.tanukis.tanuki.core.ui.util.RecyclerViewOwner
+import org.tanukis.tanuki.core.ui.widgets.SlidingBottomNavigationView
+import org.tanukis.tanuki.core.util.ext.buildBundle
+import org.tanukis.tanuki.core.util.ext.setContentDescriptionAndTooltip
+import org.tanukis.tanuki.core.util.ext.smoothScrollToTop
+import org.tanukis.tanuki.databinding.NavigationRailFabBinding
+import org.tanukis.tanuki.explore.ui.ExploreFragment
+import org.tanukis.tanuki.favourites.ui.container.FavouritesContainerFragment
+import org.tanukis.tanuki.history.ui.HistoryListFragment
+import org.tanukis.tanuki.local.ui.LocalListFragment
+import org.tanukis.tanuki.suggestions.ui.SuggestionsFragment
+import org.tanukis.tanuki.tracker.ui.feed.FeedFragment
+import org.tanukis.tanuki.tracker.ui.updates.UpdatesFragment
 import java.util.LinkedList
 import com.google.android.material.R as materialR
 

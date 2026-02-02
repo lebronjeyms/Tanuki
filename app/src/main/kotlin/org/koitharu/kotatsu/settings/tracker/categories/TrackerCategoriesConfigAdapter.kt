@@ -1,8 +1,8 @@
-package org.koitharu.kotatsu.settings.tracker.categories
+package org.tanukis.tanuki.settings.tracker.categories
 
-import org.koitharu.kotatsu.core.model.FavouriteCategory
-import org.koitharu.kotatsu.core.ui.BaseListAdapter
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.core.model.FavouriteCategory
+import org.tanukis.tanuki.core.ui.BaseListAdapter
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
 
 class TrackerCategoriesConfigAdapter(
 	listener: OnListItemClickListener<FavouriteCategory>,

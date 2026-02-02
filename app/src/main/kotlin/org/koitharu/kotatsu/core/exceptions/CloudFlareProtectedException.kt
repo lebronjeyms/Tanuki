@@ -1,9 +1,9 @@
-package org.koitharu.kotatsu.core.exceptions
+package org.tanukis.tanuki.core.exceptions
 
 import okhttp3.Headers
-import org.koitharu.kotatsu.core.model.UnknownMangaSource
-import org.koitharu.kotatsu.parsers.model.MangaSource
-import org.koitharu.kotatsu.parsers.network.CloudFlareHelper
+import org.tanukis.tanuki.core.model.UnknownMangaSource
+import org.tanukis.tanuki.parsers.model.MangaSource
+import org.tanukis.tanuki.parsers.network.CloudFlareHelper
 
 class CloudFlareProtectedException(
 	override val url: String,

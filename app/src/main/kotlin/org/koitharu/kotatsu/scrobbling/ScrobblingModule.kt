@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.scrobbling
+package org.tanukis.tanuki.scrobbling
 
 import android.content.Context
 import dagger.Module
@@ -8,27 +8,27 @@ import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
 import dagger.multibindings.ElementsIntoSet
 import okhttp3.OkHttpClient
-import org.koitharu.kotatsu.BuildConfig
-import org.koitharu.kotatsu.core.db.MangaDatabase
-import org.koitharu.kotatsu.core.network.BaseHttpClient
-import org.koitharu.kotatsu.core.network.CurlLoggingInterceptor
-import org.koitharu.kotatsu.scrobbling.anilist.data.AniListAuthenticator
-import org.koitharu.kotatsu.scrobbling.anilist.data.AniListInterceptor
-import org.koitharu.kotatsu.scrobbling.anilist.domain.AniListScrobbler
-import org.koitharu.kotatsu.scrobbling.common.data.ScrobblerStorage
-import org.koitharu.kotatsu.scrobbling.common.domain.Scrobbler
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerService
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerType
-import org.koitharu.kotatsu.scrobbling.kitsu.data.KitsuAuthenticator
-import org.koitharu.kotatsu.scrobbling.kitsu.data.KitsuInterceptor
-import org.koitharu.kotatsu.scrobbling.kitsu.data.KitsuRepository
-import org.koitharu.kotatsu.scrobbling.kitsu.domain.KitsuScrobbler
-import org.koitharu.kotatsu.scrobbling.mal.data.MALAuthenticator
-import org.koitharu.kotatsu.scrobbling.mal.data.MALInterceptor
-import org.koitharu.kotatsu.scrobbling.mal.domain.MALScrobbler
-import org.koitharu.kotatsu.scrobbling.shikimori.data.ShikimoriAuthenticator
-import org.koitharu.kotatsu.scrobbling.shikimori.data.ShikimoriInterceptor
-import org.koitharu.kotatsu.scrobbling.shikimori.domain.ShikimoriScrobbler
+import org.tanukis.tanuki.BuildConfig
+import org.tanukis.tanuki.core.db.MangaDatabase
+import org.tanukis.tanuki.core.network.BaseHttpClient
+import org.tanukis.tanuki.core.network.CurlLoggingInterceptor
+import org.tanukis.tanuki.scrobbling.anilist.data.AniListAuthenticator
+import org.tanukis.tanuki.scrobbling.anilist.data.AniListInterceptor
+import org.tanukis.tanuki.scrobbling.anilist.domain.AniListScrobbler
+import org.tanukis.tanuki.scrobbling.common.data.ScrobblerStorage
+import org.tanukis.tanuki.scrobbling.common.domain.Scrobbler
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerService
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerType
+import org.tanukis.tanuki.scrobbling.kitsu.data.KitsuAuthenticator
+import org.tanukis.tanuki.scrobbling.kitsu.data.KitsuInterceptor
+import org.tanukis.tanuki.scrobbling.kitsu.data.KitsuRepository
+import org.tanukis.tanuki.scrobbling.kitsu.domain.KitsuScrobbler
+import org.tanukis.tanuki.scrobbling.mal.data.MALAuthenticator
+import org.tanukis.tanuki.scrobbling.mal.data.MALInterceptor
+import org.tanukis.tanuki.scrobbling.mal.domain.MALScrobbler
+import org.tanukis.tanuki.scrobbling.shikimori.data.ShikimoriAuthenticator
+import org.tanukis.tanuki.scrobbling.shikimori.data.ShikimoriInterceptor
+import org.tanukis.tanuki.scrobbling.shikimori.domain.ShikimoriScrobbler
 import javax.inject.Singleton
 
 @Module

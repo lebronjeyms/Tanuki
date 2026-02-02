@@ -1,12 +1,12 @@
-package org.koitharu.kotatsu.details.ui.pager.pages
+package org.tanukis.tanuki.details.ui.pager.pages
 
 import android.content.Context
-import org.koitharu.kotatsu.core.ui.BaseListAdapter
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.core.ui.list.fastscroll.FastScroller
-import org.koitharu.kotatsu.list.ui.adapter.ListItemType
-import org.koitharu.kotatsu.list.ui.adapter.listHeaderAD
-import org.koitharu.kotatsu.list.ui.model.ListModel
+import org.tanukis.tanuki.core.ui.BaseListAdapter
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.core.ui.list.fastscroll.FastScroller
+import org.tanukis.tanuki.list.ui.adapter.ListItemType
+import org.tanukis.tanuki.list.ui.adapter.listHeaderAD
+import org.tanukis.tanuki.list.ui.model.ListModel
 
 class PageThumbnailAdapter(
 	clickListener: OnListItemClickListener<PageThumbnail>,

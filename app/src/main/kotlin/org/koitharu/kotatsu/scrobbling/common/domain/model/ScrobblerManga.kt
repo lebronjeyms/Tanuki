@@ -1,6 +1,6 @@
-package org.koitharu.kotatsu.scrobbling.common.domain.model
+package org.tanukis.tanuki.scrobbling.common.domain.model
 
-import org.koitharu.kotatsu.list.ui.model.ListModel
+import org.tanukis.tanuki.list.ui.model.ListModel
 
 data class ScrobblerManga(
 	val id: Long,

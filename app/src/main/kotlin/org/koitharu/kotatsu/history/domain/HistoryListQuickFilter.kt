@@ -1,10 +1,10 @@
-package org.koitharu.kotatsu.history.domain
+package org.tanukis.tanuki.history.domain
 
-import org.koitharu.kotatsu.core.os.NetworkState
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.history.data.HistoryRepository
-import org.koitharu.kotatsu.list.domain.ListFilterOption
-import org.koitharu.kotatsu.list.domain.MangaListQuickFilter
+import org.tanukis.tanuki.core.os.NetworkState
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.history.data.HistoryRepository
+import org.tanukis.tanuki.list.domain.ListFilterOption
+import org.tanukis.tanuki.list.domain.MangaListQuickFilter
 import javax.inject.Inject
 
 class HistoryListQuickFilter @Inject constructor(

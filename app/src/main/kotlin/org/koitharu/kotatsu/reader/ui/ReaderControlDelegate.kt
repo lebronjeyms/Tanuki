@@ -1,14 +1,14 @@
-package org.koitharu.kotatsu.reader.ui
+package org.tanukis.tanuki.reader.ui
 
 import android.content.res.Resources
 import android.view.KeyEvent
 import android.view.View
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.prefs.ReaderMode
-import org.koitharu.kotatsu.reader.data.TapGridSettings
-import org.koitharu.kotatsu.reader.domain.TapGridArea
-import org.koitharu.kotatsu.reader.ui.tapgrid.TapAction
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.prefs.ReaderMode
+import org.tanukis.tanuki.reader.data.TapGridSettings
+import org.tanukis.tanuki.reader.domain.TapGridArea
+import org.tanukis.tanuki.reader.ui.tapgrid.TapAction
 import kotlin.math.sign
 
 class ReaderControlDelegate(

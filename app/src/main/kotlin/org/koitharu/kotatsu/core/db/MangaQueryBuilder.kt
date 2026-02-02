@@ -1,7 +1,7 @@
-package org.koitharu.kotatsu.core.db
+package org.tanukis.tanuki.core.db
 
 import androidx.sqlite.db.SimpleSQLiteQuery
-import org.koitharu.kotatsu.list.domain.ListFilterOption
+import org.tanukis.tanuki.list.domain.ListFilterOption
 import java.util.LinkedList
 
 class MangaQueryBuilder(

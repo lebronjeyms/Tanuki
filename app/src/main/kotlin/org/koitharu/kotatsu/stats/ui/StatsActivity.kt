@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.stats.ui
+package org.tanukis.tanuki.stats.ui
 
 import android.os.Bundle
 import android.view.Menu
@@ -19,28 +19,28 @@ import androidx.recyclerview.widget.AsyncListDiffer
 import com.google.android.material.chip.Chip
 import com.google.android.material.chip.ChipDrawable
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.model.FavouriteCategory
-import org.koitharu.kotatsu.core.nav.router
-import org.koitharu.kotatsu.core.ui.BaseActivity
-import org.koitharu.kotatsu.core.ui.BaseListAdapter
-import org.koitharu.kotatsu.core.ui.dialog.buildAlertDialog
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.core.ui.util.ReversibleActionObserver
-import org.koitharu.kotatsu.core.util.KotatsuColors
-import org.koitharu.kotatsu.core.util.ext.end
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.observeEvent
-import org.koitharu.kotatsu.core.util.ext.setTextAndVisible
-import org.koitharu.kotatsu.core.util.ext.showOrHide
-import org.koitharu.kotatsu.core.util.ext.start
-import org.koitharu.kotatsu.databinding.ActivityStatsBinding
-import org.koitharu.kotatsu.databinding.ItemEmptyStateBinding
-import org.koitharu.kotatsu.list.ui.adapter.ListItemType
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.stats.domain.StatsPeriod
-import org.koitharu.kotatsu.stats.domain.StatsRecord
-import org.koitharu.kotatsu.stats.ui.views.PieChartView
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.model.FavouriteCategory
+import org.tanukis.tanuki.core.nav.router
+import org.tanukis.tanuki.core.ui.BaseActivity
+import org.tanukis.tanuki.core.ui.BaseListAdapter
+import org.tanukis.tanuki.core.ui.dialog.buildAlertDialog
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.core.ui.util.ReversibleActionObserver
+import org.tanukis.tanuki.core.util.KotatsuColors
+import org.tanukis.tanuki.core.util.ext.end
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.observeEvent
+import org.tanukis.tanuki.core.util.ext.setTextAndVisible
+import org.tanukis.tanuki.core.util.ext.showOrHide
+import org.tanukis.tanuki.core.util.ext.start
+import org.tanukis.tanuki.databinding.ActivityStatsBinding
+import org.tanukis.tanuki.databinding.ItemEmptyStateBinding
+import org.tanukis.tanuki.list.ui.adapter.ListItemType
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.stats.domain.StatsPeriod
+import org.tanukis.tanuki.stats.domain.StatsRecord
+import org.tanukis.tanuki.stats.ui.views.PieChartView
 
 @AndroidEntryPoint
 class StatsActivity : BaseActivity<ActivityStatsBinding>(),

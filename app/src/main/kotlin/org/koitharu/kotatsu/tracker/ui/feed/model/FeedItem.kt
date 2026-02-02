@@ -1,11 +1,11 @@
-package org.koitharu.kotatsu.tracker.ui.feed.model
+package org.tanukis.tanuki.tracker.ui.feed.model
 
-import org.koitharu.kotatsu.core.model.withOverride
-import org.koitharu.kotatsu.core.ui.model.MangaOverride
-import org.koitharu.kotatsu.list.ui.ListModelDiffCallback
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.util.ifNullOrEmpty
+import org.tanukis.tanuki.core.model.withOverride
+import org.tanukis.tanuki.core.ui.model.MangaOverride
+import org.tanukis.tanuki.list.ui.ListModelDiffCallback
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.util.ifNullOrEmpty
 
 data class FeedItem(
 	val id: Long,

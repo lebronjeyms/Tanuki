@@ -1,11 +1,11 @@
-package org.koitharu.kotatsu.list.ui.adapter
+package org.tanukis.tanuki.list.ui.adapter
 
 import androidx.core.view.isVisible
 import com.hannesdorfmann.adapterdelegates4.dsl.adapterDelegateViewBinding
-import org.koitharu.kotatsu.core.util.ext.setTextAndVisible
-import org.koitharu.kotatsu.databinding.ItemEmptyStateBinding
-import org.koitharu.kotatsu.list.ui.model.EmptyState
-import org.koitharu.kotatsu.list.ui.model.ListModel
+import org.tanukis.tanuki.core.util.ext.setTextAndVisible
+import org.tanukis.tanuki.databinding.ItemEmptyStateBinding
+import org.tanukis.tanuki.list.ui.model.EmptyState
+import org.tanukis.tanuki.list.ui.model.ListModel
 
 fun emptyStateListAD(
 	listener: ListStateHolderListener?,

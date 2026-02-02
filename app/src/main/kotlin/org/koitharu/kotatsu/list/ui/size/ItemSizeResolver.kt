@@ -1,8 +1,8 @@
-package org.koitharu.kotatsu.list.ui.size
+package org.tanukis.tanuki.list.ui.size
 
 import android.view.View
 import android.widget.TextView
-import org.koitharu.kotatsu.history.ui.util.ReadingProgressView
+import org.tanukis.tanuki.history.ui.util.ReadingProgressView
 
 interface ItemSizeResolver {
 

@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.local.ui
+package org.tanukis.tanuki.local.ui
 
 import android.annotation.SuppressLint
 import android.app.NotificationManager
@@ -11,18 +11,18 @@ import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.MutableSharedFlow
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.ErrorReporterReceiver
-import org.koitharu.kotatsu.core.model.parcelable.ParcelableManga
-import org.koitharu.kotatsu.core.ui.CoroutineIntentService
-import org.koitharu.kotatsu.core.util.ext.getDisplayMessage
-import org.koitharu.kotatsu.core.util.ext.getParcelableExtraCompat
-import org.koitharu.kotatsu.core.util.ext.powerManager
-import org.koitharu.kotatsu.core.util.ext.withPartialWakeLock
-import org.koitharu.kotatsu.local.data.LocalMangaRepository
-import org.koitharu.kotatsu.local.data.LocalStorageChanges
-import org.koitharu.kotatsu.local.domain.model.LocalManga
-import org.koitharu.kotatsu.parsers.model.Manga
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.ErrorReporterReceiver
+import org.tanukis.tanuki.core.model.parcelable.ParcelableManga
+import org.tanukis.tanuki.core.ui.CoroutineIntentService
+import org.tanukis.tanuki.core.util.ext.getDisplayMessage
+import org.tanukis.tanuki.core.util.ext.getParcelableExtraCompat
+import org.tanukis.tanuki.core.util.ext.powerManager
+import org.tanukis.tanuki.core.util.ext.withPartialWakeLock
+import org.tanukis.tanuki.local.data.LocalMangaRepository
+import org.tanukis.tanuki.local.data.LocalStorageChanges
+import org.tanukis.tanuki.local.domain.model.LocalManga
+import org.tanukis.tanuki.parsers.model.Manga
 import javax.inject.Inject
 
 @AndroidEntryPoint

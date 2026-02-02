@@ -1,6 +1,6 @@
-package org.koitharu.kotatsu.history.data
+package org.tanukis.tanuki.history.data
 
-import org.koitharu.kotatsu.core.model.MangaHistory
+import org.tanukis.tanuki.core.model.MangaHistory
 import java.time.Instant
 
 fun HistoryEntity.toMangaHistory() = MangaHistory(

@@ -1,7 +1,7 @@
-package org.koitharu.kotatsu.list.ui.model
+package org.tanukis.tanuki.list.ui.model
 
-import org.koitharu.kotatsu.core.ui.widgets.ChipsView
-import org.koitharu.kotatsu.list.ui.ListModelDiffCallback
+import org.tanukis.tanuki.core.ui.widgets.ChipsView
+import org.tanukis.tanuki.list.ui.ListModelDiffCallback
 
 data class QuickFilter(
 	val items: List<ChipsView.ChipModel>,

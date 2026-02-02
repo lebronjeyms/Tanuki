@@ -1,10 +1,10 @@
-package org.koitharu.kotatsu.favourites.data
+package org.tanukis.tanuki.favourites.data
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.ForeignKey
-import org.koitharu.kotatsu.core.db.TABLE_FAVOURITES
-import org.koitharu.kotatsu.core.db.entity.MangaEntity
+import org.tanukis.tanuki.core.db.TABLE_FAVOURITES
+import org.tanukis.tanuki.core.db.entity.MangaEntity
 
 @Entity(
 	tableName = TABLE_FAVOURITES,

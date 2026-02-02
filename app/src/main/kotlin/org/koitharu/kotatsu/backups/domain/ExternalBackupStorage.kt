@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.backups.domain
+package org.tanukis.tanuki.backups.domain
 
 import android.content.Context
 import android.net.Uri
@@ -11,9 +11,9 @@ import okio.buffer
 import okio.sink
 import okio.source
 import org.jetbrains.annotations.Blocking
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
 import java.io.File
 import javax.inject.Inject
 

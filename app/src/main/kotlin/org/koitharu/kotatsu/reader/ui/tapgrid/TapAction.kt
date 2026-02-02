@@ -1,7 +1,7 @@
-package org.koitharu.kotatsu.reader.ui.tapgrid
+package org.tanukis.tanuki.reader.ui.tapgrid
 
 import androidx.annotation.StringRes
-import org.koitharu.kotatsu.R
+import org.tanukis.tanuki.R
 
 enum class TapAction(
 	@StringRes val nameStringResId: Int,

@@ -1,14 +1,14 @@
-package org.koitharu.kotatsu.tracker.ui.feed.adapter
+package org.tanukis.tanuki.tracker.ui.feed.adapter
 
 import androidx.core.content.ContextCompat
 import com.hannesdorfmann.adapterdelegates4.dsl.adapterDelegateViewBinding
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.core.util.ext.drawableStart
-import org.koitharu.kotatsu.core.util.ext.getQuantityStringSafe
-import org.koitharu.kotatsu.databinding.ItemFeedBinding
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.tracker.ui.feed.model.FeedItem
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.core.util.ext.drawableStart
+import org.tanukis.tanuki.core.util.ext.getQuantityStringSafe
+import org.tanukis.tanuki.databinding.ItemFeedBinding
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.tracker.ui.feed.model.FeedItem
 
 fun feedItemAD(
 	clickListener: OnListItemClickListener<FeedItem>,

@@ -1,10 +1,10 @@
-package org.koitharu.kotatsu.reader.ui.colorfilter
+package org.tanukis.tanuki.reader.ui.colorfilter
 
 import android.content.DialogInterface
 import androidx.activity.OnBackPressedCallback
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.util.ext.call
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.util.ext.call
 
 class ColorFilterConfigBackPressedDispatcher(
 	private val activity: ColorFilterConfigActivity,

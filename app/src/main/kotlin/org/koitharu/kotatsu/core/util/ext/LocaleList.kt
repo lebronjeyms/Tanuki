@@ -1,10 +1,10 @@
-package org.koitharu.kotatsu.core.util.ext
+package org.tanukis.tanuki.core.util.ext
 
 import android.content.Context
 import androidx.core.os.LocaleListCompat
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.parsers.util.Set
-import org.koitharu.kotatsu.parsers.util.toTitleCase
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.parsers.util.Set
+import org.tanukis.tanuki.parsers.util.toTitleCase
 import java.util.Locale
 
 operator fun LocaleListCompat.iterator(): ListIterator<Locale> = LocaleListCompatIterator(this)

@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.download.ui.list
+package org.tanukis.tanuki.download.ui.list
 
 import android.os.Bundle
 import android.view.Menu
@@ -12,18 +12,18 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.updatePadding
 import coil3.ImageLoader
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.nav.router
-import org.koitharu.kotatsu.core.ui.BaseActivity
-import org.koitharu.kotatsu.core.ui.list.ListSelectionController
-import org.koitharu.kotatsu.core.ui.list.RecyclerScrollKeeper
-import org.koitharu.kotatsu.core.ui.util.MenuInvalidator
-import org.koitharu.kotatsu.core.ui.util.ReversibleActionObserver
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.observeEvent
-import org.koitharu.kotatsu.databinding.ActivityDownloadsBinding
-import org.koitharu.kotatsu.download.ui.worker.DownloadWorker
-import org.koitharu.kotatsu.list.ui.adapter.TypedListSpacingDecoration
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.nav.router
+import org.tanukis.tanuki.core.ui.BaseActivity
+import org.tanukis.tanuki.core.ui.list.ListSelectionController
+import org.tanukis.tanuki.core.ui.list.RecyclerScrollKeeper
+import org.tanukis.tanuki.core.ui.util.MenuInvalidator
+import org.tanukis.tanuki.core.ui.util.ReversibleActionObserver
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.observeEvent
+import org.tanukis.tanuki.databinding.ActivityDownloadsBinding
+import org.tanukis.tanuki.download.ui.worker.DownloadWorker
+import org.tanukis.tanuki.list.ui.adapter.TypedListSpacingDecoration
 import javax.inject.Inject
 
 @AndroidEntryPoint

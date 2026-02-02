@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.scrobbling.shikimori.data
+package org.tanukis.tanuki.scrobbling.shikimori.data
 
 import android.content.Context
 import dagger.hilt.android.qualifiers.ApplicationContext
@@ -7,23 +7,23 @@ import okhttp3.HttpUrl.Companion.toHttpUrl
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.json.JSONObject
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.db.MangaDatabase
-import org.koitharu.kotatsu.core.util.ext.toRequestBody
-import org.koitharu.kotatsu.parsers.util.await
-import org.koitharu.kotatsu.parsers.util.json.getStringOrNull
-import org.koitharu.kotatsu.parsers.util.json.mapJSON
-import org.koitharu.kotatsu.parsers.util.parseJson
-import org.koitharu.kotatsu.parsers.util.parseJsonArray
-import org.koitharu.kotatsu.parsers.util.toAbsoluteUrl
-import org.koitharu.kotatsu.scrobbling.common.data.ScrobblerRepository
-import org.koitharu.kotatsu.scrobbling.common.data.ScrobblerStorage
-import org.koitharu.kotatsu.scrobbling.common.data.ScrobblingEntity
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerManga
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerMangaInfo
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerService
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerType
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerUser
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.db.MangaDatabase
+import org.tanukis.tanuki.core.util.ext.toRequestBody
+import org.tanukis.tanuki.parsers.util.await
+import org.tanukis.tanuki.parsers.util.json.getStringOrNull
+import org.tanukis.tanuki.parsers.util.json.mapJSON
+import org.tanukis.tanuki.parsers.util.parseJson
+import org.tanukis.tanuki.parsers.util.parseJsonArray
+import org.tanukis.tanuki.parsers.util.toAbsoluteUrl
+import org.tanukis.tanuki.scrobbling.common.data.ScrobblerRepository
+import org.tanukis.tanuki.scrobbling.common.data.ScrobblerStorage
+import org.tanukis.tanuki.scrobbling.common.data.ScrobblingEntity
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerManga
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerMangaInfo
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerService
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerType
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerUser
 import javax.inject.Inject
 import javax.inject.Singleton
 

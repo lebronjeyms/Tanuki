@@ -1,12 +1,12 @@
-package org.koitharu.kotatsu.search.ui.suggestion.adapter
+package org.tanukis.tanuki.search.ui.suggestion.adapter
 
 import android.view.View
 import com.hannesdorfmann.adapterdelegates4.dsl.adapterDelegateViewBinding
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.databinding.ItemSearchSuggestionQueryHintBinding
-import org.koitharu.kotatsu.search.domain.SearchKind
-import org.koitharu.kotatsu.search.ui.suggestion.SearchSuggestionListener
-import org.koitharu.kotatsu.search.ui.suggestion.model.SearchSuggestionItem
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.databinding.ItemSearchSuggestionQueryHintBinding
+import org.tanukis.tanuki.search.domain.SearchKind
+import org.tanukis.tanuki.search.ui.suggestion.SearchSuggestionListener
+import org.tanukis.tanuki.search.ui.suggestion.model.SearchSuggestionItem
 
 fun searchSuggestionAuthorAD(
 	listener: SearchSuggestionListener,

@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.history.ui.util
+package org.tanukis.tanuki.history.ui.util
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -10,12 +10,12 @@ import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.annotation.StyleRes
 import androidx.appcompat.content.res.AppCompatResources
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.ui.image.PaintDrawable
-import org.koitharu.kotatsu.core.util.ext.hasFocusStateSpecified
-import org.koitharu.kotatsu.core.util.ext.scale
-import org.koitharu.kotatsu.list.domain.ReadingProgress
-import org.koitharu.kotatsu.list.domain.ReadingProgress.Companion.PROGRESS_NONE
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.ui.image.PaintDrawable
+import org.tanukis.tanuki.core.util.ext.hasFocusStateSpecified
+import org.tanukis.tanuki.core.util.ext.scale
+import org.tanukis.tanuki.list.domain.ReadingProgress
+import org.tanukis.tanuki.list.domain.ReadingProgress.Companion.PROGRESS_NONE
 
 class ReadingProgressDrawable(
 	context: Context,

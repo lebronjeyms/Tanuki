@@ -1,10 +1,10 @@
-package org.koitharu.kotatsu.history.ui
+package org.tanukis.tanuki.history.ui
 
 import android.content.Context
-import org.koitharu.kotatsu.core.ui.list.fastscroll.FastScroller
-import org.koitharu.kotatsu.list.ui.adapter.MangaListAdapter
-import org.koitharu.kotatsu.list.ui.adapter.MangaListListener
-import org.koitharu.kotatsu.list.ui.size.ItemSizeResolver
+import org.tanukis.tanuki.core.ui.list.fastscroll.FastScroller
+import org.tanukis.tanuki.list.ui.adapter.MangaListAdapter
+import org.tanukis.tanuki.list.ui.adapter.MangaListListener
+import org.tanukis.tanuki.list.ui.size.ItemSizeResolver
 
 class HistoryListAdapter(
 	listener: MangaListListener,

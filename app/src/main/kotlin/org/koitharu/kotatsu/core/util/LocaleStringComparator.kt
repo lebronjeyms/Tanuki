@@ -1,8 +1,8 @@
-package org.koitharu.kotatsu.core.util
+package org.tanukis.tanuki.core.util
 
 import androidx.core.os.LocaleListCompat
-import org.koitharu.kotatsu.core.util.ext.indexOfContains
-import org.koitharu.kotatsu.core.util.ext.iterator
+import org.tanukis.tanuki.core.util.ext.indexOfContains
+import org.tanukis.tanuki.core.util.ext.iterator
 
 class LocaleStringComparator : Comparator<String?> {
 

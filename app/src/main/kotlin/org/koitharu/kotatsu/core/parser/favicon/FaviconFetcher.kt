@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.parser.favicon
+package org.tanukis.tanuki.core.parser.favicon
 
 import android.graphics.Color
 import android.graphics.drawable.AdaptiveIconDrawable
@@ -25,21 +25,21 @@ import kotlinx.coroutines.runInterruptible
 import okio.FileSystem
 import okio.IOException
 import okio.Path.Companion.toOkioPath
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.exceptions.CloudFlareProtectedException
-import org.koitharu.kotatsu.core.model.MangaSource
-import org.koitharu.kotatsu.core.parser.EmptyMangaRepository
-import org.koitharu.kotatsu.core.parser.MangaRepository
-import org.koitharu.kotatsu.core.parser.ParserMangaRepository
-import org.koitharu.kotatsu.core.parser.external.ExternalMangaRepository
-import org.koitharu.kotatsu.core.util.MimeTypes
-import org.koitharu.kotatsu.core.util.ext.fetch
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.core.util.ext.toMimeTypeOrNull
-import org.koitharu.kotatsu.local.data.FaviconCache
-import org.koitharu.kotatsu.local.data.LocalMangaRepository
-import org.koitharu.kotatsu.local.data.LocalStorageCache
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.exceptions.CloudFlareProtectedException
+import org.tanukis.tanuki.core.model.MangaSource
+import org.tanukis.tanuki.core.parser.EmptyMangaRepository
+import org.tanukis.tanuki.core.parser.MangaRepository
+import org.tanukis.tanuki.core.parser.ParserMangaRepository
+import org.tanukis.tanuki.core.parser.external.ExternalMangaRepository
+import org.tanukis.tanuki.core.util.MimeTypes
+import org.tanukis.tanuki.core.util.ext.fetch
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.core.util.ext.toMimeTypeOrNull
+import org.tanukis.tanuki.local.data.FaviconCache
+import org.tanukis.tanuki.local.data.LocalMangaRepository
+import org.tanukis.tanuki.local.data.LocalStorageCache
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
 import java.io.File
 import javax.inject.Inject
 import coil3.Uri as CoilUri

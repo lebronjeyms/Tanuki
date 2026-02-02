@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.suggestions.ui
+package org.tanukis.tanuki.suggestions.ui
 
 import android.os.Bundle
 import android.view.Menu
@@ -7,12 +7,12 @@ import android.view.MenuItem
 import androidx.core.view.MenuProvider
 import androidx.fragment.app.viewModels
 import com.google.android.material.snackbar.Snackbar
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.nav.router
-import org.koitharu.kotatsu.core.ui.list.ListSelectionController
-import org.koitharu.kotatsu.core.util.ext.addMenuProvider
-import org.koitharu.kotatsu.databinding.FragmentListBinding
-import org.koitharu.kotatsu.list.ui.MangaListFragment
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.nav.router
+import org.tanukis.tanuki.core.ui.list.ListSelectionController
+import org.tanukis.tanuki.core.util.ext.addMenuProvider
+import org.tanukis.tanuki.databinding.FragmentListBinding
+import org.tanukis.tanuki.list.ui.MangaListFragment
 
 class SuggestionsFragment : MangaListFragment() {
 

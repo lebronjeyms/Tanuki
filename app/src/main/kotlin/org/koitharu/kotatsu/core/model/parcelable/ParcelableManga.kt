@@ -1,15 +1,15 @@
-package org.koitharu.kotatsu.core.model.parcelable
+package org.tanukis.tanuki.core.model.parcelable
 
 import android.os.Parcel
 import android.os.Parcelable
 import kotlinx.parcelize.Parceler
 import kotlinx.parcelize.Parcelize
-import org.koitharu.kotatsu.core.model.MangaSource
-import org.koitharu.kotatsu.core.util.ext.readParcelableCompat
-import org.koitharu.kotatsu.core.util.ext.readSerializableCompat
-import org.koitharu.kotatsu.core.util.ext.readStringSet
-import org.koitharu.kotatsu.core.util.ext.writeStringSet
-import org.koitharu.kotatsu.parsers.model.Manga
+import org.tanukis.tanuki.core.model.MangaSource
+import org.tanukis.tanuki.core.util.ext.readParcelableCompat
+import org.tanukis.tanuki.core.util.ext.readSerializableCompat
+import org.tanukis.tanuki.core.util.ext.readStringSet
+import org.tanukis.tanuki.core.util.ext.writeStringSet
+import org.tanukis.tanuki.parsers.model.Manga
 
 @Parcelize
 data class ParcelableManga(

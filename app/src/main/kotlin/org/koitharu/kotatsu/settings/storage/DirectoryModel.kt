@@ -1,8 +1,8 @@
-package org.koitharu.kotatsu.settings.storage
+package org.tanukis.tanuki.settings.storage
 
 import androidx.annotation.StringRes
-import org.koitharu.kotatsu.list.ui.ListModelDiffCallback
-import org.koitharu.kotatsu.list.ui.model.ListModel
+import org.tanukis.tanuki.list.ui.ListModelDiffCallback
+import org.tanukis.tanuki.list.ui.model.ListModel
 import java.io.File
 
 data class DirectoryModel(

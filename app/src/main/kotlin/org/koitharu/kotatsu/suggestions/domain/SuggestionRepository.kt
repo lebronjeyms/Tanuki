@@ -1,20 +1,20 @@
-package org.koitharu.kotatsu.suggestions.domain
+package org.tanukis.tanuki.suggestions.domain
 
 import androidx.room.withTransaction
 import kotlinx.coroutines.flow.Flow
-import org.koitharu.kotatsu.core.db.MangaDatabase
-import org.koitharu.kotatsu.core.db.entity.toEntities
-import org.koitharu.kotatsu.core.db.entity.toEntity
-import org.koitharu.kotatsu.core.db.entity.toManga
-import org.koitharu.kotatsu.core.db.entity.toMangaTagsList
-import org.koitharu.kotatsu.core.model.toMangaSources
-import org.koitharu.kotatsu.core.util.ext.mapItems
-import org.koitharu.kotatsu.list.domain.ListFilterOption
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.model.MangaSource
-import org.koitharu.kotatsu.parsers.model.MangaTag
-import org.koitharu.kotatsu.suggestions.data.SuggestionEntity
-import org.koitharu.kotatsu.suggestions.data.SuggestionWithManga
+import org.tanukis.tanuki.core.db.MangaDatabase
+import org.tanukis.tanuki.core.db.entity.toEntities
+import org.tanukis.tanuki.core.db.entity.toEntity
+import org.tanukis.tanuki.core.db.entity.toManga
+import org.tanukis.tanuki.core.db.entity.toMangaTagsList
+import org.tanukis.tanuki.core.model.toMangaSources
+import org.tanukis.tanuki.core.util.ext.mapItems
+import org.tanukis.tanuki.list.domain.ListFilterOption
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaSource
+import org.tanukis.tanuki.parsers.model.MangaTag
+import org.tanukis.tanuki.suggestions.data.SuggestionEntity
+import org.tanukis.tanuki.suggestions.data.SuggestionWithManga
 import javax.inject.Inject
 
 class SuggestionRepository @Inject constructor(

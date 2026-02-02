@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.reader.ui.pager
+package org.tanukis.tanuki.reader.ui.pager
 
 import android.content.ComponentCallbacks2
 import android.content.ComponentCallbacks2.TRIM_MEMORY_COMPLETE
@@ -15,22 +15,22 @@ import com.davemorrissey.labs.subscaleview.DefaultOnImageEventListener
 import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import org.koitharu.kotatsu.BuildConfig
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.exceptions.resolve.ExceptionResolver
-import org.koitharu.kotatsu.core.os.NetworkState
-import org.koitharu.kotatsu.core.ui.list.lifecycle.LifecycleAwareViewHolder
-import org.koitharu.kotatsu.core.util.ext.getDisplayMessage
-import org.koitharu.kotatsu.core.util.ext.isLowRamDevice
-import org.koitharu.kotatsu.core.util.ext.isSerializable
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.databinding.LayoutPageInfoBinding
-import org.koitharu.kotatsu.parsers.util.ifZero
-import org.koitharu.kotatsu.reader.domain.PageLoader
-import org.koitharu.kotatsu.reader.ui.config.ReaderSettings
-import org.koitharu.kotatsu.reader.ui.pager.vm.PageState
-import org.koitharu.kotatsu.reader.ui.pager.vm.PageViewModel
-import org.koitharu.kotatsu.reader.ui.pager.webtoon.WebtoonHolder
+import org.tanukis.tanuki.BuildConfig
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.exceptions.resolve.ExceptionResolver
+import org.tanukis.tanuki.core.os.NetworkState
+import org.tanukis.tanuki.core.ui.list.lifecycle.LifecycleAwareViewHolder
+import org.tanukis.tanuki.core.util.ext.getDisplayMessage
+import org.tanukis.tanuki.core.util.ext.isLowRamDevice
+import org.tanukis.tanuki.core.util.ext.isSerializable
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.databinding.LayoutPageInfoBinding
+import org.tanukis.tanuki.parsers.util.ifZero
+import org.tanukis.tanuki.reader.domain.PageLoader
+import org.tanukis.tanuki.reader.ui.config.ReaderSettings
+import org.tanukis.tanuki.reader.ui.pager.vm.PageState
+import org.tanukis.tanuki.reader.ui.pager.vm.PageViewModel
+import org.tanukis.tanuki.reader.ui.pager.webtoon.WebtoonHolder
 
 abstract class BasePageHolder<B : ViewBinding>(
 	protected val binding: B,

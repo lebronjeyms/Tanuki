@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.sync.ui.favourites
+package org.tanukis.tanuki.sync.ui.favourites
 
 import android.app.Service
 import android.content.Intent

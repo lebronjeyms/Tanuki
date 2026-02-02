@@ -1,12 +1,12 @@
-package org.koitharu.kotatsu.favourites.ui.categories.adapter
+package org.tanukis.tanuki.favourites.ui.categories.adapter
 
-import org.koitharu.kotatsu.core.ui.ReorderableListAdapter
-import org.koitharu.kotatsu.favourites.ui.categories.FavouriteCategoriesListListener
-import org.koitharu.kotatsu.list.ui.adapter.ListItemType
-import org.koitharu.kotatsu.list.ui.adapter.ListStateHolderListener
-import org.koitharu.kotatsu.list.ui.adapter.emptyStateListAD
-import org.koitharu.kotatsu.list.ui.adapter.loadingStateAD
-import org.koitharu.kotatsu.list.ui.model.ListModel
+import org.tanukis.tanuki.core.ui.ReorderableListAdapter
+import org.tanukis.tanuki.favourites.ui.categories.FavouriteCategoriesListListener
+import org.tanukis.tanuki.list.ui.adapter.ListItemType
+import org.tanukis.tanuki.list.ui.adapter.ListStateHolderListener
+import org.tanukis.tanuki.list.ui.adapter.emptyStateListAD
+import org.tanukis.tanuki.list.ui.adapter.loadingStateAD
+import org.tanukis.tanuki.list.ui.model.ListModel
 
 class CategoriesAdapter(
 	onItemClickListener: FavouriteCategoriesListListener,

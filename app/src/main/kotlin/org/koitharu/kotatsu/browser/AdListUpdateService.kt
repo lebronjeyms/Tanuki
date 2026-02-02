@@ -1,9 +1,9 @@
-package org.koitharu.kotatsu.browser
+package org.tanukis.tanuki.browser
 
 import android.content.Intent
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.core.network.webview.adblock.AdBlock
-import org.koitharu.kotatsu.core.ui.CoroutineIntentService
+import org.tanukis.tanuki.core.network.webview.adblock.AdBlock
+import org.tanukis.tanuki.core.ui.CoroutineIntentService
 import javax.inject.Inject
 
 @AndroidEntryPoint

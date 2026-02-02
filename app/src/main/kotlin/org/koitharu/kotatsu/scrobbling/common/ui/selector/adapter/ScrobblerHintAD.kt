@@ -1,13 +1,13 @@
-package org.koitharu.kotatsu.scrobbling.common.ui.selector.adapter
+package org.tanukis.tanuki.scrobbling.common.ui.selector.adapter
 
 import com.hannesdorfmann.adapterdelegates4.dsl.adapterDelegateViewBinding
-import org.koitharu.kotatsu.core.util.ext.getDisplayMessage
-import org.koitharu.kotatsu.core.util.ext.setTextAndVisible
-import org.koitharu.kotatsu.core.util.ext.textAndVisible
-import org.koitharu.kotatsu.databinding.ItemEmptyHintBinding
-import org.koitharu.kotatsu.list.ui.adapter.ListStateHolderListener
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.scrobbling.common.ui.selector.model.ScrobblerHint
+import org.tanukis.tanuki.core.util.ext.getDisplayMessage
+import org.tanukis.tanuki.core.util.ext.setTextAndVisible
+import org.tanukis.tanuki.core.util.ext.textAndVisible
+import org.tanukis.tanuki.databinding.ItemEmptyHintBinding
+import org.tanukis.tanuki.list.ui.adapter.ListStateHolderListener
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.scrobbling.common.ui.selector.model.ScrobblerHint
 
 fun scrobblerHintAD(
 	listener: ListStateHolderListener,

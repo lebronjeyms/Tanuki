@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.sync.ui.favourites
+package org.tanukis.tanuki.sync.ui.favourites
 
 import android.accounts.Account
 import android.content.AbstractThreadedSyncAdapter
@@ -7,11 +7,11 @@ import android.content.Context
 import android.content.SyncResult
 import android.os.Bundle
 import dagger.hilt.android.EntryPointAccessors
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.util.ext.onError
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
-import org.koitharu.kotatsu.sync.domain.SyncController
-import org.koitharu.kotatsu.sync.ui.SyncAdapterEntryPoint
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.util.ext.onError
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.sync.domain.SyncController
+import org.tanukis.tanuki.sync.ui.SyncAdapterEntryPoint
 
 class FavouritesSyncAdapter(context: Context) : AbstractThreadedSyncAdapter(context, true) {
 

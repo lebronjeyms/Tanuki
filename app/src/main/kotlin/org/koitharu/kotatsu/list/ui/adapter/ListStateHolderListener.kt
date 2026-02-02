@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.list.ui.adapter
+package org.tanukis.tanuki.list.ui.adapter
 
 interface ListStateHolderListener {
 

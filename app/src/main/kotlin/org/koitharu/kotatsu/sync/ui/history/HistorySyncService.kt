@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.sync.ui.history
+package org.tanukis.tanuki.sync.ui.history
 
 import android.app.Service
 import android.content.Intent

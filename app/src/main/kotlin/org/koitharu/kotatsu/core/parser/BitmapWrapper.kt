@@ -1,9 +1,9 @@
-package org.koitharu.kotatsu.core.parser
+package org.tanukis.tanuki.core.parser
 
 import android.graphics.Canvas
 import androidx.core.graphics.createBitmap
-import org.koitharu.kotatsu.parsers.bitmap.Bitmap
-import org.koitharu.kotatsu.parsers.bitmap.Rect
+import org.tanukis.tanuki.parsers.bitmap.Bitmap
+import org.tanukis.tanuki.parsers.bitmap.Rect
 import java.io.OutputStream
 import android.graphics.Bitmap as AndroidBitmap
 import android.graphics.Rect as AndroidRect

@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.search.ui.multi.adapter
+package org.tanukis.tanuki.search.ui.multi.adapter
 
 import android.annotation.SuppressLint
 import androidx.core.view.isGone
@@ -6,20 +6,20 @@ import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView.RecycledViewPool
 import com.hannesdorfmann.adapterdelegates4.ListDelegationAdapter
 import com.hannesdorfmann.adapterdelegates4.dsl.adapterDelegateViewBinding
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.model.UnknownMangaSource
-import org.koitharu.kotatsu.core.ui.list.AdapterDelegateClickListenerAdapter
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.core.ui.list.decor.SpacingItemDecoration
-import org.koitharu.kotatsu.core.util.ext.getDisplayMessage
-import org.koitharu.kotatsu.core.util.ext.textAndVisible
-import org.koitharu.kotatsu.databinding.ItemListGroupBinding
-import org.koitharu.kotatsu.list.ui.MangaSelectionDecoration
-import org.koitharu.kotatsu.list.ui.adapter.mangaGridItemAD
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.list.ui.model.MangaListModel
-import org.koitharu.kotatsu.list.ui.size.ItemSizeResolver
-import org.koitharu.kotatsu.search.ui.multi.SearchResultsListModel
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.model.UnknownMangaSource
+import org.tanukis.tanuki.core.ui.list.AdapterDelegateClickListenerAdapter
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.core.ui.list.decor.SpacingItemDecoration
+import org.tanukis.tanuki.core.util.ext.getDisplayMessage
+import org.tanukis.tanuki.core.util.ext.textAndVisible
+import org.tanukis.tanuki.databinding.ItemListGroupBinding
+import org.tanukis.tanuki.list.ui.MangaSelectionDecoration
+import org.tanukis.tanuki.list.ui.adapter.mangaGridItemAD
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.list.ui.model.MangaListModel
+import org.tanukis.tanuki.list.ui.size.ItemSizeResolver
+import org.tanukis.tanuki.search.ui.multi.SearchResultsListModel
 
 @SuppressLint("NotifyDataSetChanged")
 fun searchResultsAD(

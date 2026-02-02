@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.util.ext
+package org.tanukis.tanuki.core.util.ext
 
 import android.graphics.drawable.Drawable
 import androidx.annotation.CheckResult
@@ -16,10 +16,10 @@ import coil3.request.SuccessResult
 import coil3.request.bitmapConfig
 import coil3.toBitmap
 import okio.buffer
-import org.koitharu.kotatsu.bookmarks.domain.Bookmark
-import org.koitharu.kotatsu.core.image.RegionBitmapDecoder
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.model.MangaSource
+import org.tanukis.tanuki.bookmarks.domain.Bookmark
+import org.tanukis.tanuki.core.image.RegionBitmapDecoder
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaSource
 
 fun ImageRequest.Builder.enqueueWith(loader: ImageLoader) = loader.enqueue(build())
 

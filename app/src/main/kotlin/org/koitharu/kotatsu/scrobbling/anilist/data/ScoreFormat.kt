@@ -1,6 +1,6 @@
-package org.koitharu.kotatsu.scrobbling.anilist.data
+package org.tanukis.tanuki.scrobbling.anilist.data
 
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
 
 enum class ScoreFormat {
 

@@ -1,19 +1,19 @@
-package org.koitharu.kotatsu.reader.ui
+package org.tanukis.tanuki.reader.ui
 
 import android.content.res.Configuration
 import androidx.fragment.app.FragmentContainerView
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.commit
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.prefs.ReaderMode
-import org.koitharu.kotatsu.core.util.ext.findKeyByValue
-import org.koitharu.kotatsu.reader.ui.pager.BaseReaderFragment
-import org.koitharu.kotatsu.reader.ui.pager.doublepage.DoubleReaderFragment
-import org.koitharu.kotatsu.reader.ui.pager.doublereversed.ReversedDoubleReaderFragment
-import org.koitharu.kotatsu.reader.ui.pager.reversed.ReversedReaderFragment
-import org.koitharu.kotatsu.reader.ui.pager.standard.PagerReaderFragment
-import org.koitharu.kotatsu.reader.ui.pager.vertical.VerticalReaderFragment
-import org.koitharu.kotatsu.reader.ui.pager.webtoon.WebtoonReaderFragment
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.prefs.ReaderMode
+import org.tanukis.tanuki.core.util.ext.findKeyByValue
+import org.tanukis.tanuki.reader.ui.pager.BaseReaderFragment
+import org.tanukis.tanuki.reader.ui.pager.doublepage.DoubleReaderFragment
+import org.tanukis.tanuki.reader.ui.pager.doublereversed.ReversedDoubleReaderFragment
+import org.tanukis.tanuki.reader.ui.pager.reversed.ReversedReaderFragment
+import org.tanukis.tanuki.reader.ui.pager.standard.PagerReaderFragment
+import org.tanukis.tanuki.reader.ui.pager.vertical.VerticalReaderFragment
+import org.tanukis.tanuki.reader.ui.pager.webtoon.WebtoonReaderFragment
 import java.util.EnumMap
 
 class ReaderManager(

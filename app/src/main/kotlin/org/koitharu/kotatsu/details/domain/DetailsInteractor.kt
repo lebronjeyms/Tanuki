@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.details.domain
+package org.tanukis.tanuki.details.domain
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combine
@@ -6,21 +6,21 @@ import kotlinx.coroutines.flow.distinctUntilChangedBy
 import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.flowOf
-import org.koitharu.kotatsu.core.model.FavouriteCategory
-import org.koitharu.kotatsu.core.model.isNsfw
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.prefs.TriStateOption
-import org.koitharu.kotatsu.core.prefs.observeAsFlow
-import org.koitharu.kotatsu.details.data.MangaDetails
-import org.koitharu.kotatsu.favourites.domain.FavouritesRepository
-import org.koitharu.kotatsu.history.data.HistoryRepository
-import org.koitharu.kotatsu.local.data.LocalMangaRepository
-import org.koitharu.kotatsu.local.domain.model.LocalManga
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
-import org.koitharu.kotatsu.scrobbling.common.domain.Scrobbler
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblingInfo
-import org.koitharu.kotatsu.tracker.domain.TrackingRepository
+import org.tanukis.tanuki.core.model.FavouriteCategory
+import org.tanukis.tanuki.core.model.isNsfw
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.prefs.TriStateOption
+import org.tanukis.tanuki.core.prefs.observeAsFlow
+import org.tanukis.tanuki.details.data.MangaDetails
+import org.tanukis.tanuki.favourites.domain.FavouritesRepository
+import org.tanukis.tanuki.history.data.HistoryRepository
+import org.tanukis.tanuki.local.data.LocalMangaRepository
+import org.tanukis.tanuki.local.domain.model.LocalManga
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.scrobbling.common.domain.Scrobbler
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblingInfo
+import org.tanukis.tanuki.tracker.domain.TrackingRepository
 import javax.inject.Inject
 
 /* TODO: remove */

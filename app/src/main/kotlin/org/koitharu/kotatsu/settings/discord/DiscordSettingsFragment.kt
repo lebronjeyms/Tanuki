@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.discord
+package org.tanukis.tanuki.settings.discord
 
 import android.content.Intent
 import android.os.Bundle
@@ -10,12 +10,12 @@ import androidx.preference.EditTextPreference
 import androidx.preference.EditTextPreferenceDialogFragmentCompat
 import androidx.preference.Preference
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.ui.BasePreferenceFragment
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.withArgs
-import org.koitharu.kotatsu.scrobbling.discord.ui.DiscordAuthActivity
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.ui.BasePreferenceFragment
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.withArgs
+import org.tanukis.tanuki.scrobbling.discord.ui.DiscordAuthActivity
 
 @AndroidEntryPoint
 class DiscordSettingsFragment : BasePreferenceFragment(R.string.discord) {

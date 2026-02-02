@@ -1,11 +1,11 @@
-package org.koitharu.kotatsu.core.zip
+package org.tanukis.tanuki.core.zip
 
 import androidx.annotation.WorkerThread
 import androidx.collection.ArraySet
 import okio.Closeable
 import org.jetbrains.annotations.Blocking
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.core.util.ext.withChildren
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.core.util.ext.withChildren
 import java.io.File
 import java.io.FileInputStream
 import java.io.FileOutputStream

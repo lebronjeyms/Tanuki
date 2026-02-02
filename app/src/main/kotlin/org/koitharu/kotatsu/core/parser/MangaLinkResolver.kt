@@ -1,21 +1,21 @@
-package org.koitharu.kotatsu.core.parser
+package org.tanukis.tanuki.core.parser
 
 import android.net.Uri
 import coil3.request.CachePolicy
 import dagger.Reusable
-import org.koitharu.kotatsu.core.model.MangaSource
-import org.koitharu.kotatsu.core.model.UnknownMangaSource
-import org.koitharu.kotatsu.core.model.isNsfw
-import org.koitharu.kotatsu.core.util.ext.isHttpUrl
-import org.koitharu.kotatsu.parsers.MangaLoaderContext
-import org.koitharu.kotatsu.parsers.exception.NotFoundException
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.model.MangaListFilter
-import org.koitharu.kotatsu.parsers.model.MangaSource
-import org.koitharu.kotatsu.parsers.util.almostEquals
-import org.koitharu.kotatsu.parsers.util.ifNullOrEmpty
-import org.koitharu.kotatsu.parsers.util.levenshteinDistance
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.core.model.MangaSource
+import org.tanukis.tanuki.core.model.UnknownMangaSource
+import org.tanukis.tanuki.core.model.isNsfw
+import org.tanukis.tanuki.core.util.ext.isHttpUrl
+import org.tanukis.tanuki.parsers.MangaLoaderContext
+import org.tanukis.tanuki.parsers.exception.NotFoundException
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaListFilter
+import org.tanukis.tanuki.parsers.model.MangaSource
+import org.tanukis.tanuki.parsers.util.almostEquals
+import org.tanukis.tanuki.parsers.util.ifNullOrEmpty
+import org.tanukis.tanuki.parsers.util.levenshteinDistance
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
 import javax.inject.Inject
 
 @Reusable

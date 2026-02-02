@@ -1,11 +1,11 @@
-package org.koitharu.kotatsu.core.util
+package org.tanukis.tanuki.core.util
 
 import android.content.Context
 import android.text.Editable
 import android.widget.EditText
 import androidx.annotation.CallSuper
-import org.koitharu.kotatsu.core.ui.util.DefaultTextWatcher
-import org.koitharu.kotatsu.core.util.ext.getDisplayMessage
+import org.tanukis.tanuki.core.ui.util.DefaultTextWatcher
+import org.tanukis.tanuki.core.util.ext.getDisplayMessage
 import java.lang.ref.WeakReference
 
 abstract class EditTextValidator : DefaultTextWatcher {

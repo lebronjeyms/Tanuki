@@ -1,12 +1,12 @@
-package org.koitharu.kotatsu.local.ui
+package org.tanukis.tanuki.local.ui
 
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
 import androidx.core.view.MenuProvider
 import androidx.fragment.app.Fragment
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.nav.router
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.nav.router
 
 class LocalListMenuProvider(
 	private val fragment: Fragment,

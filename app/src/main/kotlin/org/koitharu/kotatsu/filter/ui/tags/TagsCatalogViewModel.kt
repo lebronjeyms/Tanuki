@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.filter.ui.tags
+package org.tanukis.tanuki.filter.ui.tags
 
 import androidx.lifecycle.viewModelScope
 import dagger.assisted.Assisted
@@ -14,17 +14,17 @@ import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.plus
-import org.koitharu.kotatsu.core.parser.MangaDataRepository
-import org.koitharu.kotatsu.core.ui.BaseViewModel
-import org.koitharu.kotatsu.filter.ui.FilterCoordinator
-import org.koitharu.kotatsu.filter.ui.model.FilterProperty
-import org.koitharu.kotatsu.filter.ui.model.TagCatalogItem
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.list.ui.model.LoadingState
-import org.koitharu.kotatsu.list.ui.model.toErrorFooter
-import org.koitharu.kotatsu.list.ui.model.toErrorState
-import org.koitharu.kotatsu.parsers.model.MangaParserSource
-import org.koitharu.kotatsu.parsers.model.MangaTag
+import org.tanukis.tanuki.core.parser.MangaDataRepository
+import org.tanukis.tanuki.core.ui.BaseViewModel
+import org.tanukis.tanuki.filter.ui.FilterCoordinator
+import org.tanukis.tanuki.filter.ui.model.FilterProperty
+import org.tanukis.tanuki.filter.ui.model.TagCatalogItem
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.list.ui.model.LoadingState
+import org.tanukis.tanuki.list.ui.model.toErrorFooter
+import org.tanukis.tanuki.list.ui.model.toErrorState
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.model.MangaTag
 
 @HiltViewModel(assistedFactory = TagsCatalogViewModel.Factory::class)
 class TagsCatalogViewModel @AssistedInject constructor(

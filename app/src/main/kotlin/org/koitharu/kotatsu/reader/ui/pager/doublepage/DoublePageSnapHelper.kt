@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.reader.ui.pager.doublepage
+package org.tanukis.tanuki.reader.ui.pager.doublepage
 
 import android.util.DisplayMetrics
 import android.view.View
@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.OrientationHelper
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.SmoothScroller.ScrollVectorProvider
 import androidx.recyclerview.widget.SnapHelper
-import org.koitharu.kotatsu.core.prefs.AppSettings
+import org.tanukis.tanuki.core.prefs.AppSettings
 import kotlin.math.abs
 import kotlin.math.absoluteValue
 import kotlin.math.max

@@ -1,13 +1,13 @@
-package org.koitharu.kotatsu.details.ui.pager.pages
+package org.tanukis.tanuki.details.ui.pager.pages
 
 import coil3.size.Size
 import com.hannesdorfmann.adapterdelegates4.dsl.adapterDelegateViewBinding
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.ui.list.AdapterDelegateClickListenerAdapter
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.core.util.ext.setTextColorAttr
-import org.koitharu.kotatsu.databinding.ItemPageThumbBinding
-import org.koitharu.kotatsu.list.ui.model.ListModel
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.ui.list.AdapterDelegateClickListenerAdapter
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.core.util.ext.setTextColorAttr
+import org.tanukis.tanuki.databinding.ItemPageThumbBinding
+import org.tanukis.tanuki.list.ui.model.ListModel
 import com.google.android.material.R as materialR
 
 fun pageThumbnailAD(

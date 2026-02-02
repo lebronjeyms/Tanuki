@@ -1,13 +1,13 @@
-package org.koitharu.kotatsu.core.nav
+package org.tanukis.tanuki.core.nav
 
 import android.content.Context
 import android.content.Intent
-import org.koitharu.kotatsu.BuildConfig
-import org.koitharu.kotatsu.bookmarks.domain.Bookmark
-import org.koitharu.kotatsu.core.model.parcelable.ParcelableManga
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.reader.ui.ReaderActivity
-import org.koitharu.kotatsu.reader.ui.ReaderState
+import org.tanukis.tanuki.BuildConfig
+import org.tanukis.tanuki.bookmarks.domain.Bookmark
+import org.tanukis.tanuki.core.model.parcelable.ParcelableManga
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.reader.ui.ReaderActivity
+import org.tanukis.tanuki.reader.ui.ReaderState
 
 @JvmInline
 value class ReaderIntent private constructor(

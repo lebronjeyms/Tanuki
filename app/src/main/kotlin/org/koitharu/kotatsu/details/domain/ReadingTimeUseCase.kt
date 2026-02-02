@@ -1,11 +1,11 @@
-package org.koitharu.kotatsu.details.domain
+package org.tanukis.tanuki.details.domain
 
-import org.koitharu.kotatsu.core.model.MangaHistory
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.details.data.MangaDetails
-import org.koitharu.kotatsu.details.data.ReadingTime
-import org.koitharu.kotatsu.parsers.util.findById
-import org.koitharu.kotatsu.stats.data.StatsRepository
+import org.tanukis.tanuki.core.model.MangaHistory
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.details.data.MangaDetails
+import org.tanukis.tanuki.details.data.ReadingTime
+import org.tanukis.tanuki.parsers.util.findById
+import org.tanukis.tanuki.stats.data.StatsRepository
 import java.util.concurrent.TimeUnit
 import javax.inject.Inject
 import kotlin.math.roundToInt

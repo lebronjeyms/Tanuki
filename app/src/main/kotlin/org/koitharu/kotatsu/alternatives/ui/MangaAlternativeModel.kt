@@ -1,9 +1,9 @@
-package org.koitharu.kotatsu.alternatives.ui
+package org.tanukis.tanuki.alternatives.ui
 
-import org.koitharu.kotatsu.core.model.chaptersCount
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.list.ui.model.MangaGridModel
-import org.koitharu.kotatsu.parsers.model.Manga
+import org.tanukis.tanuki.core.model.chaptersCount
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.list.ui.model.MangaGridModel
+import org.tanukis.tanuki.parsers.model.Manga
 
 data class MangaAlternativeModel(
 	val mangaModel: MangaGridModel,

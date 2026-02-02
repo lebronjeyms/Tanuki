@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.sources.auth
+package org.tanukis.tanuki.settings.sources.auth
 
 import android.content.Context
 import android.content.Intent
@@ -11,17 +11,17 @@ import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.browser.BaseBrowserActivity
-import org.koitharu.kotatsu.browser.BrowserCallback
-import org.koitharu.kotatsu.browser.BrowserClient
-import org.koitharu.kotatsu.core.model.getTitle
-import org.koitharu.kotatsu.core.nav.AppRouter
-import org.koitharu.kotatsu.core.parser.ParserMangaRepository
-import org.koitharu.kotatsu.core.util.ext.getDisplayMessage
-import org.koitharu.kotatsu.parsers.MangaParserAuthProvider
-import org.koitharu.kotatsu.parsers.model.MangaSource
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.browser.BaseBrowserActivity
+import org.tanukis.tanuki.browser.BrowserCallback
+import org.tanukis.tanuki.browser.BrowserClient
+import org.tanukis.tanuki.core.model.getTitle
+import org.tanukis.tanuki.core.nav.AppRouter
+import org.tanukis.tanuki.core.parser.ParserMangaRepository
+import org.tanukis.tanuki.core.util.ext.getDisplayMessage
+import org.tanukis.tanuki.parsers.MangaParserAuthProvider
+import org.tanukis.tanuki.parsers.model.MangaSource
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
 
 @AndroidEntryPoint
 class SourceAuthActivity : BaseBrowserActivity(), BrowserCallback {

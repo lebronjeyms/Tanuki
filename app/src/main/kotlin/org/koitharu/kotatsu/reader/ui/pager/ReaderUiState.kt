@@ -1,8 +1,8 @@
-package org.koitharu.kotatsu.reader.ui.pager
+package org.tanukis.tanuki.reader.ui.pager
 
 import android.content.res.Resources
-import org.koitharu.kotatsu.core.model.getLocalizedTitle
-import org.koitharu.kotatsu.parsers.model.MangaChapter
+import org.tanukis.tanuki.core.model.getLocalizedTitle
+import org.tanukis.tanuki.parsers.model.MangaChapter
 
 data class ReaderUiState(
 	val mangaName: String?,

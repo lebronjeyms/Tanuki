@@ -1,8 +1,8 @@
-package org.koitharu.kotatsu.details.data
+package org.tanukis.tanuki.details.data
 
 import android.content.res.Resources
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.util.ext.getQuantityStringSafe
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.util.ext.getQuantityStringSafe
 
 data class ReadingTime(
 	val minutes: Int,

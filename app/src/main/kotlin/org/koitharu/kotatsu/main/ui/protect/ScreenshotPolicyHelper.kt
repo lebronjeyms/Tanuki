@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.main.ui.protect
+package org.tanukis.tanuki.main.ui.protect
 
 import android.app.Activity
 import android.os.Bundle
@@ -13,10 +13,10 @@ import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.prefs.ScreenshotsPolicy
-import org.koitharu.kotatsu.core.prefs.observeAsFlow
-import org.koitharu.kotatsu.core.ui.DefaultActivityLifecycleCallbacks
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.prefs.ScreenshotsPolicy
+import org.tanukis.tanuki.core.prefs.observeAsFlow
+import org.tanukis.tanuki.core.ui.DefaultActivityLifecycleCallbacks
 import javax.inject.Inject
 
 class ScreenshotPolicyHelper @Inject constructor(

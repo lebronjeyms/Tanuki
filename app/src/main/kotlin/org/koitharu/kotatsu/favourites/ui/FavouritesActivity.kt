@@ -1,9 +1,9 @@
-package org.koitharu.kotatsu.favourites.ui
+package org.tanukis.tanuki.favourites.ui
 
 import android.os.Bundle
-import org.koitharu.kotatsu.core.nav.AppRouter
-import org.koitharu.kotatsu.core.ui.FragmentContainerActivity
-import org.koitharu.kotatsu.favourites.ui.list.FavouritesListFragment
+import org.tanukis.tanuki.core.nav.AppRouter
+import org.tanukis.tanuki.core.ui.FragmentContainerActivity
+import org.tanukis.tanuki.favourites.ui.list.FavouritesListFragment
 
 class FavouritesActivity : FragmentContainerActivity(FavouritesListFragment::class.java) {
 

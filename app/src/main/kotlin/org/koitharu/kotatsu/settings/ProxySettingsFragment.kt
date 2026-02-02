@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings
+package org.tanukis.tanuki.settings
 
 import android.content.SharedPreferences
 import android.os.Bundle
@@ -15,18 +15,18 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import okhttp3.OkHttpClient
 import okhttp3.Request
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.network.BaseHttpClient
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.ui.BasePreferenceFragment
-import org.koitharu.kotatsu.core.util.ext.getDisplayMessage
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.core.util.ext.viewLifecycleScope
-import org.koitharu.kotatsu.parsers.util.await
-import org.koitharu.kotatsu.settings.utils.EditTextBindListener
-import org.koitharu.kotatsu.settings.utils.PasswordSummaryProvider
-import org.koitharu.kotatsu.settings.utils.validation.DomainValidator
-import org.koitharu.kotatsu.settings.utils.validation.PortNumberValidator
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.network.BaseHttpClient
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.ui.BasePreferenceFragment
+import org.tanukis.tanuki.core.util.ext.getDisplayMessage
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.core.util.ext.viewLifecycleScope
+import org.tanukis.tanuki.parsers.util.await
+import org.tanukis.tanuki.settings.utils.EditTextBindListener
+import org.tanukis.tanuki.settings.utils.PasswordSummaryProvider
+import org.tanukis.tanuki.settings.utils.validation.DomainValidator
+import org.tanukis.tanuki.settings.utils.validation.PortNumberValidator
 import java.net.Proxy
 import javax.inject.Inject
 import kotlin.coroutines.cancellation.CancellationException

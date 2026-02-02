@@ -1,8 +1,8 @@
-package org.koitharu.kotatsu.search.ui.suggestion.adapter
+package org.tanukis.tanuki.search.ui.suggestion.adapter
 
-import org.koitharu.kotatsu.core.ui.BaseListAdapter
-import org.koitharu.kotatsu.search.ui.suggestion.SearchSuggestionListener
-import org.koitharu.kotatsu.search.ui.suggestion.model.SearchSuggestionItem
+import org.tanukis.tanuki.core.ui.BaseListAdapter
+import org.tanukis.tanuki.search.ui.suggestion.SearchSuggestionListener
+import org.tanukis.tanuki.search.ui.suggestion.model.SearchSuggestionItem
 
 const val SEARCH_SUGGESTION_ITEM_TYPE_QUERY = 0
 

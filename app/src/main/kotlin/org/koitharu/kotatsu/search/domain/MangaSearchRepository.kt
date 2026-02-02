@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.search.domain
+package org.tanukis.tanuki.search.domain
 
 import android.app.SearchManager
 import android.content.Context
@@ -9,20 +9,20 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.currentCoroutineContext
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.withContext
-import org.koitharu.kotatsu.core.db.MangaDatabase
-import org.koitharu.kotatsu.core.db.entity.toEntity
-import org.koitharu.kotatsu.core.db.entity.toManga
-import org.koitharu.kotatsu.core.db.entity.toMangaTag
-import org.koitharu.kotatsu.core.db.entity.toMangaTagsList
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.explore.data.MangaSourcesRepository
-import org.koitharu.kotatsu.parsers.model.ContentType
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.model.MangaSource
-import org.koitharu.kotatsu.parsers.model.MangaTag
-import org.koitharu.kotatsu.parsers.util.levenshteinDistance
-import org.koitharu.kotatsu.parsers.util.mapToSet
-import org.koitharu.kotatsu.search.ui.MangaSuggestionsProvider
+import org.tanukis.tanuki.core.db.MangaDatabase
+import org.tanukis.tanuki.core.db.entity.toEntity
+import org.tanukis.tanuki.core.db.entity.toManga
+import org.tanukis.tanuki.core.db.entity.toMangaTag
+import org.tanukis.tanuki.core.db.entity.toMangaTagsList
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.explore.data.MangaSourcesRepository
+import org.tanukis.tanuki.parsers.model.ContentType
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaSource
+import org.tanukis.tanuki.parsers.model.MangaTag
+import org.tanukis.tanuki.parsers.util.levenshteinDistance
+import org.tanukis.tanuki.parsers.util.mapToSet
+import org.tanukis.tanuki.search.ui.MangaSuggestionsProvider
 import javax.inject.Inject
 
 @Reusable

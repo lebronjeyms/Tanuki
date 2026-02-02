@@ -1,15 +1,15 @@
-package org.koitharu.kotatsu.reader.domain
+package org.tanukis.tanuki.reader.domain
 
 import android.util.LongSparseArray
 import androidx.annotation.CheckResult
 import dagger.hilt.android.scopes.ViewModelScoped
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
-import org.koitharu.kotatsu.core.parser.MangaRepository
-import org.koitharu.kotatsu.details.data.MangaDetails
-import org.koitharu.kotatsu.parsers.model.MangaChapter
-import org.koitharu.kotatsu.parsers.model.MangaPage
-import org.koitharu.kotatsu.reader.ui.pager.ReaderPage
+import org.tanukis.tanuki.core.parser.MangaRepository
+import org.tanukis.tanuki.details.data.MangaDetails
+import org.tanukis.tanuki.parsers.model.MangaChapter
+import org.tanukis.tanuki.parsers.model.MangaPage
+import org.tanukis.tanuki.reader.ui.pager.ReaderPage
 import javax.inject.Inject
 
 private const val PAGES_TRIM_THRESHOLD = 120

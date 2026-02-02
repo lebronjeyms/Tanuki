@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.download.ui.worker
+package org.tanukis.tanuki.download.ui.worker
 
 import android.app.Notification
 import android.app.PendingIntent
@@ -21,22 +21,22 @@ import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.ErrorReporterReceiver
-import org.koitharu.kotatsu.core.LocalizedAppContext
-import org.koitharu.kotatsu.core.model.LocalMangaSource
-import org.koitharu.kotatsu.core.model.isNsfw
-import org.koitharu.kotatsu.core.nav.AppRouter
-import org.koitharu.kotatsu.core.util.ext.getDrawableOrThrow
-import org.koitharu.kotatsu.core.util.ext.getNotificationIconSize
-import org.koitharu.kotatsu.core.util.ext.isReportable
-import org.koitharu.kotatsu.core.util.ext.mangaSourceExtra
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.download.domain.DownloadState
-import org.koitharu.kotatsu.download.ui.list.DownloadsActivity
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.util.format
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.ErrorReporterReceiver
+import org.tanukis.tanuki.core.LocalizedAppContext
+import org.tanukis.tanuki.core.model.LocalMangaSource
+import org.tanukis.tanuki.core.model.isNsfw
+import org.tanukis.tanuki.core.nav.AppRouter
+import org.tanukis.tanuki.core.util.ext.getDrawableOrThrow
+import org.tanukis.tanuki.core.util.ext.getNotificationIconSize
+import org.tanukis.tanuki.core.util.ext.isReportable
+import org.tanukis.tanuki.core.util.ext.mangaSourceExtra
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.download.domain.DownloadState
+import org.tanukis.tanuki.download.ui.list.DownloadsActivity
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.util.format
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
 import java.util.UUID
 import androidx.appcompat.R as appcompatR
 

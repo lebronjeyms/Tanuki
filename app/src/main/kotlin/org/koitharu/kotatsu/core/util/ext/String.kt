@@ -1,10 +1,10 @@
-package org.koitharu.kotatsu.core.util.ext
+package org.tanukis.tanuki.core.util.ext
 
 import android.content.Context
 import androidx.collection.arraySetOf
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.parsers.util.ellipsize
-import org.koitharu.kotatsu.parsers.util.nullIfEmpty
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.parsers.util.ellipsize
+import org.tanukis.tanuki.parsers.util.nullIfEmpty
 import java.util.UUID
 
 fun String.toUUIDOrNull(): UUID? = try {

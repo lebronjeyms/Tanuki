@@ -1,12 +1,12 @@
-package org.koitharu.kotatsu.widget.recent
+package org.tanukis.tanuki.widget.recent
 
 import android.content.Intent
 import android.widget.RemoteViewsService
 import coil3.ImageLoader
 import dagger.Lazy
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.history.data.HistoryRepository
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.history.data.HistoryRepository
 import javax.inject.Inject
 
 @AndroidEntryPoint

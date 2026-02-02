@@ -1,7 +1,7 @@
-package org.koitharu.kotatsu.explore.data
+package org.tanukis.tanuki.explore.data
 
 import androidx.annotation.StringRes
-import org.koitharu.kotatsu.R
+import org.tanukis.tanuki.R
 
 enum class SourcesSortOrder(
 	@StringRes val titleResId: Int,

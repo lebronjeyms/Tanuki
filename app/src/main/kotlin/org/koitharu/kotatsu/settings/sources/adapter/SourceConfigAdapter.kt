@@ -1,7 +1,7 @@
-package org.koitharu.kotatsu.settings.sources.adapter
+package org.tanukis.tanuki.settings.sources.adapter
 
-import org.koitharu.kotatsu.core.ui.ReorderableListAdapter
-import org.koitharu.kotatsu.settings.sources.model.SourceConfigItem
+import org.tanukis.tanuki.core.ui.ReorderableListAdapter
+import org.tanukis.tanuki.settings.sources.model.SourceConfigItem
 
 class SourceConfigAdapter(
 	listener: SourceConfigListener,

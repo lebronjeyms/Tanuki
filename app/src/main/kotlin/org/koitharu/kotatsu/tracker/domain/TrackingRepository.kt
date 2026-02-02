@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.tracker.domain
+package org.tanukis.tanuki.tracker.domain
 
 import androidx.annotation.VisibleForTesting
 import androidx.room.withTransaction
@@ -6,22 +6,22 @@ import dagger.Reusable
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.onStart
-import org.koitharu.kotatsu.core.db.MangaDatabase
-import org.koitharu.kotatsu.core.db.entity.toManga
-import org.koitharu.kotatsu.core.db.entity.toMangaTags
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.util.ext.mapItems
-import org.koitharu.kotatsu.core.util.ext.toInstantOrNull
-import org.koitharu.kotatsu.details.domain.ProgressUpdateUseCase
-import org.koitharu.kotatsu.list.domain.ListFilterOption
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.util.ifZero
-import org.koitharu.kotatsu.tracker.data.TrackEntity
-import org.koitharu.kotatsu.tracker.data.TrackLogEntity
-import org.koitharu.kotatsu.tracker.data.toTrackingLogItem
-import org.koitharu.kotatsu.tracker.domain.model.MangaTracking
-import org.koitharu.kotatsu.tracker.domain.model.MangaUpdates
-import org.koitharu.kotatsu.tracker.domain.model.TrackingLogItem
+import org.tanukis.tanuki.core.db.MangaDatabase
+import org.tanukis.tanuki.core.db.entity.toManga
+import org.tanukis.tanuki.core.db.entity.toMangaTags
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.util.ext.mapItems
+import org.tanukis.tanuki.core.util.ext.toInstantOrNull
+import org.tanukis.tanuki.details.domain.ProgressUpdateUseCase
+import org.tanukis.tanuki.list.domain.ListFilterOption
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.util.ifZero
+import org.tanukis.tanuki.tracker.data.TrackEntity
+import org.tanukis.tanuki.tracker.data.TrackLogEntity
+import org.tanukis.tanuki.tracker.data.toTrackingLogItem
+import org.tanukis.tanuki.tracker.domain.model.MangaTracking
+import org.tanukis.tanuki.tracker.domain.model.MangaUpdates
+import org.tanukis.tanuki.tracker.domain.model.TrackingLogItem
 import java.util.concurrent.atomic.AtomicBoolean
 import javax.inject.Inject
 

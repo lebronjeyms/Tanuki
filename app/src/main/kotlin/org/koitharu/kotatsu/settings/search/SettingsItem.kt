@@ -1,7 +1,7 @@
-package org.koitharu.kotatsu.settings.search
+package org.tanukis.tanuki.settings.search
 
 import androidx.preference.PreferenceFragmentCompat
-import org.koitharu.kotatsu.list.ui.model.ListModel
+import org.tanukis.tanuki.list.ui.model.ListModel
 
 data class SettingsItem(
 	val key: String,

@@ -1,8 +1,8 @@
-package org.koitharu.kotatsu.widget.shelf.adapter
+package org.tanukis.tanuki.widget.shelf.adapter
 
-import org.koitharu.kotatsu.core.ui.BaseListAdapter
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.widget.shelf.model.CategoryItem
+import org.tanukis.tanuki.core.ui.BaseListAdapter
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.widget.shelf.model.CategoryItem
 
 class CategorySelectAdapter(
 	clickListener: OnListItemClickListener<CategoryItem>

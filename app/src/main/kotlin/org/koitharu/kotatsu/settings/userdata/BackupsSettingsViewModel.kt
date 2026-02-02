@@ -1,11 +1,11 @@
-package org.koitharu.kotatsu.settings.userdata
+package org.tanukis.tanuki.settings.userdata
 
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.flowOf
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.prefs.observeAsFlow
-import org.koitharu.kotatsu.core.ui.BaseViewModel
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.prefs.observeAsFlow
+import org.tanukis.tanuki.core.ui.BaseViewModel
 import javax.inject.Inject
 
 @HiltViewModel

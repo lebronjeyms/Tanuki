@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.list.domain
+package org.tanukis.tanuki.list.domain
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -8,24 +8,24 @@ import androidx.collection.MutableScatterSet
 import androidx.collection.ScatterSet
 import dagger.Reusable
 import dagger.hilt.android.qualifiers.ApplicationContext
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.parser.MangaDataRepository
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.prefs.ListMode
-import org.koitharu.kotatsu.core.ui.model.MangaOverride
-import org.koitharu.kotatsu.core.ui.widgets.ChipsView
-import org.koitharu.kotatsu.favourites.domain.FavouritesRepository
-import org.koitharu.kotatsu.history.data.HistoryRepository
-import org.koitharu.kotatsu.list.ui.model.MangaCompactListModel
-import org.koitharu.kotatsu.list.ui.model.MangaDetailedListModel
-import org.koitharu.kotatsu.list.ui.model.MangaGridModel
-import org.koitharu.kotatsu.list.ui.model.MangaListModel
-import org.koitharu.kotatsu.local.data.index.LocalMangaIndex
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.model.MangaTag
-import org.koitharu.kotatsu.tracker.domain.TrackingRepository
-import org.koitharu.kotatsu.tracker.domain.model.TrackingLogItem
-import org.koitharu.kotatsu.tracker.ui.feed.model.FeedItem
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.parser.MangaDataRepository
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.prefs.ListMode
+import org.tanukis.tanuki.core.ui.model.MangaOverride
+import org.tanukis.tanuki.core.ui.widgets.ChipsView
+import org.tanukis.tanuki.favourites.domain.FavouritesRepository
+import org.tanukis.tanuki.history.data.HistoryRepository
+import org.tanukis.tanuki.list.ui.model.MangaCompactListModel
+import org.tanukis.tanuki.list.ui.model.MangaDetailedListModel
+import org.tanukis.tanuki.list.ui.model.MangaGridModel
+import org.tanukis.tanuki.list.ui.model.MangaListModel
+import org.tanukis.tanuki.local.data.index.LocalMangaIndex
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaTag
+import org.tanukis.tanuki.tracker.domain.TrackingRepository
+import org.tanukis.tanuki.tracker.domain.model.TrackingLogItem
+import org.tanukis.tanuki.tracker.ui.feed.model.FeedItem
 import javax.inject.Inject
 
 @Reusable

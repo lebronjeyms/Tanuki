@@ -1,6 +1,6 @@
-package org.koitharu.kotatsu.explore.ui.model
+package org.tanukis.tanuki.explore.ui.model
 
-import org.koitharu.kotatsu.list.ui.model.ListModel
+import org.tanukis.tanuki.list.ui.model.ListModel
 
 data class ExploreButtons(
 	val isRandomLoading: Boolean,

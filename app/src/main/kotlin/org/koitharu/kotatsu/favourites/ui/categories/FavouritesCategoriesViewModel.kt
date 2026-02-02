@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.favourites.ui.categories
+package org.tanukis.tanuki.favourites.ui.categories
 
 import androidx.collection.LongSet
 import androidx.lifecycle.viewModelScope
@@ -13,19 +13,19 @@ import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.mapLatest
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.plus
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.model.FavouriteCategory
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.prefs.observeAsFlow
-import org.koitharu.kotatsu.core.ui.BaseViewModel
-import org.koitharu.kotatsu.core.util.ext.requireValue
-import org.koitharu.kotatsu.favourites.domain.FavouritesRepository
-import org.koitharu.kotatsu.favourites.domain.model.Cover
-import org.koitharu.kotatsu.favourites.ui.categories.adapter.AllCategoriesListModel
-import org.koitharu.kotatsu.favourites.ui.categories.adapter.CategoryListModel
-import org.koitharu.kotatsu.list.ui.model.EmptyState
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.list.ui.model.LoadingState
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.model.FavouriteCategory
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.prefs.observeAsFlow
+import org.tanukis.tanuki.core.ui.BaseViewModel
+import org.tanukis.tanuki.core.util.ext.requireValue
+import org.tanukis.tanuki.favourites.domain.FavouritesRepository
+import org.tanukis.tanuki.favourites.domain.model.Cover
+import org.tanukis.tanuki.favourites.ui.categories.adapter.AllCategoriesListModel
+import org.tanukis.tanuki.favourites.ui.categories.adapter.CategoryListModel
+import org.tanukis.tanuki.list.ui.model.EmptyState
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.list.ui.model.LoadingState
 import javax.inject.Inject
 
 @HiltViewModel

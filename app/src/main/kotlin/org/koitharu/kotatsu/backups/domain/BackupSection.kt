@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.backups.domain
+package org.tanukis.tanuki.backups.domain
 
 import java.util.Locale
 import java.util.zip.ZipEntry

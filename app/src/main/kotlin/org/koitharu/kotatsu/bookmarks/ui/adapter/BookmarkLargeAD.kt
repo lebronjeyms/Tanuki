@@ -1,11 +1,11 @@
-package org.koitharu.kotatsu.bookmarks.ui.adapter
+package org.tanukis.tanuki.bookmarks.ui.adapter
 
 import com.hannesdorfmann.adapterdelegates4.dsl.adapterDelegateViewBinding
-import org.koitharu.kotatsu.bookmarks.domain.Bookmark
-import org.koitharu.kotatsu.core.ui.list.AdapterDelegateClickListenerAdapter
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.databinding.ItemBookmarkLargeBinding
-import org.koitharu.kotatsu.list.ui.model.ListModel
+import org.tanukis.tanuki.bookmarks.domain.Bookmark
+import org.tanukis.tanuki.core.ui.list.AdapterDelegateClickListenerAdapter
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.databinding.ItemBookmarkLargeBinding
+import org.tanukis.tanuki.list.ui.model.ListModel
 
 fun bookmarkLargeAD(
 	clickListener: OnListItemClickListener<Bookmark>,

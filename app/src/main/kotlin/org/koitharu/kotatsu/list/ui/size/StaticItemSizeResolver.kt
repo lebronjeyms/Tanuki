@@ -1,11 +1,11 @@
-package org.koitharu.kotatsu.list.ui.size
+package org.tanukis.tanuki.list.ui.size
 
 import android.view.View
 import android.widget.TextView
 import androidx.core.view.updateLayoutParams
 import androidx.core.widget.TextViewCompat
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.history.ui.util.ReadingProgressView
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.history.ui.util.ReadingProgressView
 
 class StaticItemSizeResolver(
 	override val cellWidth: Int,

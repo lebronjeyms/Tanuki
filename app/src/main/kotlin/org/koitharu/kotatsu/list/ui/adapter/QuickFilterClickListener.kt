@@ -1,6 +1,6 @@
-package org.koitharu.kotatsu.list.ui.adapter
+package org.tanukis.tanuki.list.ui.adapter
 
-import org.koitharu.kotatsu.list.domain.ListFilterOption
+import org.tanukis.tanuki.list.domain.ListFilterOption
 
 interface QuickFilterClickListener {
 

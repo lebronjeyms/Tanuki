@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.sync.ui
+package org.tanukis.tanuki.sync.ui
 
 import android.accounts.AccountManager
 import android.content.Context
@@ -6,12 +6,12 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.ui.BaseViewModel
-import org.koitharu.kotatsu.core.util.ext.MutableEventFlow
-import org.koitharu.kotatsu.core.util.ext.call
-import org.koitharu.kotatsu.sync.data.SyncAuthApi
-import org.koitharu.kotatsu.sync.domain.SyncAuthResult
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.ui.BaseViewModel
+import org.tanukis.tanuki.core.util.ext.MutableEventFlow
+import org.tanukis.tanuki.core.util.ext.call
+import org.tanukis.tanuki.sync.data.SyncAuthApi
+import org.tanukis.tanuki.sync.domain.SyncAuthResult
 import javax.inject.Inject
 
 @HiltViewModel

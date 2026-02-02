@@ -1,10 +1,10 @@
-package org.koitharu.kotatsu.settings.tracker.categories
+package org.tanukis.tanuki.settings.tracker.categories
 
 import com.hannesdorfmann.adapterdelegates4.dsl.adapterDelegateViewBinding
-import org.koitharu.kotatsu.core.model.FavouriteCategory
-import org.koitharu.kotatsu.core.ui.list.AdapterDelegateClickListenerAdapter
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.databinding.ItemCategoryCheckableMultipleBinding
+import org.tanukis.tanuki.core.model.FavouriteCategory
+import org.tanukis.tanuki.core.ui.list.AdapterDelegateClickListenerAdapter
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.databinding.ItemCategoryCheckableMultipleBinding
 
 fun trackerCategoryAD(
 	listener: OnListItemClickListener<FavouriteCategory>,

@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.download.ui.worker
+package org.tanukis.tanuki.download.ui.worker
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -7,7 +7,7 @@ import android.content.IntentFilter
 import android.os.PatternMatcher
 import androidx.core.app.PendingIntentCompat
 import androidx.core.net.toUri
-import org.koitharu.kotatsu.core.util.ext.toUUIDOrNull
+import org.tanukis.tanuki.core.util.ext.toUUIDOrNull
 import java.util.UUID
 
 class PausingReceiver(

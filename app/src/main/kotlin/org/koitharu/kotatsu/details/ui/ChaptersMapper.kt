@@ -1,14 +1,14 @@
-package org.koitharu.kotatsu.details.ui
+package org.tanukis.tanuki.details.ui
 
 import android.content.Context
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.bookmarks.domain.Bookmark
-import org.koitharu.kotatsu.details.data.MangaDetails
-import org.koitharu.kotatsu.details.ui.model.ChapterListItem
-import org.koitharu.kotatsu.details.ui.model.toListItem
-import org.koitharu.kotatsu.list.ui.model.ListHeader
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.parsers.util.mapToSet
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.bookmarks.domain.Bookmark
+import org.tanukis.tanuki.details.data.MangaDetails
+import org.tanukis.tanuki.details.ui.model.ChapterListItem
+import org.tanukis.tanuki.details.ui.model.toListItem
+import org.tanukis.tanuki.list.ui.model.ListHeader
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.parsers.util.mapToSet
 
 fun MangaDetails.mapChapters(
 	currentChapterId: Long,

@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.model
+package org.tanukis.tanuki.core.model
 
 enum class SortDirection {
 

@@ -1,6 +1,6 @@
-package org.koitharu.kotatsu.tracker.domain
+package org.tanukis.tanuki.tracker.domain
 
-import org.koitharu.kotatsu.tracker.domain.model.MangaTracking
+import org.tanukis.tanuki.tracker.domain.model.MangaTracking
 import javax.inject.Inject
 
 class GetTracksUseCase @Inject constructor(

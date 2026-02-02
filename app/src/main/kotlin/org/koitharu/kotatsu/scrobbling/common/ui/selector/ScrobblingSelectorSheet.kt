@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.scrobbling.common.ui.selector
+package org.tanukis.tanuki.scrobbling.common.ui.selector
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -15,30 +15,30 @@ import androidx.recyclerview.widget.RecyclerView.NO_ID
 import com.google.android.material.tabs.TabLayout
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.exceptions.resolve.ExceptionResolver
-import org.koitharu.kotatsu.core.nav.AppRouter
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.core.ui.list.PaginationScrollListener
-import org.koitharu.kotatsu.core.ui.sheet.BaseAdaptiveSheet
-import org.koitharu.kotatsu.core.ui.util.CollapseActionViewCallback
-import org.koitharu.kotatsu.core.util.RecyclerViewScrollCallback
-import org.koitharu.kotatsu.core.util.ext.consume
-import org.koitharu.kotatsu.core.util.ext.firstVisibleItemPosition
-import org.koitharu.kotatsu.core.util.ext.getDisplayMessage
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.observeEvent
-import org.koitharu.kotatsu.core.util.ext.setProgressIcon
-import org.koitharu.kotatsu.core.util.ext.setTabsEnabled
-import org.koitharu.kotatsu.core.util.ext.viewLifecycleScope
-import org.koitharu.kotatsu.databinding.SheetScrobblingSelectorBinding
-import org.koitharu.kotatsu.list.ui.adapter.ListStateHolderListener
-import org.koitharu.kotatsu.list.ui.adapter.TypedListSpacingDecoration
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.list.ui.model.LoadingFooter
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerManga
-import org.koitharu.kotatsu.scrobbling.common.ui.selector.adapter.ScrobblerMangaSelectionDecoration
-import org.koitharu.kotatsu.scrobbling.common.ui.selector.adapter.ScrobblerSelectorAdapter
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.exceptions.resolve.ExceptionResolver
+import org.tanukis.tanuki.core.nav.AppRouter
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.core.ui.list.PaginationScrollListener
+import org.tanukis.tanuki.core.ui.sheet.BaseAdaptiveSheet
+import org.tanukis.tanuki.core.ui.util.CollapseActionViewCallback
+import org.tanukis.tanuki.core.util.RecyclerViewScrollCallback
+import org.tanukis.tanuki.core.util.ext.consume
+import org.tanukis.tanuki.core.util.ext.firstVisibleItemPosition
+import org.tanukis.tanuki.core.util.ext.getDisplayMessage
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.observeEvent
+import org.tanukis.tanuki.core.util.ext.setProgressIcon
+import org.tanukis.tanuki.core.util.ext.setTabsEnabled
+import org.tanukis.tanuki.core.util.ext.viewLifecycleScope
+import org.tanukis.tanuki.databinding.SheetScrobblingSelectorBinding
+import org.tanukis.tanuki.list.ui.adapter.ListStateHolderListener
+import org.tanukis.tanuki.list.ui.adapter.TypedListSpacingDecoration
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.list.ui.model.LoadingFooter
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerManga
+import org.tanukis.tanuki.scrobbling.common.ui.selector.adapter.ScrobblerMangaSelectionDecoration
+import org.tanukis.tanuki.scrobbling.common.ui.selector.adapter.ScrobblerSelectorAdapter
 
 @AndroidEntryPoint
 class ScrobblingSelectorSheet :

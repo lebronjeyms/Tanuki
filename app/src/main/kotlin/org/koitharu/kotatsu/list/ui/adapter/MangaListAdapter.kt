@@ -1,8 +1,8 @@
-package org.koitharu.kotatsu.list.ui.adapter
+package org.tanukis.tanuki.list.ui.adapter
 
-import org.koitharu.kotatsu.core.ui.BaseListAdapter
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.list.ui.size.ItemSizeResolver
+import org.tanukis.tanuki.core.ui.BaseListAdapter
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.list.ui.size.ItemSizeResolver
 
 open class MangaListAdapter(
 	listener: MangaListListener,

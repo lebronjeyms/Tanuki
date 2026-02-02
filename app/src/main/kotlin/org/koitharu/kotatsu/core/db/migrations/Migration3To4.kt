@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.db.migrations
+package org.tanukis.tanuki.core.db.migrations
 
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase

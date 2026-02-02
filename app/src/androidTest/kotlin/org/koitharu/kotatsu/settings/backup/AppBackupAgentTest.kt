@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.backup
+package org.tanukis.tanuki.settings.backup
 
 import android.content.res.AssetManager
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -14,13 +14,13 @@ import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.koitharu.kotatsu.SampleData
-import org.koitharu.kotatsu.backups.data.BackupRepository
-import org.koitharu.kotatsu.backups.domain.AppBackupAgent
-import org.koitharu.kotatsu.core.db.MangaDatabase
-import org.koitharu.kotatsu.core.db.entity.toMangaTags
-import org.koitharu.kotatsu.favourites.domain.FavouritesRepository
-import org.koitharu.kotatsu.history.data.HistoryRepository
+import org.tanukis.tanuki.SampleData
+import org.tanukis.tanuki.backups.data.BackupRepository
+import org.tanukis.tanuki.backups.domain.AppBackupAgent
+import org.tanukis.tanuki.core.db.MangaDatabase
+import org.tanukis.tanuki.core.db.entity.toMangaTags
+import org.tanukis.tanuki.favourites.domain.FavouritesRepository
+import org.tanukis.tanuki.history.data.HistoryRepository
 import java.io.File
 import javax.inject.Inject
 

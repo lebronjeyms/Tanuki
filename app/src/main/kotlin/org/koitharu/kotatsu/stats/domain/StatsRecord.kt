@@ -1,8 +1,8 @@
-package org.koitharu.kotatsu.stats.domain
+package org.tanukis.tanuki.stats.domain
 
-import org.koitharu.kotatsu.details.data.ReadingTime
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.parsers.model.Manga
+import org.tanukis.tanuki.details.data.ReadingTime
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.parsers.model.Manga
 import java.util.concurrent.TimeUnit
 
 data class StatsRecord(

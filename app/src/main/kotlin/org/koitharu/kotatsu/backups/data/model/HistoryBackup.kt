@@ -1,11 +1,11 @@
-package org.koitharu.kotatsu.backups.data.model
+package org.tanukis.tanuki.backups.data.model
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.koitharu.kotatsu.core.db.entity.MangaWithTags
-import org.koitharu.kotatsu.history.data.HistoryEntity
-import org.koitharu.kotatsu.history.data.HistoryWithManga
-import org.koitharu.kotatsu.list.domain.ReadingProgress.Companion.PROGRESS_NONE
+import org.tanukis.tanuki.core.db.entity.MangaWithTags
+import org.tanukis.tanuki.history.data.HistoryEntity
+import org.tanukis.tanuki.history.data.HistoryWithManga
+import org.tanukis.tanuki.list.domain.ReadingProgress.Companion.PROGRESS_NONE
 
 @Serializable
 class HistoryBackup(

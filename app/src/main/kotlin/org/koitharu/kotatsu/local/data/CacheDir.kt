@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.local.data
+package org.tanukis.tanuki.local.data
 
 enum class CacheDir(val dir: String) {
 

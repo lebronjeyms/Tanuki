@@ -1,9 +1,9 @@
-package org.koitharu.kotatsu.reader.ui
+package org.tanukis.tanuki.reader.ui
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
-import org.koitharu.kotatsu.core.model.MangaHistory
-import org.koitharu.kotatsu.parsers.model.Manga
+import org.tanukis.tanuki.core.model.MangaHistory
+import org.tanukis.tanuki.parsers.model.Manga
 
 @Parcelize
 data class ReaderState(

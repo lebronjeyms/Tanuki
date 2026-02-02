@@ -1,9 +1,9 @@
-package org.koitharu.kotatsu.tracker.domain
+package org.tanukis.tanuki.tracker.domain
 
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.favourites.domain.FavouritesRepository
-import org.koitharu.kotatsu.list.domain.ListFilterOption
-import org.koitharu.kotatsu.list.domain.MangaListQuickFilter
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.favourites.domain.FavouritesRepository
+import org.tanukis.tanuki.list.domain.ListFilterOption
+import org.tanukis.tanuki.list.domain.MangaListQuickFilter
 import javax.inject.Inject
 
 class UpdatesListQuickFilter @Inject constructor(

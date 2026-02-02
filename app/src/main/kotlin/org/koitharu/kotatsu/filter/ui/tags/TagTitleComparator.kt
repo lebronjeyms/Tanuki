@@ -1,6 +1,6 @@
-package org.koitharu.kotatsu.filter.ui.tags
+package org.tanukis.tanuki.filter.ui.tags
 
-import org.koitharu.kotatsu.parsers.model.MangaTag
+import org.tanukis.tanuki.parsers.model.MangaTag
 import java.text.Collator
 import java.util.Locale
 

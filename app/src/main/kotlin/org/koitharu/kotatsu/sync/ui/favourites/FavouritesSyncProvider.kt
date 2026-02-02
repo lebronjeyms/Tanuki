@@ -1,5 +1,5 @@
-package org.koitharu.kotatsu.sync.ui.favourites
+package org.tanukis.tanuki.sync.ui.favourites
 
-import org.koitharu.kotatsu.sync.ui.SyncProvider
+import org.tanukis.tanuki.sync.ui.SyncProvider
 
 class FavouritesSyncProvider : SyncProvider()

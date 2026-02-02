@@ -1,14 +1,14 @@
-package org.koitharu.kotatsu.search.ui.multi
+package org.tanukis.tanuki.search.ui.multi
 
 import android.content.Context
 import androidx.annotation.StringRes
-import org.koitharu.kotatsu.core.model.getTitle
-import org.koitharu.kotatsu.list.ui.ListModelDiffCallback
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.list.ui.model.MangaListModel
-import org.koitharu.kotatsu.parsers.model.MangaListFilter
-import org.koitharu.kotatsu.parsers.model.MangaSource
-import org.koitharu.kotatsu.parsers.model.SortOrder
+import org.tanukis.tanuki.core.model.getTitle
+import org.tanukis.tanuki.list.ui.ListModelDiffCallback
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.list.ui.model.MangaListModel
+import org.tanukis.tanuki.parsers.model.MangaListFilter
+import org.tanukis.tanuki.parsers.model.MangaSource
+import org.tanukis.tanuki.parsers.model.SortOrder
 
 data class SearchResultsListModel(
 	@StringRes val titleResId: Int,

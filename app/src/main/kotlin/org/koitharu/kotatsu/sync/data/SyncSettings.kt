@@ -1,13 +1,13 @@
-package org.koitharu.kotatsu.sync.data
+package org.tanukis.tanuki.sync.data
 
 import android.accounts.Account
 import android.accounts.AccountManager
 import android.content.Context
 import androidx.annotation.WorkerThread
 import dagger.hilt.android.qualifiers.ApplicationContext
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.util.ext.isHttpUrl
-import org.koitharu.kotatsu.parsers.util.ifNullOrEmpty
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.util.ext.isHttpUrl
+import org.tanukis.tanuki.parsers.util.ifNullOrEmpty
 import javax.inject.Inject
 
 class SyncSettings(

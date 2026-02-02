@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.search
+package org.tanukis.tanuki.settings.search
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -8,22 +8,22 @@ import androidx.preference.PreferenceManager
 import androidx.preference.PreferenceScreen
 import androidx.preference.get
 import dagger.Reusable
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.backups.ui.periodical.PeriodicalBackupSettingsFragment
-import org.koitharu.kotatsu.core.LocalizedAppContext
-import org.koitharu.kotatsu.settings.AppearanceSettingsFragment
-import org.koitharu.kotatsu.settings.DownloadsSettingsFragment
-import org.koitharu.kotatsu.settings.ProxySettingsFragment
-import org.koitharu.kotatsu.settings.ReaderSettingsFragment
-import org.koitharu.kotatsu.settings.ServicesSettingsFragment
-import org.koitharu.kotatsu.settings.StorageAndNetworkSettingsFragment
-import org.koitharu.kotatsu.settings.SuggestionsSettingsFragment
-import org.koitharu.kotatsu.settings.about.AboutSettingsFragment
-import org.koitharu.kotatsu.settings.discord.DiscordSettingsFragment
-import org.koitharu.kotatsu.settings.sources.SourcesSettingsFragment
-import org.koitharu.kotatsu.settings.tracker.TrackerSettingsFragment
-import org.koitharu.kotatsu.settings.userdata.BackupsSettingsFragment
-import org.koitharu.kotatsu.settings.userdata.storage.DataCleanupSettingsFragment
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.backups.ui.periodical.PeriodicalBackupSettingsFragment
+import org.tanukis.tanuki.core.LocalizedAppContext
+import org.tanukis.tanuki.settings.AppearanceSettingsFragment
+import org.tanukis.tanuki.settings.DownloadsSettingsFragment
+import org.tanukis.tanuki.settings.ProxySettingsFragment
+import org.tanukis.tanuki.settings.ReaderSettingsFragment
+import org.tanukis.tanuki.settings.ServicesSettingsFragment
+import org.tanukis.tanuki.settings.StorageAndNetworkSettingsFragment
+import org.tanukis.tanuki.settings.SuggestionsSettingsFragment
+import org.tanukis.tanuki.settings.about.AboutSettingsFragment
+import org.tanukis.tanuki.settings.discord.DiscordSettingsFragment
+import org.tanukis.tanuki.settings.sources.SourcesSettingsFragment
+import org.tanukis.tanuki.settings.tracker.TrackerSettingsFragment
+import org.tanukis.tanuki.settings.userdata.BackupsSettingsFragment
+import org.tanukis.tanuki.settings.userdata.storage.DataCleanupSettingsFragment
 import javax.inject.Inject
 
 @Reusable

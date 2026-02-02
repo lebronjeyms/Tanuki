@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.local.ui.info
+package org.tanukis.tanuki.local.ui.info
 
 import android.content.res.ColorStateList
 import android.os.Bundle
@@ -11,16 +11,16 @@ import androidx.fragment.app.viewModels
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.combine
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.ui.AlertDialogFragment
-import org.koitharu.kotatsu.core.ui.widgets.SegmentedBarView
-import org.koitharu.kotatsu.core.util.FileSize
-import org.koitharu.kotatsu.core.util.KotatsuColors
-import org.koitharu.kotatsu.core.util.ext.getQuantityStringSafe
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.observeEvent
-import org.koitharu.kotatsu.core.util.ext.setProgressIcon
-import org.koitharu.kotatsu.databinding.DialogLocalInfoBinding
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.ui.AlertDialogFragment
+import org.tanukis.tanuki.core.ui.widgets.SegmentedBarView
+import org.tanukis.tanuki.core.util.FileSize
+import org.tanukis.tanuki.core.util.KotatsuColors
+import org.tanukis.tanuki.core.util.ext.getQuantityStringSafe
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.observeEvent
+import org.tanukis.tanuki.core.util.ext.setProgressIcon
+import org.tanukis.tanuki.databinding.DialogLocalInfoBinding
 import androidx.appcompat.R as appcompatR
 
 @AndroidEntryPoint

@@ -1,7 +1,7 @@
-package org.koitharu.kotatsu.settings.utils
+package org.tanukis.tanuki.settings.utils
 
 import androidx.preference.Preference
-import org.koitharu.kotatsu.R
+import org.tanukis.tanuki.R
 
 class PercentSummaryProvider : Preference.SummaryProvider<SliderPreference> {
 

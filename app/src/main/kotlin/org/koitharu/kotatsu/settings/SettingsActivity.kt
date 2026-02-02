@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings
+package org.tanukis.tanuki.settings
 
 import android.content.Intent
 import android.os.Bundle
@@ -17,29 +17,29 @@ import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
 import com.google.android.material.appbar.AppBarLayout
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.backups.ui.periodical.PeriodicalBackupSettingsFragment
-import org.koitharu.kotatsu.core.model.MangaSource
-import org.koitharu.kotatsu.core.nav.AppRouter
-import org.koitharu.kotatsu.core.ui.BaseActivity
-import org.koitharu.kotatsu.core.util.ext.buildBundle
-import org.koitharu.kotatsu.core.util.ext.end
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.observeEvent
-import org.koitharu.kotatsu.core.util.ext.start
-import org.koitharu.kotatsu.core.util.ext.textAndVisible
-import org.koitharu.kotatsu.databinding.ActivitySettingsBinding
-import org.koitharu.kotatsu.main.ui.owners.AppBarOwner
-import org.koitharu.kotatsu.settings.about.AboutSettingsFragment
-import org.koitharu.kotatsu.settings.discord.DiscordSettingsFragment
-import org.koitharu.kotatsu.settings.search.SettingsItem
-import org.koitharu.kotatsu.settings.search.SettingsSearchFragment
-import org.koitharu.kotatsu.settings.search.SettingsSearchViewModel
-import org.koitharu.kotatsu.settings.sources.SourceSettingsFragment
-import org.koitharu.kotatsu.settings.sources.SourcesSettingsFragment
-import org.koitharu.kotatsu.settings.sources.manage.SourcesManageFragment
-import org.koitharu.kotatsu.settings.tracker.TrackerSettingsFragment
-import org.koitharu.kotatsu.settings.userdata.BackupsSettingsFragment
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.backups.ui.periodical.PeriodicalBackupSettingsFragment
+import org.tanukis.tanuki.core.model.MangaSource
+import org.tanukis.tanuki.core.nav.AppRouter
+import org.tanukis.tanuki.core.ui.BaseActivity
+import org.tanukis.tanuki.core.util.ext.buildBundle
+import org.tanukis.tanuki.core.util.ext.end
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.observeEvent
+import org.tanukis.tanuki.core.util.ext.start
+import org.tanukis.tanuki.core.util.ext.textAndVisible
+import org.tanukis.tanuki.databinding.ActivitySettingsBinding
+import org.tanukis.tanuki.main.ui.owners.AppBarOwner
+import org.tanukis.tanuki.settings.about.AboutSettingsFragment
+import org.tanukis.tanuki.settings.discord.DiscordSettingsFragment
+import org.tanukis.tanuki.settings.search.SettingsItem
+import org.tanukis.tanuki.settings.search.SettingsSearchFragment
+import org.tanukis.tanuki.settings.search.SettingsSearchViewModel
+import org.tanukis.tanuki.settings.sources.SourceSettingsFragment
+import org.tanukis.tanuki.settings.sources.SourcesSettingsFragment
+import org.tanukis.tanuki.settings.sources.manage.SourcesManageFragment
+import org.tanukis.tanuki.settings.tracker.TrackerSettingsFragment
+import org.tanukis.tanuki.settings.userdata.BackupsSettingsFragment
 
 @AndroidEntryPoint
 class SettingsActivity :

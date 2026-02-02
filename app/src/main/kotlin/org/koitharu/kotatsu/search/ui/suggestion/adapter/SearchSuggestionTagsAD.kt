@@ -1,11 +1,11 @@
-package org.koitharu.kotatsu.search.ui.suggestion.adapter
+package org.tanukis.tanuki.search.ui.suggestion.adapter
 
 import com.hannesdorfmann.adapterdelegates4.dsl.adapterDelegateViewBinding
-import org.koitharu.kotatsu.core.ui.widgets.ChipsView
-import org.koitharu.kotatsu.databinding.ItemSearchSuggestionTagsBinding
-import org.koitharu.kotatsu.parsers.model.MangaTag
-import org.koitharu.kotatsu.search.ui.suggestion.SearchSuggestionListener
-import org.koitharu.kotatsu.search.ui.suggestion.model.SearchSuggestionItem
+import org.tanukis.tanuki.core.ui.widgets.ChipsView
+import org.tanukis.tanuki.databinding.ItemSearchSuggestionTagsBinding
+import org.tanukis.tanuki.parsers.model.MangaTag
+import org.tanukis.tanuki.search.ui.suggestion.SearchSuggestionListener
+import org.tanukis.tanuki.search.ui.suggestion.model.SearchSuggestionItem
 
 fun searchSuggestionTagsAD(
 	listener: SearchSuggestionListener,

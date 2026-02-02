@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.details.domain
+package org.tanukis.tanuki.details.domain
 
 import android.text.Html
 import android.text.SpannableString
@@ -16,23 +16,23 @@ import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.runInterruptible
-import org.koitharu.kotatsu.core.model.isLocal
-import org.koitharu.kotatsu.core.nav.MangaIntent
-import org.koitharu.kotatsu.core.os.NetworkState
-import org.koitharu.kotatsu.core.parser.CachingMangaRepository
-import org.koitharu.kotatsu.core.parser.MangaDataRepository
-import org.koitharu.kotatsu.core.parser.MangaRepository
-import org.koitharu.kotatsu.core.ui.model.MangaOverride
-import org.koitharu.kotatsu.core.util.ext.sanitize
-import org.koitharu.kotatsu.details.data.MangaDetails
-import org.koitharu.kotatsu.explore.domain.RecoverMangaUseCase
-import org.koitharu.kotatsu.local.data.LocalMangaRepository
-import org.koitharu.kotatsu.local.domain.model.LocalManga
-import org.koitharu.kotatsu.parsers.exception.NotFoundException
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.util.nullIfEmpty
-import org.koitharu.kotatsu.parsers.util.recoverNotNull
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.core.model.isLocal
+import org.tanukis.tanuki.core.nav.MangaIntent
+import org.tanukis.tanuki.core.os.NetworkState
+import org.tanukis.tanuki.core.parser.CachingMangaRepository
+import org.tanukis.tanuki.core.parser.MangaDataRepository
+import org.tanukis.tanuki.core.parser.MangaRepository
+import org.tanukis.tanuki.core.ui.model.MangaOverride
+import org.tanukis.tanuki.core.util.ext.sanitize
+import org.tanukis.tanuki.details.data.MangaDetails
+import org.tanukis.tanuki.explore.domain.RecoverMangaUseCase
+import org.tanukis.tanuki.local.data.LocalMangaRepository
+import org.tanukis.tanuki.local.domain.model.LocalManga
+import org.tanukis.tanuki.parsers.exception.NotFoundException
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.util.nullIfEmpty
+import org.tanukis.tanuki.parsers.util.recoverNotNull
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
 import javax.inject.Inject
 
 class DetailsLoadUseCase @Inject constructor(

@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.network
+package org.tanukis.tanuki.core.network
 
 enum class DoHProvider {
 

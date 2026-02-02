@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.details.ui.pager.chapters
+package org.tanukis.tanuki.details.ui.pager.chapters
 
 import android.view.Menu
 import android.view.MenuInflater
@@ -7,16 +7,16 @@ import android.widget.Toast
 import androidx.appcompat.view.ActionMode
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.snackbar.Snackbar
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.model.LocalMangaSource
-import org.koitharu.kotatsu.core.nav.AppRouter
-import org.koitharu.kotatsu.core.ui.list.BaseListSelectionCallback
-import org.koitharu.kotatsu.core.ui.list.ListSelectionController
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.core.util.ext.toCollection
-import org.koitharu.kotatsu.core.util.ext.toSet
-import org.koitharu.kotatsu.details.ui.pager.ChaptersPagesViewModel
-import org.koitharu.kotatsu.local.ui.LocalChaptersRemoveService
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.model.LocalMangaSource
+import org.tanukis.tanuki.core.nav.AppRouter
+import org.tanukis.tanuki.core.ui.list.BaseListSelectionCallback
+import org.tanukis.tanuki.core.ui.list.ListSelectionController
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.core.util.ext.toCollection
+import org.tanukis.tanuki.core.util.ext.toSet
+import org.tanukis.tanuki.details.ui.pager.ChaptersPagesViewModel
+import org.tanukis.tanuki.local.ui.LocalChaptersRemoveService
 
 class ChaptersSelectionCallback(
 	private val viewModel: ChaptersPagesViewModel,

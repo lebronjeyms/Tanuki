@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.scrobbling.kitsu.ui
+package org.tanukis.tanuki.scrobbling.kitsu.ui
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -12,12 +12,12 @@ import androidx.core.net.toUri
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.updateLayoutParams
 import androidx.core.view.updatePadding
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.ui.BaseActivity
-import org.koitharu.kotatsu.core.ui.util.DefaultTextWatcher
-import org.koitharu.kotatsu.core.util.ext.consume
-import org.koitharu.kotatsu.databinding.ActivityKitsuAuthBinding
-import org.koitharu.kotatsu.parsers.util.urlEncoded
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.ui.BaseActivity
+import org.tanukis.tanuki.core.ui.util.DefaultTextWatcher
+import org.tanukis.tanuki.core.util.ext.consume
+import org.tanukis.tanuki.databinding.ActivityKitsuAuthBinding
+import org.tanukis.tanuki.parsers.util.urlEncoded
 
 class KitsuAuthActivity : BaseActivity<ActivityKitsuAuthBinding>(),
 	View.OnClickListener,

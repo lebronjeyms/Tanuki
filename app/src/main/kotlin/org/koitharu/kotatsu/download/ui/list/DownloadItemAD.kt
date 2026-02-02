@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.download.ui.list
+package org.tanukis.tanuki.download.ui.list
 
 import android.view.View
 import androidx.core.view.isGone
@@ -11,18 +11,18 @@ import com.hannesdorfmann.adapterdelegates4.dsl.adapterDelegateViewBinding
 import kotlinx.coroutines.CoroutineStart
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.ui.BaseListAdapter
-import org.koitharu.kotatsu.core.util.ext.getQuantityStringSafe
-import org.koitharu.kotatsu.core.util.ext.setContentDescriptionAndTooltip
-import org.koitharu.kotatsu.core.util.ext.textAndVisible
-import org.koitharu.kotatsu.databinding.ItemDownloadBinding
-import org.koitharu.kotatsu.download.ui.list.chapters.DownloadChapter
-import org.koitharu.kotatsu.download.ui.list.chapters.downloadChapterAD
-import org.koitharu.kotatsu.list.ui.ListModelDiffCallback
-import org.koitharu.kotatsu.list.ui.adapter.ListItemType
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.parsers.util.format
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.ui.BaseListAdapter
+import org.tanukis.tanuki.core.util.ext.getQuantityStringSafe
+import org.tanukis.tanuki.core.util.ext.setContentDescriptionAndTooltip
+import org.tanukis.tanuki.core.util.ext.textAndVisible
+import org.tanukis.tanuki.databinding.ItemDownloadBinding
+import org.tanukis.tanuki.download.ui.list.chapters.DownloadChapter
+import org.tanukis.tanuki.download.ui.list.chapters.downloadChapterAD
+import org.tanukis.tanuki.list.ui.ListModelDiffCallback
+import org.tanukis.tanuki.list.ui.adapter.ListItemType
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.parsers.util.format
 
 fun downloadItemAD(
 	lifecycleOwner: LifecycleOwner,

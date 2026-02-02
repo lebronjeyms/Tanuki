@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings
+package org.tanukis.tanuki.settings
 
 import android.content.SharedPreferences
 import android.os.Bundle
@@ -6,13 +6,13 @@ import androidx.lifecycle.lifecycleScope
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.ui.BasePreferenceFragment
-import org.koitharu.kotatsu.settings.utils.MultiAutoCompleteTextViewPreference
-import org.koitharu.kotatsu.settings.utils.TagsAutoCompleteProvider
-import org.koitharu.kotatsu.suggestions.domain.SuggestionRepository
-import org.koitharu.kotatsu.suggestions.ui.SuggestionsWorker
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.ui.BasePreferenceFragment
+import org.tanukis.tanuki.settings.utils.MultiAutoCompleteTextViewPreference
+import org.tanukis.tanuki.settings.utils.TagsAutoCompleteProvider
+import org.tanukis.tanuki.suggestions.domain.SuggestionRepository
+import org.tanukis.tanuki.suggestions.ui.SuggestionsWorker
 import javax.inject.Inject
 
 @AndroidEntryPoint

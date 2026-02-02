@@ -1,8 +1,8 @@
-package org.koitharu.kotatsu.core.util.progress
+package org.tanukis.tanuki.core.util.progress
 
 import android.content.Context
 import com.google.android.material.slider.LabelFormatter
-import org.koitharu.kotatsu.R
+import org.tanukis.tanuki.R
 
 class IntPercentLabelFormatter(context: Context) : LabelFormatter {
 

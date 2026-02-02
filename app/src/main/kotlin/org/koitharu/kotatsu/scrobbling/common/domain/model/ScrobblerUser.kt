@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.scrobbling.common.domain.model
+package org.tanukis.tanuki.scrobbling.common.domain.model
 
 data class ScrobblerUser(
 	val id: Long,

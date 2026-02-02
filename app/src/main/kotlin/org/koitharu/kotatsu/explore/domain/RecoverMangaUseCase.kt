@@ -1,12 +1,12 @@
-package org.koitharu.kotatsu.explore.domain
+package org.tanukis.tanuki.explore.domain
 
-import org.koitharu.kotatsu.core.model.isLocal
-import org.koitharu.kotatsu.core.parser.MangaDataRepository
-import org.koitharu.kotatsu.core.parser.MangaRepository
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.model.MangaListFilter
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.core.model.isLocal
+import org.tanukis.tanuki.core.parser.MangaDataRepository
+import org.tanukis.tanuki.core.parser.MangaRepository
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaListFilter
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
 import javax.inject.Inject
 
 class RecoverMangaUseCase @Inject constructor(

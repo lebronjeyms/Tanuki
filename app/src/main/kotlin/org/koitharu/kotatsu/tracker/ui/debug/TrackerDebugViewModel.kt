@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.tracker.ui.debug
+package org.tanukis.tanuki.tracker.ui.debug
 
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -7,11 +7,11 @@ import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.plus
-import org.koitharu.kotatsu.core.db.MangaDatabase
-import org.koitharu.kotatsu.core.db.entity.toManga
-import org.koitharu.kotatsu.core.ui.BaseViewModel
-import org.koitharu.kotatsu.core.util.ext.toInstantOrNull
-import org.koitharu.kotatsu.tracker.data.TrackWithManga
+import org.tanukis.tanuki.core.db.MangaDatabase
+import org.tanukis.tanuki.core.db.entity.toManga
+import org.tanukis.tanuki.core.ui.BaseViewModel
+import org.tanukis.tanuki.core.util.ext.toInstantOrNull
+import org.tanukis.tanuki.tracker.data.TrackWithManga
 import javax.inject.Inject
 
 @HiltViewModel

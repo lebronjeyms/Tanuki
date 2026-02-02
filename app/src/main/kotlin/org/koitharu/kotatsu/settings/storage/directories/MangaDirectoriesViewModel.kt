@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.storage.directories
+package org.tanukis.tanuki.settings.storage.directories
 
 import android.net.Uri
 import android.os.StatFs
@@ -7,12 +7,12 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.cancelAndJoin
 import kotlinx.coroutines.flow.MutableStateFlow
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.ui.BaseViewModel
-import org.koitharu.kotatsu.core.util.ext.computeSize
-import org.koitharu.kotatsu.core.util.ext.isReadable
-import org.koitharu.kotatsu.core.util.ext.isWriteable
-import org.koitharu.kotatsu.local.data.LocalStorageManager
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.ui.BaseViewModel
+import org.tanukis.tanuki.core.util.ext.computeSize
+import org.tanukis.tanuki.core.util.ext.isReadable
+import org.tanukis.tanuki.core.util.ext.isWriteable
+import org.tanukis.tanuki.local.data.LocalStorageManager
 import java.io.File
 import javax.inject.Inject
 

@@ -1,7 +1,7 @@
-package org.koitharu.kotatsu.history.domain.model
+package org.tanukis.tanuki.history.domain.model
 
-import org.koitharu.kotatsu.core.model.MangaHistory
-import org.koitharu.kotatsu.parsers.model.Manga
+import org.tanukis.tanuki.core.model.MangaHistory
+import org.tanukis.tanuki.parsers.model.Manga
 
 data class MangaWithHistory(
 	val manga: Manga,

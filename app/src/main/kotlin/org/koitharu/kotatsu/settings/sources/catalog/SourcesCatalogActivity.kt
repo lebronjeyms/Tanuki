@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.sources.catalog
+package org.tanukis.tanuki.settings.sources.catalog
 
 import android.os.Bundle
 import android.view.Menu
@@ -14,24 +14,24 @@ import com.google.android.material.appbar.AppBarLayout
 import com.google.android.material.chip.Chip
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.combine
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.model.titleResId
-import org.koitharu.kotatsu.core.nav.router
-import org.koitharu.kotatsu.core.ui.BaseActivity
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.core.ui.util.FadingAppbarMediator
-import org.koitharu.kotatsu.core.ui.util.ReversibleActionObserver
-import org.koitharu.kotatsu.core.ui.widgets.ChipsView
-import org.koitharu.kotatsu.core.ui.widgets.ChipsView.ChipModel
-import org.koitharu.kotatsu.core.util.LocaleComparator
-import org.koitharu.kotatsu.core.util.ext.getDisplayName
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.observeEvent
-import org.koitharu.kotatsu.core.util.ext.toLocale
-import org.koitharu.kotatsu.databinding.ActivitySourcesCatalogBinding
-import org.koitharu.kotatsu.list.ui.adapter.TypedListSpacingDecoration
-import org.koitharu.kotatsu.main.ui.owners.AppBarOwner
-import org.koitharu.kotatsu.parsers.model.ContentType
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.model.titleResId
+import org.tanukis.tanuki.core.nav.router
+import org.tanukis.tanuki.core.ui.BaseActivity
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.core.ui.util.FadingAppbarMediator
+import org.tanukis.tanuki.core.ui.util.ReversibleActionObserver
+import org.tanukis.tanuki.core.ui.widgets.ChipsView
+import org.tanukis.tanuki.core.ui.widgets.ChipsView.ChipModel
+import org.tanukis.tanuki.core.util.LocaleComparator
+import org.tanukis.tanuki.core.util.ext.getDisplayName
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.observeEvent
+import org.tanukis.tanuki.core.util.ext.toLocale
+import org.tanukis.tanuki.databinding.ActivitySourcesCatalogBinding
+import org.tanukis.tanuki.list.ui.adapter.TypedListSpacingDecoration
+import org.tanukis.tanuki.main.ui.owners.AppBarOwner
+import org.tanukis.tanuki.parsers.model.ContentType
 
 @AndroidEntryPoint
 class SourcesCatalogActivity : BaseActivity<ActivitySourcesCatalogBinding>(),

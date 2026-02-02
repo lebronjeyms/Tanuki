@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.userdata
+package org.tanukis.tanuki.settings.userdata
 
 import android.net.Uri
 import android.os.Bundle
@@ -9,16 +9,16 @@ import androidx.fragment.app.viewModels
 import androidx.preference.Preference
 import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.backups.domain.BackupUtils
-import org.koitharu.kotatsu.backups.ui.backup.BackupService
-import org.koitharu.kotatsu.core.exceptions.resolve.SnackbarErrorObserver
-import org.koitharu.kotatsu.core.nav.router
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.ui.BasePreferenceFragment
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.observeEvent
-import org.koitharu.kotatsu.core.util.ext.tryLaunch
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.backups.domain.BackupUtils
+import org.tanukis.tanuki.backups.ui.backup.BackupService
+import org.tanukis.tanuki.core.exceptions.resolve.SnackbarErrorObserver
+import org.tanukis.tanuki.core.nav.router
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.ui.BasePreferenceFragment
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.observeEvent
+import org.tanukis.tanuki.core.util.ext.tryLaunch
 
 @AndroidEntryPoint
 class BackupsSettingsFragment : BasePreferenceFragment(R.string.backup_restore),

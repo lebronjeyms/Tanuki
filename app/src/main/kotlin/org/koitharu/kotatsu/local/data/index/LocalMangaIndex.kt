@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.local.data.index
+package org.tanukis.tanuki.local.data.index
 
 import android.content.Context
 import androidx.core.content.edit
@@ -7,13 +7,13 @@ import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.flow.FlowCollector
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
-import org.koitharu.kotatsu.core.db.MangaDatabase
-import org.koitharu.kotatsu.core.parser.MangaDataRepository
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.local.data.LocalMangaRepository
-import org.koitharu.kotatsu.local.data.input.LocalMangaParser
-import org.koitharu.kotatsu.local.domain.model.LocalManga
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.core.db.MangaDatabase
+import org.tanukis.tanuki.core.parser.MangaDataRepository
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.local.data.LocalMangaRepository
+import org.tanukis.tanuki.local.data.input.LocalMangaParser
+import org.tanukis.tanuki.local.domain.model.LocalManga
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
 import java.io.File
 import javax.inject.Inject
 import javax.inject.Provider

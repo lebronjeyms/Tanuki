@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.scrobbling.common.data
+package org.tanukis.tanuki.scrobbling.common.data
 
 import androidx.room.*
 import kotlinx.coroutines.currentCoroutineContext

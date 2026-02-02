@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.browser
+package org.tanukis.tanuki.browser
 
 import android.webkit.WebChromeClient
 import android.webkit.WebView

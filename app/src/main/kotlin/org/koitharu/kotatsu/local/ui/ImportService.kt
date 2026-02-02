@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.local.ui
+package org.tanukis.tanuki.local.ui
 
 import android.annotation.SuppressLint
 import android.app.Notification
@@ -16,22 +16,22 @@ import coil3.ImageLoader
 import coil3.request.ImageRequest
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.runBlocking
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.ErrorReporterReceiver
-import org.koitharu.kotatsu.core.model.isNsfw
-import org.koitharu.kotatsu.core.nav.AppRouter
-import org.koitharu.kotatsu.core.ui.CoroutineIntentService
-import org.koitharu.kotatsu.core.util.ext.checkNotificationPermission
-import org.koitharu.kotatsu.core.util.ext.getDisplayMessage
-import org.koitharu.kotatsu.core.util.ext.mangaSourceExtra
-import org.koitharu.kotatsu.core.util.ext.powerManager
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.core.util.ext.toBitmapOrNull
-import org.koitharu.kotatsu.core.util.ext.toUriOrNull
-import org.koitharu.kotatsu.core.util.ext.withPartialWakeLock
-import org.koitharu.kotatsu.local.data.importer.SingleMangaImporter
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.ErrorReporterReceiver
+import org.tanukis.tanuki.core.model.isNsfw
+import org.tanukis.tanuki.core.nav.AppRouter
+import org.tanukis.tanuki.core.ui.CoroutineIntentService
+import org.tanukis.tanuki.core.util.ext.checkNotificationPermission
+import org.tanukis.tanuki.core.util.ext.getDisplayMessage
+import org.tanukis.tanuki.core.util.ext.mangaSourceExtra
+import org.tanukis.tanuki.core.util.ext.powerManager
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.core.util.ext.toBitmapOrNull
+import org.tanukis.tanuki.core.util.ext.toUriOrNull
+import org.tanukis.tanuki.core.util.ext.withPartialWakeLock
+import org.tanukis.tanuki.local.data.importer.SingleMangaImporter
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
 import javax.inject.Inject
 
 @AndroidEntryPoint

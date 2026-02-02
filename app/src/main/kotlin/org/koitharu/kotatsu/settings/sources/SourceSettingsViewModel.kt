@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.sources
+package org.tanukis.tanuki.settings.sources
 
 import android.content.SharedPreferences
 import androidx.lifecycle.SavedStateHandle
@@ -7,21 +7,21 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow
 import okhttp3.HttpUrl
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.model.MangaSource
-import org.koitharu.kotatsu.core.nav.AppRouter
-import org.koitharu.kotatsu.core.network.cookies.MutableCookieJar
-import org.koitharu.kotatsu.core.parser.CachingMangaRepository
-import org.koitharu.kotatsu.core.parser.MangaRepository
-import org.koitharu.kotatsu.core.parser.ParserMangaRepository
-import org.koitharu.kotatsu.core.prefs.SourceSettings
-import org.koitharu.kotatsu.core.ui.BaseViewModel
-import org.koitharu.kotatsu.core.ui.util.ReversibleAction
-import org.koitharu.kotatsu.core.util.ext.MutableEventFlow
-import org.koitharu.kotatsu.core.util.ext.call
-import org.koitharu.kotatsu.explore.data.MangaSourcesRepository
-import org.koitharu.kotatsu.parsers.MangaParserAuthProvider
-import org.koitharu.kotatsu.parsers.exception.AuthRequiredException
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.model.MangaSource
+import org.tanukis.tanuki.core.nav.AppRouter
+import org.tanukis.tanuki.core.network.cookies.MutableCookieJar
+import org.tanukis.tanuki.core.parser.CachingMangaRepository
+import org.tanukis.tanuki.core.parser.MangaRepository
+import org.tanukis.tanuki.core.parser.ParserMangaRepository
+import org.tanukis.tanuki.core.prefs.SourceSettings
+import org.tanukis.tanuki.core.ui.BaseViewModel
+import org.tanukis.tanuki.core.ui.util.ReversibleAction
+import org.tanukis.tanuki.core.util.ext.MutableEventFlow
+import org.tanukis.tanuki.core.util.ext.call
+import org.tanukis.tanuki.explore.data.MangaSourcesRepository
+import org.tanukis.tanuki.parsers.MangaParserAuthProvider
+import org.tanukis.tanuki.parsers.exception.AuthRequiredException
 import javax.inject.Inject
 
 @HiltViewModel

@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.storage.directories
+package org.tanukis.tanuki.settings.storage.directories
 
 import androidx.recyclerview.widget.DiffUtil.ItemCallback
 

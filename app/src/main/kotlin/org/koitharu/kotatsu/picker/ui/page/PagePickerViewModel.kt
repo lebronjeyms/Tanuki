@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.picker.ui.page
+package org.tanukis.tanuki.picker.ui.page
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.viewModelScope
@@ -10,17 +10,17 @@ import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.plus
-import org.koitharu.kotatsu.core.nav.MangaIntent
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.prefs.observeAsStateFlow
-import org.koitharu.kotatsu.core.ui.BaseViewModel
-import org.koitharu.kotatsu.core.util.ext.firstNotNull
-import org.koitharu.kotatsu.details.data.MangaDetails
-import org.koitharu.kotatsu.details.domain.DetailsLoadUseCase
-import org.koitharu.kotatsu.details.ui.pager.pages.PageThumbnail
-import org.koitharu.kotatsu.list.ui.model.ListHeader
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.reader.domain.ChaptersLoader
+import org.tanukis.tanuki.core.nav.MangaIntent
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.prefs.observeAsStateFlow
+import org.tanukis.tanuki.core.ui.BaseViewModel
+import org.tanukis.tanuki.core.util.ext.firstNotNull
+import org.tanukis.tanuki.details.data.MangaDetails
+import org.tanukis.tanuki.details.domain.DetailsLoadUseCase
+import org.tanukis.tanuki.details.ui.pager.pages.PageThumbnail
+import org.tanukis.tanuki.list.ui.model.ListHeader
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.reader.domain.ChaptersLoader
 import javax.inject.Inject
 
 @HiltViewModel

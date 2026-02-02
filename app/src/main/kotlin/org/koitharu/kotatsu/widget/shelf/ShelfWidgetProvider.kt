@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.widget.shelf
+package org.tanukis.tanuki.widget.shelf
 
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
@@ -8,11 +8,11 @@ import android.graphics.Color
 import android.widget.RemoteViews
 import androidx.core.app.PendingIntentCompat
 import androidx.core.net.toUri
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.nav.ReaderIntent
-import org.koitharu.kotatsu.core.prefs.AppWidgetConfig
-import org.koitharu.kotatsu.core.ui.BaseAppWidgetProvider
-import org.koitharu.kotatsu.reader.ui.ReaderActivity
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.nav.ReaderIntent
+import org.tanukis.tanuki.core.prefs.AppWidgetConfig
+import org.tanukis.tanuki.core.ui.BaseAppWidgetProvider
+import org.tanukis.tanuki.reader.ui.ReaderActivity
 
 class ShelfWidgetProvider : BaseAppWidgetProvider() {
 

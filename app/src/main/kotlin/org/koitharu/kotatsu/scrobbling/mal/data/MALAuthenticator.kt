@@ -1,15 +1,15 @@
-package org.koitharu.kotatsu.scrobbling.mal.data
+package org.tanukis.tanuki.scrobbling.mal.data
 
 import kotlinx.coroutines.runBlocking
 import okhttp3.Authenticator
 import okhttp3.Request
 import okhttp3.Response
 import okhttp3.Route
-import org.koitharu.kotatsu.core.network.CommonHeaders
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.scrobbling.common.data.ScrobblerStorage
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerService
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerType
+import org.tanukis.tanuki.core.network.CommonHeaders
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.scrobbling.common.data.ScrobblerStorage
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerService
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerType
 import javax.inject.Inject
 import javax.inject.Provider
 

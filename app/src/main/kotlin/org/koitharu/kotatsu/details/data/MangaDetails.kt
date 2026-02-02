@@ -1,16 +1,16 @@
-package org.koitharu.kotatsu.details.data
+package org.tanukis.tanuki.details.data
 
-import org.koitharu.kotatsu.core.model.getLocale
-import org.koitharu.kotatsu.core.model.isLocal
-import org.koitharu.kotatsu.core.model.withOverride
-import org.koitharu.kotatsu.core.ui.model.MangaOverride
-import org.koitharu.kotatsu.local.domain.model.LocalManga
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.model.MangaChapter
-import org.koitharu.kotatsu.parsers.model.MangaState
-import org.koitharu.kotatsu.parsers.util.ifNullOrEmpty
-import org.koitharu.kotatsu.parsers.util.nullIfEmpty
-import org.koitharu.kotatsu.reader.data.filterChapters
+import org.tanukis.tanuki.core.model.getLocale
+import org.tanukis.tanuki.core.model.isLocal
+import org.tanukis.tanuki.core.model.withOverride
+import org.tanukis.tanuki.core.ui.model.MangaOverride
+import org.tanukis.tanuki.local.domain.model.LocalManga
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaChapter
+import org.tanukis.tanuki.parsers.model.MangaState
+import org.tanukis.tanuki.parsers.util.ifNullOrEmpty
+import org.tanukis.tanuki.parsers.util.nullIfEmpty
+import org.tanukis.tanuki.reader.data.filterChapters
 import java.util.Locale
 
 data class MangaDetails(

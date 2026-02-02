@@ -1,11 +1,11 @@
-package org.koitharu.kotatsu.local.domain
+package org.tanukis.tanuki.local.domain
 
-import org.koitharu.kotatsu.core.model.isLocal
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.history.data.HistoryRepository
-import org.koitharu.kotatsu.local.data.LocalMangaRepository
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.core.model.isLocal
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.history.data.HistoryRepository
+import org.tanukis.tanuki.local.data.LocalMangaRepository
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
 import java.io.IOException
 import javax.inject.Inject
 

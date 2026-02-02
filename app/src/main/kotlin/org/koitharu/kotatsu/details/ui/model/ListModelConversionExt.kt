@@ -1,12 +1,12 @@
-package org.koitharu.kotatsu.details.ui.model
+package org.tanukis.tanuki.details.ui.model
 
-import org.koitharu.kotatsu.details.ui.model.ChapterListItem.Companion.FLAG_BOOKMARKED
-import org.koitharu.kotatsu.details.ui.model.ChapterListItem.Companion.FLAG_CURRENT
-import org.koitharu.kotatsu.details.ui.model.ChapterListItem.Companion.FLAG_DOWNLOADED
-import org.koitharu.kotatsu.details.ui.model.ChapterListItem.Companion.FLAG_GRID
-import org.koitharu.kotatsu.details.ui.model.ChapterListItem.Companion.FLAG_NEW
-import org.koitharu.kotatsu.details.ui.model.ChapterListItem.Companion.FLAG_UNREAD
-import org.koitharu.kotatsu.parsers.model.MangaChapter
+import org.tanukis.tanuki.details.ui.model.ChapterListItem.Companion.FLAG_BOOKMARKED
+import org.tanukis.tanuki.details.ui.model.ChapterListItem.Companion.FLAG_CURRENT
+import org.tanukis.tanuki.details.ui.model.ChapterListItem.Companion.FLAG_DOWNLOADED
+import org.tanukis.tanuki.details.ui.model.ChapterListItem.Companion.FLAG_GRID
+import org.tanukis.tanuki.details.ui.model.ChapterListItem.Companion.FLAG_NEW
+import org.tanukis.tanuki.details.ui.model.ChapterListItem.Companion.FLAG_UNREAD
+import org.tanukis.tanuki.parsers.model.MangaChapter
 import kotlin.experimental.or
 
 fun MangaChapter.toListItem(

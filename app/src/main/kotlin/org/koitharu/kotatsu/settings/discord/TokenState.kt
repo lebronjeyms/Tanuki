@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.discord
+package org.tanukis.tanuki.settings.discord
 
 enum class TokenState {
 

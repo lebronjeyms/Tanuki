@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.network.imageproxy
+package org.tanukis.tanuki.core.network.imageproxy
 
 import android.util.Log
 import androidx.collection.ArraySet
@@ -14,12 +14,12 @@ import okhttp3.OkHttpClient
 import okhttp3.Request
 import okhttp3.Response
 import org.jsoup.HttpStatusException
-import org.koitharu.kotatsu.BuildConfig
-import org.koitharu.kotatsu.core.exceptions.CloudFlareBlockedException
-import org.koitharu.kotatsu.core.util.ext.ensureSuccess
-import org.koitharu.kotatsu.parsers.util.await
-import org.koitharu.kotatsu.parsers.util.isHttpOrHttps
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.BuildConfig
+import org.tanukis.tanuki.core.exceptions.CloudFlareBlockedException
+import org.tanukis.tanuki.core.util.ext.ensureSuccess
+import org.tanukis.tanuki.parsers.util.await
+import org.tanukis.tanuki.parsers.util.isHttpOrHttps
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
 import java.net.HttpURLConnection
 import java.util.Collections
 

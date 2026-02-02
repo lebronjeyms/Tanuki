@@ -1,7 +1,7 @@
-package org.koitharu.kotatsu.details.ui.pager
+package org.tanukis.tanuki.details.ui.pager
 
 import androidx.annotation.StringRes
-import org.koitharu.kotatsu.R
+import org.tanukis.tanuki.R
 
 enum class EmptyMangaReason(
 	@StringRes val msgResId: Int,

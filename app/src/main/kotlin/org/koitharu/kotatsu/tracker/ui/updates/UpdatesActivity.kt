@@ -1,5 +1,5 @@
-package org.koitharu.kotatsu.tracker.ui.updates
+package org.tanukis.tanuki.tracker.ui.updates
 
-import org.koitharu.kotatsu.core.ui.FragmentContainerActivity
+import org.tanukis.tanuki.core.ui.FragmentContainerActivity
 
 class UpdatesActivity : FragmentContainerActivity(UpdatesFragment::class.java)

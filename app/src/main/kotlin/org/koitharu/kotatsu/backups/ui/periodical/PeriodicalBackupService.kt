@@ -1,21 +1,21 @@
-package org.koitharu.kotatsu.backups.ui.periodical
+package org.tanukis.tanuki.backups.ui.periodical
 
 import android.content.Intent
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.app.PendingIntentCompat
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.backups.data.BackupRepository
-import org.koitharu.kotatsu.backups.domain.BackupUtils
-import org.koitharu.kotatsu.backups.domain.ExternalBackupStorage
-import org.koitharu.kotatsu.backups.ui.BaseBackupRestoreService
-import org.koitharu.kotatsu.core.ErrorReporterReceiver
-import org.koitharu.kotatsu.core.nav.AppRouter
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.ui.CoroutineIntentService
-import org.koitharu.kotatsu.core.util.ext.checkNotificationPermission
-import org.koitharu.kotatsu.core.util.ext.getDisplayMessage
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.backups.data.BackupRepository
+import org.tanukis.tanuki.backups.domain.BackupUtils
+import org.tanukis.tanuki.backups.domain.ExternalBackupStorage
+import org.tanukis.tanuki.backups.ui.BaseBackupRestoreService
+import org.tanukis.tanuki.core.ErrorReporterReceiver
+import org.tanukis.tanuki.core.nav.AppRouter
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.ui.CoroutineIntentService
+import org.tanukis.tanuki.core.util.ext.checkNotificationPermission
+import org.tanukis.tanuki.core.util.ext.getDisplayMessage
 import java.util.zip.ZipOutputStream
 import javax.inject.Inject
 

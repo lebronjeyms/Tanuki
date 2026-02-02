@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.scrobbling.common.ui.config
+package org.tanukis.tanuki.scrobbling.common.ui.config
 
 import android.net.Uri
 import androidx.lifecycle.SavedStateHandle
@@ -13,20 +13,20 @@ import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.onStart
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.plus
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.nav.AppRouter
-import org.koitharu.kotatsu.core.ui.BaseViewModel
-import org.koitharu.kotatsu.core.util.ext.MutableEventFlow
-import org.koitharu.kotatsu.core.util.ext.call
-import org.koitharu.kotatsu.core.util.ext.onFirst
-import org.koitharu.kotatsu.core.util.ext.require
-import org.koitharu.kotatsu.list.ui.model.EmptyState
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.scrobbling.common.domain.Scrobbler
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerService
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerUser
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblingInfo
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblingStatus
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.nav.AppRouter
+import org.tanukis.tanuki.core.ui.BaseViewModel
+import org.tanukis.tanuki.core.util.ext.MutableEventFlow
+import org.tanukis.tanuki.core.util.ext.call
+import org.tanukis.tanuki.core.util.ext.onFirst
+import org.tanukis.tanuki.core.util.ext.require
+import org.tanukis.tanuki.list.ui.model.EmptyState
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.scrobbling.common.domain.Scrobbler
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerService
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerUser
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblingInfo
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblingStatus
 import javax.inject.Inject
 
 @HiltViewModel

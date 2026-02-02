@@ -1,21 +1,21 @@
-package org.koitharu.kotatsu.tracker.ui.feed.adapter
+package org.tanukis.tanuki.tracker.ui.feed.adapter
 
 import android.content.Context
-import org.koitharu.kotatsu.core.ui.BaseListAdapter
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.core.ui.list.fastscroll.FastScroller
-import org.koitharu.kotatsu.list.ui.adapter.ListItemType
-import org.koitharu.kotatsu.list.ui.adapter.MangaListListener
-import org.koitharu.kotatsu.list.ui.adapter.emptyStateListAD
-import org.koitharu.kotatsu.list.ui.adapter.errorFooterAD
-import org.koitharu.kotatsu.list.ui.adapter.errorStateListAD
-import org.koitharu.kotatsu.list.ui.adapter.listHeaderAD
-import org.koitharu.kotatsu.list.ui.adapter.loadingFooterAD
-import org.koitharu.kotatsu.list.ui.adapter.loadingStateAD
-import org.koitharu.kotatsu.list.ui.adapter.quickFilterAD
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.list.ui.size.ItemSizeResolver
-import org.koitharu.kotatsu.tracker.ui.feed.model.FeedItem
+import org.tanukis.tanuki.core.ui.BaseListAdapter
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.core.ui.list.fastscroll.FastScroller
+import org.tanukis.tanuki.list.ui.adapter.ListItemType
+import org.tanukis.tanuki.list.ui.adapter.MangaListListener
+import org.tanukis.tanuki.list.ui.adapter.emptyStateListAD
+import org.tanukis.tanuki.list.ui.adapter.errorFooterAD
+import org.tanukis.tanuki.list.ui.adapter.errorStateListAD
+import org.tanukis.tanuki.list.ui.adapter.listHeaderAD
+import org.tanukis.tanuki.list.ui.adapter.loadingFooterAD
+import org.tanukis.tanuki.list.ui.adapter.loadingStateAD
+import org.tanukis.tanuki.list.ui.adapter.quickFilterAD
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.list.ui.size.ItemSizeResolver
+import org.tanukis.tanuki.tracker.ui.feed.model.FeedItem
 
 class FeedAdapter(
 	listener: MangaListListener,

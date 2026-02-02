@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.util
+package org.tanukis.tanuki.core.util
 
 class CompositeResult private constructor(
 	private var successCount: Int,

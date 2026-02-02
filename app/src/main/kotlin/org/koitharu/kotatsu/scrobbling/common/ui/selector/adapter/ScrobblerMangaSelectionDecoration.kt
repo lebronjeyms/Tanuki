@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.scrobbling.common.ui.selector.adapter
+package org.tanukis.tanuki.scrobbling.common.ui.selector.adapter
 
 import android.content.Context
 import android.graphics.Canvas
@@ -7,9 +7,9 @@ import android.graphics.RectF
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.NO_ID
-import org.koitharu.kotatsu.core.util.ext.getItem
-import org.koitharu.kotatsu.list.ui.MangaSelectionDecoration
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerManga
+import org.tanukis.tanuki.core.util.ext.getItem
+import org.tanukis.tanuki.list.ui.MangaSelectionDecoration
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerManga
 
 class ScrobblerMangaSelectionDecoration(context: Context) : MangaSelectionDecoration(context) {
 

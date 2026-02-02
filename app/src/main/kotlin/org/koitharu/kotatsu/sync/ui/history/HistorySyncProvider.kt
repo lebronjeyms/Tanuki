@@ -1,5 +1,5 @@
-package org.koitharu.kotatsu.sync.ui.history
+package org.tanukis.tanuki.sync.ui.history
 
-import org.koitharu.kotatsu.sync.ui.SyncProvider
+import org.tanukis.tanuki.sync.ui.SyncProvider
 
 class HistorySyncProvider : SyncProvider()

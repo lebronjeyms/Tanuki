@@ -1,9 +1,9 @@
-package org.koitharu.kotatsu.core.network.webview
+package org.tanukis.tanuki.core.network.webview
 
 import android.graphics.Bitmap
 import android.webkit.WebView
-import org.koitharu.kotatsu.core.network.cookies.MutableCookieJar
-import org.koitharu.kotatsu.parsers.network.CloudFlareHelper
+import org.tanukis.tanuki.core.network.cookies.MutableCookieJar
+import org.tanukis.tanuki.parsers.network.CloudFlareHelper
 import kotlin.coroutines.Continuation
 
 class CaptchaContinuationClient(

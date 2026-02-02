@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.reader.ui.pager.vertical
+package org.tanukis.tanuki.reader.ui.pager.vertical
 
 import android.view.View
 import androidx.viewpager2.widget.ViewPager2

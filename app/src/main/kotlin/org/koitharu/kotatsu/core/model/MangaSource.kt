@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.model
+package org.tanukis.tanuki.core.model
 
 import android.content.Context
 import android.os.Build
@@ -9,15 +9,15 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.core.content.ContextCompat
 import androidx.core.text.inSpans
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.parser.external.ExternalMangaSource
-import org.koitharu.kotatsu.core.util.ext.getDisplayName
-import org.koitharu.kotatsu.core.util.ext.toLocale
-import org.koitharu.kotatsu.core.util.ext.toLocaleOrNull
-import org.koitharu.kotatsu.parsers.model.ContentType
-import org.koitharu.kotatsu.parsers.model.MangaParserSource
-import org.koitharu.kotatsu.parsers.model.MangaSource
-import org.koitharu.kotatsu.parsers.util.splitTwoParts
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.parser.external.ExternalMangaSource
+import org.tanukis.tanuki.core.util.ext.getDisplayName
+import org.tanukis.tanuki.core.util.ext.toLocale
+import org.tanukis.tanuki.core.util.ext.toLocaleOrNull
+import org.tanukis.tanuki.parsers.model.ContentType
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.model.MangaSource
+import org.tanukis.tanuki.parsers.util.splitTwoParts
 import java.util.Locale
 
 data object LocalMangaSource : MangaSource {

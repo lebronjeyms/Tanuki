@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.os
+package org.tanukis.tanuki.core.os
 
 import android.content.Context
 import android.content.Intent

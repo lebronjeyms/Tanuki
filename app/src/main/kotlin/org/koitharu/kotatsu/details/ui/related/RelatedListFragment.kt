@@ -1,12 +1,12 @@
-package org.koitharu.kotatsu.details.ui.related
+package org.tanukis.tanuki.details.ui.related
 
 import android.view.Menu
 import android.view.MenuInflater
 import androidx.fragment.app.viewModels
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.ui.list.ListSelectionController
-import org.koitharu.kotatsu.list.ui.MangaListFragment
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.ui.list.ListSelectionController
+import org.tanukis.tanuki.list.ui.MangaListFragment
 
 @AndroidEntryPoint
 class RelatedListFragment : MangaListFragment() {

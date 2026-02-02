@@ -1,6 +1,6 @@
-package org.koitharu.kotatsu.settings.storage.directories
+package org.tanukis.tanuki.settings.storage.directories
 
-import org.koitharu.kotatsu.list.ui.model.ListModel
+import org.tanukis.tanuki.list.ui.model.ListModel
 import java.io.File
 
 data class DirectoryConfigModel(

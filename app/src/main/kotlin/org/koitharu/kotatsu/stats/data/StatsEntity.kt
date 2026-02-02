@@ -1,9 +1,9 @@
-package org.koitharu.kotatsu.stats.data
+package org.tanukis.tanuki.stats.data
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.ForeignKey
-import org.koitharu.kotatsu.history.data.HistoryEntity
+import org.tanukis.tanuki.history.data.HistoryEntity
 
 @Entity(
 	tableName = "stats",

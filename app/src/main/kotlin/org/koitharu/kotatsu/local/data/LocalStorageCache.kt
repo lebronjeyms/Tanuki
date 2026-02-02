@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.local.data
+package org.tanukis.tanuki.local.data
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -12,18 +12,18 @@ import okio.Source
 import okio.buffer
 import okio.sink
 import okio.use
-import org.koitharu.kotatsu.core.exceptions.NoDataReceivedException
-import org.koitharu.kotatsu.core.util.MimeTypes
-import org.koitharu.kotatsu.core.util.ext.MimeType
-import org.koitharu.kotatsu.core.util.ext.compressToPNG
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.core.util.ext.subdir
-import org.koitharu.kotatsu.core.util.ext.takeIfReadable
-import org.koitharu.kotatsu.core.util.ext.takeIfWriteable
-import org.koitharu.kotatsu.core.util.ext.writeAllCancellable
-import org.koitharu.kotatsu.parsers.util.ifNullOrEmpty
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
-import org.koitharu.kotatsu.parsers.util.suspendlazy.suspendLazy
+import org.tanukis.tanuki.core.exceptions.NoDataReceivedException
+import org.tanukis.tanuki.core.util.MimeTypes
+import org.tanukis.tanuki.core.util.ext.MimeType
+import org.tanukis.tanuki.core.util.ext.compressToPNG
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.core.util.ext.subdir
+import org.tanukis.tanuki.core.util.ext.takeIfReadable
+import org.tanukis.tanuki.core.util.ext.takeIfWriteable
+import org.tanukis.tanuki.core.util.ext.writeAllCancellable
+import org.tanukis.tanuki.parsers.util.ifNullOrEmpty
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.parsers.util.suspendlazy.suspendLazy
 import java.io.File
 import java.util.UUID
 

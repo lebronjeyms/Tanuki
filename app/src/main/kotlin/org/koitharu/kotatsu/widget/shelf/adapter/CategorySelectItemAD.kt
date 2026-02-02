@@ -1,10 +1,10 @@
-package org.koitharu.kotatsu.widget.shelf.adapter
+package org.tanukis.tanuki.widget.shelf.adapter
 
 import com.hannesdorfmann.adapterdelegates4.dsl.adapterDelegateViewBinding
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.databinding.ItemCategoryCheckableSingleBinding
-import org.koitharu.kotatsu.widget.shelf.model.CategoryItem
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.databinding.ItemCategoryCheckableSingleBinding
+import org.tanukis.tanuki.widget.shelf.model.CategoryItem
 
 fun categorySelectItemAD(
 	clickListener: OnListItemClickListener<CategoryItem>

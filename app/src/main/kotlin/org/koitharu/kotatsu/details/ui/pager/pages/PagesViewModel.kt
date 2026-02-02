@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.details.ui.pager.pages
+package org.tanukis.tanuki.details.ui.pager.pages
 
 import android.net.Uri
 import androidx.lifecycle.viewModelScope
@@ -9,20 +9,20 @@ import kotlinx.coroutines.cancelAndJoin
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.plus
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.prefs.observeAsStateFlow
-import org.koitharu.kotatsu.core.ui.BaseViewModel
-import org.koitharu.kotatsu.core.util.ext.MutableEventFlow
-import org.koitharu.kotatsu.core.util.ext.call
-import org.koitharu.kotatsu.core.util.ext.firstNotNull
-import org.koitharu.kotatsu.core.util.ext.requireValue
-import org.koitharu.kotatsu.details.data.MangaDetails
-import org.koitharu.kotatsu.list.ui.model.ListHeader
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.reader.domain.ChaptersLoader
-import org.koitharu.kotatsu.reader.ui.PageSaveHelper
-import org.koitharu.kotatsu.reader.ui.ReaderState
-import org.koitharu.kotatsu.reader.ui.pager.ReaderPage
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.prefs.observeAsStateFlow
+import org.tanukis.tanuki.core.ui.BaseViewModel
+import org.tanukis.tanuki.core.util.ext.MutableEventFlow
+import org.tanukis.tanuki.core.util.ext.call
+import org.tanukis.tanuki.core.util.ext.firstNotNull
+import org.tanukis.tanuki.core.util.ext.requireValue
+import org.tanukis.tanuki.details.data.MangaDetails
+import org.tanukis.tanuki.list.ui.model.ListHeader
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.reader.domain.ChaptersLoader
+import org.tanukis.tanuki.reader.ui.PageSaveHelper
+import org.tanukis.tanuki.reader.ui.ReaderState
+import org.tanukis.tanuki.reader.ui.pager.ReaderPage
 import javax.inject.Inject
 
 @HiltViewModel

@@ -1,8 +1,8 @@
-package org.koitharu.kotatsu.settings.sources.catalog
+package org.tanukis.tanuki.settings.sources.catalog
 
-import org.koitharu.kotatsu.list.ui.ListModelDiffCallback
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.parsers.model.ContentType
+import org.tanukis.tanuki.list.ui.ListModelDiffCallback
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.parsers.model.ContentType
 
 data class SourceCatalogPage(
 	val type: ContentType,

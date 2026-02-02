@@ -1,17 +1,17 @@
-package org.koitharu.kotatsu.list.domain
+package org.tanukis.tanuki.list.domain
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.db.entity.toEntity
-import org.koitharu.kotatsu.core.model.FavouriteCategory
-import org.koitharu.kotatsu.core.model.LocalMangaSource
-import org.koitharu.kotatsu.core.model.unwrap
-import org.koitharu.kotatsu.core.parser.external.ExternalMangaSource
-import org.koitharu.kotatsu.core.parser.favicon.faviconUri
-import org.koitharu.kotatsu.parsers.model.MangaParserSource
-import org.koitharu.kotatsu.parsers.model.MangaSource
-import org.koitharu.kotatsu.parsers.model.MangaTag
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.db.entity.toEntity
+import org.tanukis.tanuki.core.model.FavouriteCategory
+import org.tanukis.tanuki.core.model.LocalMangaSource
+import org.tanukis.tanuki.core.model.unwrap
+import org.tanukis.tanuki.core.parser.external.ExternalMangaSource
+import org.tanukis.tanuki.core.parser.favicon.faviconUri
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.model.MangaSource
+import org.tanukis.tanuki.parsers.model.MangaTag
 
 sealed interface ListFilterOption {
 

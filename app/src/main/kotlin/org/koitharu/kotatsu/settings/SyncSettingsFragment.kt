@@ -1,14 +1,14 @@
-package org.koitharu.kotatsu.settings
+package org.tanukis.tanuki.settings
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.FragmentResultListener
 import androidx.preference.Preference
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.ui.BasePreferenceFragment
-import org.koitharu.kotatsu.sync.data.SyncSettings
-import org.koitharu.kotatsu.sync.ui.SyncHostDialogFragment
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.ui.BasePreferenceFragment
+import org.tanukis.tanuki.sync.data.SyncSettings
+import org.tanukis.tanuki.sync.ui.SyncHostDialogFragment
 import javax.inject.Inject
 
 @AndroidEntryPoint

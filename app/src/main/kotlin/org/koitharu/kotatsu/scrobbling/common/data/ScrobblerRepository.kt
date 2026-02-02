@@ -1,8 +1,8 @@
-package org.koitharu.kotatsu.scrobbling.common.data
+package org.tanukis.tanuki.scrobbling.common.data
 
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerManga
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerMangaInfo
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerUser
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerManga
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerMangaInfo
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerUser
 
 interface ScrobblerRepository {
 

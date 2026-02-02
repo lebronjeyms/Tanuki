@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu
+package org.tanukis.tanuki
 
 import android.app.Instrumentation
 import kotlin.coroutines.resume

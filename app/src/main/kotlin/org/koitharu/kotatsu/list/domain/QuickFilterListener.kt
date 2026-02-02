@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.list.domain
+package org.tanukis.tanuki.list.domain
 
 interface QuickFilterListener {
 

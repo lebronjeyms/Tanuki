@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.model
+package org.tanukis.tanuki.core.model
 
 import android.content.res.Resources
 import android.net.Uri
@@ -10,19 +10,19 @@ import androidx.core.net.toUri
 import androidx.core.os.LocaleListCompat
 import androidx.core.text.buildSpannedString
 import androidx.core.text.strikeThrough
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.ui.model.MangaOverride
-import org.koitharu.kotatsu.core.util.ext.iterator
-import org.koitharu.kotatsu.details.ui.model.ChapterListItem
-import org.koitharu.kotatsu.parsers.model.ContentRating
-import org.koitharu.kotatsu.parsers.model.Demographic
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.model.MangaChapter
-import org.koitharu.kotatsu.parsers.model.MangaListFilter
-import org.koitharu.kotatsu.parsers.model.MangaState
-import org.koitharu.kotatsu.parsers.util.findById
-import org.koitharu.kotatsu.parsers.util.ifNullOrEmpty
-import org.koitharu.kotatsu.parsers.util.mapToSet
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.ui.model.MangaOverride
+import org.tanukis.tanuki.core.util.ext.iterator
+import org.tanukis.tanuki.details.ui.model.ChapterListItem
+import org.tanukis.tanuki.parsers.model.ContentRating
+import org.tanukis.tanuki.parsers.model.Demographic
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaChapter
+import org.tanukis.tanuki.parsers.model.MangaListFilter
+import org.tanukis.tanuki.parsers.model.MangaState
+import org.tanukis.tanuki.parsers.util.findById
+import org.tanukis.tanuki.parsers.util.ifNullOrEmpty
+import org.tanukis.tanuki.parsers.util.mapToSet
 import com.google.android.material.R as materialR
 
 @JvmName("mangaIds")

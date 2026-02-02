@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.exceptions
+package org.tanukis.tanuki.core.exceptions
 
 import java.net.ProtocolException
 

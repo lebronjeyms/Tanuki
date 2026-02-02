@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.util
+package org.tanukis.tanuki.core.util
 
 import kotlinx.coroutines.flow.FlowCollector
 

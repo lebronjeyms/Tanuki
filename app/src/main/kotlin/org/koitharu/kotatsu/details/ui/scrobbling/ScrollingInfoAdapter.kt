@@ -1,8 +1,8 @@
-package org.koitharu.kotatsu.details.ui.scrobbling
+package org.tanukis.tanuki.details.ui.scrobbling
 
-import org.koitharu.kotatsu.core.nav.AppRouter
-import org.koitharu.kotatsu.core.ui.BaseListAdapter
-import org.koitharu.kotatsu.list.ui.model.ListModel
+import org.tanukis.tanuki.core.nav.AppRouter
+import org.tanukis.tanuki.core.ui.BaseListAdapter
+import org.tanukis.tanuki.list.ui.model.ListModel
 
 class ScrollingInfoAdapter(
 	router: AppRouter,

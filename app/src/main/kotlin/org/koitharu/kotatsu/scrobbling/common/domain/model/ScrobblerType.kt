@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.scrobbling.common.domain.model
+package org.tanukis.tanuki.scrobbling.common.domain.model
 
 import javax.inject.Qualifier
 

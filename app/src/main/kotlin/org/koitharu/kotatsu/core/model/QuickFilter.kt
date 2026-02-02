@@ -1,7 +1,7 @@
-package org.koitharu.kotatsu.core.model
+package org.tanukis.tanuki.core.model
 
-import org.koitharu.kotatsu.core.ui.widgets.ChipsView
-import org.koitharu.kotatsu.list.domain.ListFilterOption
+import org.tanukis.tanuki.core.ui.widgets.ChipsView
+import org.tanukis.tanuki.list.domain.ListFilterOption
 
 fun ListFilterOption.toChipModel(isChecked: Boolean) = ChipsView.ChipModel(
 	title = titleText,

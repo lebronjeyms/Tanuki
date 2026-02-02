@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.scrobbling.common.ui.selector
+package org.tanukis.tanuki.scrobbling.common.ui.selector
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.viewModelScope
@@ -12,27 +12,27 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.plus
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.exceptions.resolve.ExceptionResolver
-import org.koitharu.kotatsu.core.model.parcelable.ParcelableManga
-import org.koitharu.kotatsu.core.nav.AppRouter
-import org.koitharu.kotatsu.core.ui.BaseViewModel
-import org.koitharu.kotatsu.core.util.ext.MutableEventFlow
-import org.koitharu.kotatsu.core.util.ext.call
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.core.util.ext.require
-import org.koitharu.kotatsu.core.util.ext.requireValue
-import org.koitharu.kotatsu.history.data.HistoryRepository
-import org.koitharu.kotatsu.list.domain.ReadingProgress
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.list.ui.model.LoadingFooter
-import org.koitharu.kotatsu.list.ui.model.LoadingState
-import org.koitharu.kotatsu.parsers.util.ifZero
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
-import org.koitharu.kotatsu.scrobbling.common.domain.Scrobbler
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerManga
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblingStatus
-import org.koitharu.kotatsu.scrobbling.common.ui.selector.model.ScrobblerHint
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.exceptions.resolve.ExceptionResolver
+import org.tanukis.tanuki.core.model.parcelable.ParcelableManga
+import org.tanukis.tanuki.core.nav.AppRouter
+import org.tanukis.tanuki.core.ui.BaseViewModel
+import org.tanukis.tanuki.core.util.ext.MutableEventFlow
+import org.tanukis.tanuki.core.util.ext.call
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.core.util.ext.require
+import org.tanukis.tanuki.core.util.ext.requireValue
+import org.tanukis.tanuki.history.data.HistoryRepository
+import org.tanukis.tanuki.list.domain.ReadingProgress
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.list.ui.model.LoadingFooter
+import org.tanukis.tanuki.list.ui.model.LoadingState
+import org.tanukis.tanuki.parsers.util.ifZero
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.scrobbling.common.domain.Scrobbler
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerManga
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblingStatus
+import org.tanukis.tanuki.scrobbling.common.ui.selector.model.ScrobblerHint
 import javax.inject.Inject
 
 @HiltViewModel

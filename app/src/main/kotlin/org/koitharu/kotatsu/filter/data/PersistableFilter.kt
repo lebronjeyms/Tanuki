@@ -1,11 +1,11 @@
-package org.koitharu.kotatsu.filter.data
+package org.tanukis.tanuki.filter.data
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.JsonIgnoreUnknownKeys
-import org.koitharu.kotatsu.core.model.MangaSourceSerializer
-import org.koitharu.kotatsu.parsers.model.MangaListFilter
-import org.koitharu.kotatsu.parsers.model.MangaSource
+import org.tanukis.tanuki.core.model.MangaSourceSerializer
+import org.tanukis.tanuki.parsers.model.MangaListFilter
+import org.tanukis.tanuki.parsers.model.MangaSource
 
 @Serializable
 @JsonIgnoreUnknownKeys

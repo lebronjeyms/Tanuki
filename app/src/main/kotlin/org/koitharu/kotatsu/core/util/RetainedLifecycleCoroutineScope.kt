@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.util
+package org.tanukis.tanuki.core.util
 
 import dagger.hilt.android.lifecycle.RetainedLifecycle
 import kotlinx.coroutines.CoroutineScope

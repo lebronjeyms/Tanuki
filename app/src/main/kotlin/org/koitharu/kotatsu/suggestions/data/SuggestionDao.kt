@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.suggestions.data
+package org.tanukis.tanuki.suggestions.data
 
 import android.database.DatabaseUtils.sqlEscapeString
 import androidx.room.Dao
@@ -10,10 +10,10 @@ import androidx.room.Transaction
 import androidx.room.Update
 import androidx.sqlite.db.SupportSQLiteQuery
 import kotlinx.coroutines.flow.Flow
-import org.koitharu.kotatsu.core.db.MangaQueryBuilder
-import org.koitharu.kotatsu.core.db.entity.MangaWithTags
-import org.koitharu.kotatsu.core.db.entity.TagEntity
-import org.koitharu.kotatsu.list.domain.ListFilterOption
+import org.tanukis.tanuki.core.db.MangaQueryBuilder
+import org.tanukis.tanuki.core.db.entity.MangaWithTags
+import org.tanukis.tanuki.core.db.entity.TagEntity
+import org.tanukis.tanuki.list.domain.ListFilterOption
 
 @Dao
 abstract class SuggestionDao : MangaQueryBuilder.ConditionCallback {

@@ -1,7 +1,7 @@
-package org.koitharu.kotatsu.reader.ui
+package org.tanukis.tanuki.reader.ui
 
 import com.google.android.material.slider.LabelFormatter
-import org.koitharu.kotatsu.parsers.util.format
+import org.tanukis.tanuki.parsers.util.format
 
 class PageLabelFormatter : LabelFormatter {
 

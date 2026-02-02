@@ -1,14 +1,14 @@
-package org.koitharu.kotatsu.settings
+package org.tanukis.tanuki.settings
 
 import android.os.Bundle
 import androidx.preference.Preference
 import leakcanary.LeakCanary
-import org.koitharu.kotatsu.KotatsuApp
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.model.TestMangaSource
-import org.koitharu.kotatsu.core.nav.router
-import org.koitharu.kotatsu.core.ui.BasePreferenceFragment
-import org.koitharu.kotatsu.settings.utils.SplitSwitchPreference
+import org.tanukis.tanuki.KotatsuApp
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.model.TestMangaSource
+import org.tanukis.tanuki.core.nav.router
+import org.tanukis.tanuki.core.ui.BasePreferenceFragment
+import org.tanukis.tanuki.settings.utils.SplitSwitchPreference
 import org.koitharu.workinspector.WorkInspector
 
 class DebugSettingsFragment : BasePreferenceFragment(R.string.debug), Preference.OnPreferenceChangeListener,

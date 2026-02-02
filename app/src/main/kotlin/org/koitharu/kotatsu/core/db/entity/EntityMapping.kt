@@ -1,17 +1,17 @@
-package org.koitharu.kotatsu.core.db.entity
+package org.tanukis.tanuki.core.db.entity
 
-import org.koitharu.kotatsu.core.model.MangaSource
-import org.koitharu.kotatsu.parsers.model.ContentRating
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.model.MangaChapter
-import org.koitharu.kotatsu.parsers.model.MangaState
-import org.koitharu.kotatsu.parsers.model.MangaTag
-import org.koitharu.kotatsu.parsers.model.SortOrder
-import org.koitharu.kotatsu.parsers.util.longHashCode
-import org.koitharu.kotatsu.parsers.util.mapToSet
-import org.koitharu.kotatsu.parsers.util.nullIfEmpty
-import org.koitharu.kotatsu.parsers.util.toArraySet
-import org.koitharu.kotatsu.parsers.util.toTitleCase
+import org.tanukis.tanuki.core.model.MangaSource
+import org.tanukis.tanuki.parsers.model.ContentRating
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaChapter
+import org.tanukis.tanuki.parsers.model.MangaState
+import org.tanukis.tanuki.parsers.model.MangaTag
+import org.tanukis.tanuki.parsers.model.SortOrder
+import org.tanukis.tanuki.parsers.util.longHashCode
+import org.tanukis.tanuki.parsers.util.mapToSet
+import org.tanukis.tanuki.parsers.util.nullIfEmpty
+import org.tanukis.tanuki.parsers.util.toArraySet
+import org.tanukis.tanuki.parsers.util.toTitleCase
 
 private const val VALUES_DIVIDER = '\n'
 

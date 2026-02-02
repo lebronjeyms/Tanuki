@@ -1,14 +1,14 @@
-package org.koitharu.kotatsu.favourites.ui.categories.select.adapter
+package org.tanukis.tanuki.favourites.ui.categories.select.adapter
 
 import androidx.core.text.buildSpannedString
 import com.hannesdorfmann.adapterdelegates4.dsl.adapterDelegateViewBinding
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.model.appendIcon
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.databinding.ItemCategoryCheckableBinding
-import org.koitharu.kotatsu.favourites.ui.categories.select.model.MangaCategoryItem
-import org.koitharu.kotatsu.list.ui.ListModelDiffCallback
-import org.koitharu.kotatsu.list.ui.model.ListModel
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.model.appendIcon
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.databinding.ItemCategoryCheckableBinding
+import org.tanukis.tanuki.favourites.ui.categories.select.model.MangaCategoryItem
+import org.tanukis.tanuki.list.ui.ListModelDiffCallback
+import org.tanukis.tanuki.list.ui.model.ListModel
 
 fun mangaCategoryAD(
 	clickListener: OnListItemClickListener<MangaCategoryItem>,

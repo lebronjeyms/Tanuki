@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings
+package org.tanukis.tanuki.settings
 
 import android.content.SharedPreferences
 import android.content.pm.ActivityInfo
@@ -8,21 +8,21 @@ import androidx.preference.ListPreference
 import androidx.preference.MultiSelectListPreference
 import androidx.preference.Preference
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.model.ZoomMode
-import org.koitharu.kotatsu.core.nav.router
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.prefs.ReaderAnimation
-import org.koitharu.kotatsu.core.prefs.ReaderBackground
-import org.koitharu.kotatsu.core.prefs.ReaderControl
-import org.koitharu.kotatsu.core.prefs.ReaderMode
-import org.koitharu.kotatsu.core.ui.BasePreferenceFragment
-import org.koitharu.kotatsu.core.util.ext.setDefaultValueCompat
-import org.koitharu.kotatsu.parsers.util.mapToSet
-import org.koitharu.kotatsu.parsers.util.names
-import org.koitharu.kotatsu.settings.utils.MultiSummaryProvider
-import org.koitharu.kotatsu.settings.utils.PercentSummaryProvider
-import org.koitharu.kotatsu.settings.utils.SliderPreference
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.model.ZoomMode
+import org.tanukis.tanuki.core.nav.router
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.prefs.ReaderAnimation
+import org.tanukis.tanuki.core.prefs.ReaderBackground
+import org.tanukis.tanuki.core.prefs.ReaderControl
+import org.tanukis.tanuki.core.prefs.ReaderMode
+import org.tanukis.tanuki.core.ui.BasePreferenceFragment
+import org.tanukis.tanuki.core.util.ext.setDefaultValueCompat
+import org.tanukis.tanuki.parsers.util.mapToSet
+import org.tanukis.tanuki.parsers.util.names
+import org.tanukis.tanuki.settings.utils.MultiSummaryProvider
+import org.tanukis.tanuki.settings.utils.PercentSummaryProvider
+import org.tanukis.tanuki.settings.utils.SliderPreference
 
 @AndroidEntryPoint
 class ReaderSettingsFragment :

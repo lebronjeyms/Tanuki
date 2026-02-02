@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core
+package org.tanukis.tanuki.core
 
 import android.app.Application
 import android.content.Context
@@ -21,18 +21,18 @@ import org.acra.data.StringFormat
 import org.acra.ktx.initAcra
 import org.acra.sender.HttpSender
 import org.conscrypt.Conscrypt
-import org.koitharu.kotatsu.BuildConfig
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.db.MangaDatabase
-import org.koitharu.kotatsu.core.os.AppValidator
-import org.koitharu.kotatsu.core.os.RomCompat
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.util.ext.processLifecycleScope
-import org.koitharu.kotatsu.local.data.LocalStorageChanges
-import org.koitharu.kotatsu.local.data.index.LocalMangaIndex
-import org.koitharu.kotatsu.local.domain.model.LocalManga
-import org.koitharu.kotatsu.parsers.util.suspendlazy.getOrNull
-import org.koitharu.kotatsu.settings.work.WorkScheduleManager
+import org.tanukis.tanuki.BuildConfig
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.db.MangaDatabase
+import org.tanukis.tanuki.core.os.AppValidator
+import org.tanukis.tanuki.core.os.RomCompat
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.util.ext.processLifecycleScope
+import org.tanukis.tanuki.local.data.LocalStorageChanges
+import org.tanukis.tanuki.local.data.index.LocalMangaIndex
+import org.tanukis.tanuki.local.domain.model.LocalManga
+import org.tanukis.tanuki.parsers.util.suspendlazy.getOrNull
+import org.tanukis.tanuki.settings.work.WorkScheduleManager
 import java.security.Security
 import javax.inject.Inject
 import javax.inject.Provider

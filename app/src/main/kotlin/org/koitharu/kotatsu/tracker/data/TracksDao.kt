@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.tracker.data
+package org.tanukis.tanuki.tracker.data
 
 import androidx.room.Dao
 import androidx.room.Query
@@ -7,8 +7,8 @@ import androidx.room.Transaction
 import androidx.room.Upsert
 import androidx.sqlite.db.SupportSQLiteQuery
 import kotlinx.coroutines.flow.Flow
-import org.koitharu.kotatsu.core.db.MangaQueryBuilder
-import org.koitharu.kotatsu.list.domain.ListFilterOption
+import org.tanukis.tanuki.core.db.MangaQueryBuilder
+import org.tanukis.tanuki.list.domain.ListFilterOption
 
 @Dao
 abstract class TracksDao : MangaQueryBuilder.ConditionCallback {

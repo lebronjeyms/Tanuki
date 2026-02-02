@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.image.ui
+package org.tanukis.tanuki.image.ui
 
 import android.graphics.drawable.Drawable
 import android.net.Uri
@@ -22,27 +22,27 @@ import com.davemorrissey.labs.subscaleview.ImageSource
 import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
 import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.exceptions.resolve.SnackbarErrorObserver
-import org.koitharu.kotatsu.core.image.CoilMemoryCacheKey
-import org.koitharu.kotatsu.core.model.MangaSource
-import org.koitharu.kotatsu.core.nav.AppRouter
-import org.koitharu.kotatsu.core.ui.BaseActivity
-import org.koitharu.kotatsu.core.ui.util.PopupMenuMediator
-import org.koitharu.kotatsu.core.util.ShareHelper
-import org.koitharu.kotatsu.core.util.ext.consumeAll
-import org.koitharu.kotatsu.core.util.ext.end
-import org.koitharu.kotatsu.core.util.ext.enqueueWith
-import org.koitharu.kotatsu.core.util.ext.getDisplayIcon
-import org.koitharu.kotatsu.core.util.ext.getDisplayMessage
-import org.koitharu.kotatsu.core.util.ext.getParcelableExtraCompat
-import org.koitharu.kotatsu.core.util.ext.getThemeColor
-import org.koitharu.kotatsu.core.util.ext.mangaSourceExtra
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.observeEvent
-import org.koitharu.kotatsu.core.util.ext.start
-import org.koitharu.kotatsu.databinding.ActivityImageBinding
-import org.koitharu.kotatsu.databinding.ItemErrorStateBinding
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.exceptions.resolve.SnackbarErrorObserver
+import org.tanukis.tanuki.core.image.CoilMemoryCacheKey
+import org.tanukis.tanuki.core.model.MangaSource
+import org.tanukis.tanuki.core.nav.AppRouter
+import org.tanukis.tanuki.core.ui.BaseActivity
+import org.tanukis.tanuki.core.ui.util.PopupMenuMediator
+import org.tanukis.tanuki.core.util.ShareHelper
+import org.tanukis.tanuki.core.util.ext.consumeAll
+import org.tanukis.tanuki.core.util.ext.end
+import org.tanukis.tanuki.core.util.ext.enqueueWith
+import org.tanukis.tanuki.core.util.ext.getDisplayIcon
+import org.tanukis.tanuki.core.util.ext.getDisplayMessage
+import org.tanukis.tanuki.core.util.ext.getParcelableExtraCompat
+import org.tanukis.tanuki.core.util.ext.getThemeColor
+import org.tanukis.tanuki.core.util.ext.mangaSourceExtra
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.observeEvent
+import org.tanukis.tanuki.core.util.ext.start
+import org.tanukis.tanuki.databinding.ActivityImageBinding
+import org.tanukis.tanuki.databinding.ItemErrorStateBinding
 import javax.inject.Inject
 import androidx.appcompat.R as appcompatR
 

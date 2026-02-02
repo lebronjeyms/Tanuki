@@ -1,14 +1,14 @@
-package org.koitharu.kotatsu.core.parser
+package org.tanukis.tanuki.core.parser
 
-import org.koitharu.kotatsu.core.exceptions.UnsupportedSourceException
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.model.MangaChapter
-import org.koitharu.kotatsu.parsers.model.MangaListFilter
-import org.koitharu.kotatsu.parsers.model.MangaListFilterCapabilities
-import org.koitharu.kotatsu.parsers.model.MangaListFilterOptions
-import org.koitharu.kotatsu.parsers.model.MangaPage
-import org.koitharu.kotatsu.parsers.model.MangaSource
-import org.koitharu.kotatsu.parsers.model.SortOrder
+import org.tanukis.tanuki.core.exceptions.UnsupportedSourceException
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaChapter
+import org.tanukis.tanuki.parsers.model.MangaListFilter
+import org.tanukis.tanuki.parsers.model.MangaListFilterCapabilities
+import org.tanukis.tanuki.parsers.model.MangaListFilterOptions
+import org.tanukis.tanuki.parsers.model.MangaPage
+import org.tanukis.tanuki.parsers.model.MangaSource
+import org.tanukis.tanuki.parsers.model.SortOrder
 import java.util.EnumSet
 
 open class EmptyMangaRepository(override val source: MangaSource) : MangaRepository {

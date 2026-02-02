@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.ui.list.fastscroll
+package org.tanukis.tanuki.core.ui.list.fastscroll
 
 import android.content.Context
 import android.util.AttributeSet
@@ -8,7 +8,7 @@ import androidx.core.view.ancestors
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
-import org.koitharu.kotatsu.R
+import org.tanukis.tanuki.R
 
 class FastScrollRecyclerView @JvmOverloads constructor(
 	context: Context,

@@ -1,10 +1,10 @@
-package org.koitharu.kotatsu.scrobbling.discord.ui
+package org.tanukis.tanuki.scrobbling.discord.ui
 
 import android.graphics.Bitmap
 import android.webkit.WebView
-import org.koitharu.kotatsu.browser.BrowserCallback
-import org.koitharu.kotatsu.browser.BrowserClient
-import org.koitharu.kotatsu.parsers.util.removeSurrounding
+import org.tanukis.tanuki.browser.BrowserCallback
+import org.tanukis.tanuki.browser.BrowserClient
+import org.tanukis.tanuki.parsers.util.removeSurrounding
 
 class DiscordTokenWebClient(private val callback: Callback) : BrowserClient(callback, null) {
 

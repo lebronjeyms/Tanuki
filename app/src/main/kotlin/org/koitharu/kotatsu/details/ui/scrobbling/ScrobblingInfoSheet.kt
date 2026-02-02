@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.details.ui.scrobbling
+package org.tanukis.tanuki.details.ui.scrobbling
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -15,19 +15,19 @@ import androidx.core.view.updatePadding
 import androidx.fragment.app.activityViewModels
 import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.nav.AppRouter
-import org.koitharu.kotatsu.core.nav.router
-import org.koitharu.kotatsu.core.ui.sheet.BaseAdaptiveSheet
-import org.koitharu.kotatsu.core.util.ext.consume
-import org.koitharu.kotatsu.core.util.ext.getDisplayMessage
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.observeEvent
-import org.koitharu.kotatsu.core.util.ext.sanitize
-import org.koitharu.kotatsu.databinding.SheetScrobblingBinding
-import org.koitharu.kotatsu.details.ui.DetailsViewModel
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblingInfo
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblingStatus
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.nav.AppRouter
+import org.tanukis.tanuki.core.nav.router
+import org.tanukis.tanuki.core.ui.sheet.BaseAdaptiveSheet
+import org.tanukis.tanuki.core.util.ext.consume
+import org.tanukis.tanuki.core.util.ext.getDisplayMessage
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.observeEvent
+import org.tanukis.tanuki.core.util.ext.sanitize
+import org.tanukis.tanuki.databinding.SheetScrobblingBinding
+import org.tanukis.tanuki.details.ui.DetailsViewModel
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblingInfo
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblingStatus
 
 @AndroidEntryPoint
 class ScrobblingInfoSheet :

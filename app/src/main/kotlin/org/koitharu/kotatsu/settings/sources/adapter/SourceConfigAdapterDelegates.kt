@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.sources.adapter
+package org.tanukis.tanuki.settings.sources.adapter
 
 import android.view.View
 import androidx.appcompat.widget.PopupMenu
@@ -8,14 +8,14 @@ import androidx.core.view.isGone
 import androidx.core.view.isVisible
 import com.hannesdorfmann.adapterdelegates4.dsl.adapterDelegate
 import com.hannesdorfmann.adapterdelegates4.dsl.adapterDelegateViewBinding
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.model.getSummary
-import org.koitharu.kotatsu.core.model.getTitle
-import org.koitharu.kotatsu.core.ui.list.OnTipCloseListener
-import org.koitharu.kotatsu.core.util.ext.drawableStart
-import org.koitharu.kotatsu.databinding.ItemSourceConfigBinding
-import org.koitharu.kotatsu.databinding.ItemTipBinding
-import org.koitharu.kotatsu.settings.sources.model.SourceConfigItem
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.model.getSummary
+import org.tanukis.tanuki.core.model.getTitle
+import org.tanukis.tanuki.core.ui.list.OnTipCloseListener
+import org.tanukis.tanuki.core.util.ext.drawableStart
+import org.tanukis.tanuki.databinding.ItemSourceConfigBinding
+import org.tanukis.tanuki.databinding.ItemTipBinding
+import org.tanukis.tanuki.settings.sources.model.SourceConfigItem
 
 fun sourceConfigItemDelegate2(
 	listener: SourceConfigListener,

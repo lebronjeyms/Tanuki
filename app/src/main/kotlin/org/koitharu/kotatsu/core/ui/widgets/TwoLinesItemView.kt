@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.ui.widgets
+package org.tanukis.tanuki.core.ui.widgets
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -24,11 +24,11 @@ import androidx.core.widget.TextViewCompat
 import com.google.android.material.ripple.RippleUtils
 import com.google.android.material.shape.MaterialShapeDrawable
 import com.google.android.material.shape.ShapeAppearanceModel
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.util.ext.getDrawableCompat
-import org.koitharu.kotatsu.core.util.ext.resolveDp
-import org.koitharu.kotatsu.core.util.ext.textAndVisible
-import org.koitharu.kotatsu.databinding.ViewTwoLinesItemBinding
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.util.ext.getDrawableCompat
+import org.tanukis.tanuki.core.util.ext.resolveDp
+import org.tanukis.tanuki.core.util.ext.textAndVisible
+import org.tanukis.tanuki.databinding.ViewTwoLinesItemBinding
 
 @SuppressLint("RestrictedApi")
 class TwoLinesItemView @JvmOverloads constructor(

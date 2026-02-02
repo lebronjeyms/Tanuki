@@ -1,16 +1,16 @@
-package org.koitharu.kotatsu.sync.data
+package org.tanukis.tanuki.sync.data
 
 import dagger.Reusable
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.json.JSONObject
-import org.koitharu.kotatsu.core.exceptions.SyncApiException
-import org.koitharu.kotatsu.core.network.BaseHttpClient
-import org.koitharu.kotatsu.core.util.ext.toRequestBody
-import org.koitharu.kotatsu.parsers.util.await
-import org.koitharu.kotatsu.parsers.util.parseJson
-import org.koitharu.kotatsu.parsers.util.parseRaw
-import org.koitharu.kotatsu.parsers.util.removeSurrounding
+import org.tanukis.tanuki.core.exceptions.SyncApiException
+import org.tanukis.tanuki.core.network.BaseHttpClient
+import org.tanukis.tanuki.core.util.ext.toRequestBody
+import org.tanukis.tanuki.parsers.util.await
+import org.tanukis.tanuki.parsers.util.parseJson
+import org.tanukis.tanuki.parsers.util.parseRaw
+import org.tanukis.tanuki.parsers.util.removeSurrounding
 import javax.inject.Inject
 
 @Reusable

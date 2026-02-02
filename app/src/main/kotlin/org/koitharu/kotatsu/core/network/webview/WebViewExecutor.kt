@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.network.webview
+package org.tanukis.tanuki.core.network.webview
 
 import android.content.Context
 import android.util.AndroidRuntimeException
@@ -13,16 +13,16 @@ import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
 import kotlinx.coroutines.withTimeout
-import org.koitharu.kotatsu.core.exceptions.CloudFlareException
-import org.koitharu.kotatsu.core.network.CommonHeaders
-import org.koitharu.kotatsu.core.network.cookies.MutableCookieJar
-import org.koitharu.kotatsu.core.network.proxy.ProxyProvider
-import org.koitharu.kotatsu.core.parser.MangaRepository
-import org.koitharu.kotatsu.core.parser.ParserMangaRepository
-import org.koitharu.kotatsu.core.util.ext.configureForParser
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.parsers.model.MangaSource
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.core.exceptions.CloudFlareException
+import org.tanukis.tanuki.core.network.CommonHeaders
+import org.tanukis.tanuki.core.network.cookies.MutableCookieJar
+import org.tanukis.tanuki.core.network.proxy.ProxyProvider
+import org.tanukis.tanuki.core.parser.MangaRepository
+import org.tanukis.tanuki.core.parser.ParserMangaRepository
+import org.tanukis.tanuki.core.util.ext.configureForParser
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.parsers.model.MangaSource
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
 import java.lang.ref.WeakReference
 import javax.inject.Inject
 import javax.inject.Provider

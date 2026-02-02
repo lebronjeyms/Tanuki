@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.list.ui.model
+package org.tanukis.tanuki.list.ui.model
 
 import androidx.annotation.StringRes
 

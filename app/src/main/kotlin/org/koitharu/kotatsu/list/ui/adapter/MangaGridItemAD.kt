@@ -1,17 +1,17 @@
-package org.koitharu.kotatsu.list.ui.adapter
+package org.tanukis.tanuki.list.ui.adapter
 
 import androidx.core.view.isVisible
 import com.hannesdorfmann.adapterdelegates4.dsl.adapterDelegateViewBinding
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.ui.list.AdapterDelegateClickListenerAdapter
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.core.util.ext.setTooltipCompat
-import org.koitharu.kotatsu.databinding.ItemMangaGridBinding
-import org.koitharu.kotatsu.list.ui.ListModelDiffCallback.Companion.PAYLOAD_PROGRESS_CHANGED
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.list.ui.model.MangaGridModel
-import org.koitharu.kotatsu.list.ui.model.MangaListModel
-import org.koitharu.kotatsu.list.ui.size.ItemSizeResolver
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.ui.list.AdapterDelegateClickListenerAdapter
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.core.util.ext.setTooltipCompat
+import org.tanukis.tanuki.databinding.ItemMangaGridBinding
+import org.tanukis.tanuki.list.ui.ListModelDiffCallback.Companion.PAYLOAD_PROGRESS_CHANGED
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.list.ui.model.MangaGridModel
+import org.tanukis.tanuki.list.ui.model.MangaListModel
+import org.tanukis.tanuki.list.ui.size.ItemSizeResolver
 
 fun mangaGridItemAD(
 	sizeResolver: ItemSizeResolver,

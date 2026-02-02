@@ -1,6 +1,6 @@
-package org.koitharu.kotatsu.core.util.ext
+package org.tanukis.tanuki.core.util.ext
 
-import org.koitharu.kotatsu.core.io.NullOutputStream
+import org.tanukis.tanuki.core.io.NullOutputStream
 import java.io.ObjectOutputStream
 
 @Suppress("UNCHECKED_CAST")

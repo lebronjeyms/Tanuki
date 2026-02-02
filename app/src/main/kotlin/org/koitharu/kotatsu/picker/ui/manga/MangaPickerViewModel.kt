@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.picker.ui.manga
+package org.tanukis.tanuki.picker.ui.manga
 
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -9,20 +9,20 @@ import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.plus
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.parser.MangaDataRepository
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.favourites.domain.FavouritesRepository
-import org.koitharu.kotatsu.history.data.HistoryRepository
-import org.koitharu.kotatsu.list.domain.MangaListMapper
-import org.koitharu.kotatsu.list.ui.MangaListViewModel
-import org.koitharu.kotatsu.list.ui.model.ListHeader
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.list.ui.model.LoadingState
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.parser.MangaDataRepository
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.favourites.domain.FavouritesRepository
+import org.tanukis.tanuki.history.data.HistoryRepository
+import org.tanukis.tanuki.list.domain.MangaListMapper
+import org.tanukis.tanuki.list.ui.MangaListViewModel
+import org.tanukis.tanuki.list.ui.model.ListHeader
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.list.ui.model.LoadingState
 import javax.inject.Inject
 import kotlinx.coroutines.flow.SharedFlow
-import org.koitharu.kotatsu.local.data.LocalStorageChanges
-import org.koitharu.kotatsu.local.domain.model.LocalManga
+import org.tanukis.tanuki.local.data.LocalStorageChanges
+import org.tanukis.tanuki.local.domain.model.LocalManga
 
 @HiltViewModel
 class MangaPickerViewModel @Inject constructor(

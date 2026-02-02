@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.reader
+package org.tanukis.tanuki.settings.reader
 
 import android.content.DialogInterface
 import android.graphics.drawable.Drawable
@@ -16,16 +16,16 @@ import androidx.core.text.buildSpannedString
 import androidx.core.view.WindowInsetsCompat
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.ui.BaseActivity
-import org.koitharu.kotatsu.core.util.ext.consumeAllSystemBarsInsets
-import org.koitharu.kotatsu.core.util.ext.findKeyByValue
-import org.koitharu.kotatsu.core.util.ext.getThemeDrawable
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.systemBarsInsets
-import org.koitharu.kotatsu.databinding.ActivityReaderTapActionsBinding
-import org.koitharu.kotatsu.reader.domain.TapGridArea
-import org.koitharu.kotatsu.reader.ui.tapgrid.TapAction
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.ui.BaseActivity
+import org.tanukis.tanuki.core.util.ext.consumeAllSystemBarsInsets
+import org.tanukis.tanuki.core.util.ext.findKeyByValue
+import org.tanukis.tanuki.core.util.ext.getThemeDrawable
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.systemBarsInsets
+import org.tanukis.tanuki.databinding.ActivityReaderTapActionsBinding
+import org.tanukis.tanuki.reader.domain.TapGridArea
+import org.tanukis.tanuki.reader.ui.tapgrid.TapAction
 import java.util.EnumMap
 import androidx.appcompat.R as appcompatR
 

@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings
+package org.tanukis.tanuki.settings
 
 import android.os.Bundle
 import android.view.View
@@ -7,15 +7,15 @@ import androidx.fragment.app.activityViewModels
 import androidx.fragment.app.viewModels
 import androidx.preference.Preference
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.BuildConfig
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.ui.BasePreferenceFragment
-import org.koitharu.kotatsu.core.util.ext.addMenuProvider
-import org.koitharu.kotatsu.core.util.ext.getQuantityStringSafe
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.settings.search.SettingsSearchMenuProvider
-import org.koitharu.kotatsu.settings.search.SettingsSearchViewModel
+import org.tanukis.tanuki.BuildConfig
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.ui.BasePreferenceFragment
+import org.tanukis.tanuki.core.util.ext.addMenuProvider
+import org.tanukis.tanuki.core.util.ext.getQuantityStringSafe
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.settings.search.SettingsSearchMenuProvider
+import org.tanukis.tanuki.settings.search.SettingsSearchViewModel
 
 @AndroidEntryPoint
 class RootSettingsFragment : BasePreferenceFragment(0) {

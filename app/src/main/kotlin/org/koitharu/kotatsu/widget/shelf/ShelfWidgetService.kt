@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.widget.shelf
+package org.tanukis.tanuki.widget.shelf
 
 import android.appwidget.AppWidgetManager
 import android.content.Intent
@@ -6,8 +6,8 @@ import android.widget.RemoteViewsService
 import coil3.ImageLoader
 import dagger.Lazy
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.favourites.domain.FavouritesRepository
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.favourites.domain.FavouritesRepository
 import javax.inject.Inject
 
 @AndroidEntryPoint

@@ -1,13 +1,13 @@
-package org.koitharu.kotatsu.search.ui.multi
+package org.tanukis.tanuki.search.ui.multi
 
 import android.os.Build
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
 import androidx.core.view.MenuProvider
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.nav.router
-import org.koitharu.kotatsu.search.domain.SearchKind
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.nav.router
+import org.tanukis.tanuki.search.domain.SearchKind
 
 class SearchMenuProvider(
 	private val activity: SearchActivity,

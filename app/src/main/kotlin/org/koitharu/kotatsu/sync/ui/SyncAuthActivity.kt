@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.sync.ui
+package org.tanukis.tanuki.sync.ui
 
 import android.accounts.Account
 import android.accounts.AccountAuthenticatorResponse
@@ -20,18 +20,18 @@ import androidx.transition.TransitionManager
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.transition.MaterialSharedAxis
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.ui.BaseActivity
-import org.koitharu.kotatsu.core.ui.util.DefaultTextWatcher
-import org.koitharu.kotatsu.core.util.ext.consumeAllSystemBarsInsets
-import org.koitharu.kotatsu.core.util.ext.getDisplayMessage
-import org.koitharu.kotatsu.core.util.ext.getParcelableExtraCompat
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.observeEvent
-import org.koitharu.kotatsu.core.util.ext.systemBarsInsets
-import org.koitharu.kotatsu.databinding.ActivitySyncAuthBinding
-import org.koitharu.kotatsu.sync.data.SyncSettings
-import org.koitharu.kotatsu.sync.domain.SyncAuthResult
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.ui.BaseActivity
+import org.tanukis.tanuki.core.ui.util.DefaultTextWatcher
+import org.tanukis.tanuki.core.util.ext.consumeAllSystemBarsInsets
+import org.tanukis.tanuki.core.util.ext.getDisplayMessage
+import org.tanukis.tanuki.core.util.ext.getParcelableExtraCompat
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.observeEvent
+import org.tanukis.tanuki.core.util.ext.systemBarsInsets
+import org.tanukis.tanuki.databinding.ActivitySyncAuthBinding
+import org.tanukis.tanuki.sync.data.SyncSettings
+import org.tanukis.tanuki.sync.domain.SyncAuthResult
 
 private const val PAGE_EMAIL = 0
 private const val PAGE_PASSWORD = 1

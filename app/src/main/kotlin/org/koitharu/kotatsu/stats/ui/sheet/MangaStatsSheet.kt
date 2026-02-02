@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.stats.ui.sheet
+package org.tanukis.tanuki.stats.ui.sheet
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,16 +9,16 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.updatePadding
 import androidx.fragment.app.viewModels
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.nav.router
-import org.koitharu.kotatsu.core.ui.sheet.BaseAdaptiveSheet
-import org.koitharu.kotatsu.core.util.KotatsuColors
-import org.koitharu.kotatsu.core.util.ext.consume
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.textAndVisible
-import org.koitharu.kotatsu.databinding.SheetStatsMangaBinding
-import org.koitharu.kotatsu.parsers.util.format
-import org.koitharu.kotatsu.stats.ui.views.BarChartView
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.nav.router
+import org.tanukis.tanuki.core.ui.sheet.BaseAdaptiveSheet
+import org.tanukis.tanuki.core.util.KotatsuColors
+import org.tanukis.tanuki.core.util.ext.consume
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.textAndVisible
+import org.tanukis.tanuki.databinding.SheetStatsMangaBinding
+import org.tanukis.tanuki.parsers.util.format
+import org.tanukis.tanuki.stats.ui.views.BarChartView
 
 @AndroidEntryPoint
 class MangaStatsSheet : BaseAdaptiveSheet<SheetStatsMangaBinding>(), View.OnClickListener {

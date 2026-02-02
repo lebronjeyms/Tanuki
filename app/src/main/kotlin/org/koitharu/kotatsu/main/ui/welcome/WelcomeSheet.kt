@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.main.ui.welcome
+package org.tanukis.tanuki.main.ui.welcome
 
 import android.accounts.AccountManager
 import android.net.Uri
@@ -15,18 +15,18 @@ import androidx.fragment.app.viewModels
 import com.google.android.material.chip.Chip
 import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.model.titleResId
-import org.koitharu.kotatsu.core.nav.router
-import org.koitharu.kotatsu.core.ui.sheet.BaseAdaptiveSheet
-import org.koitharu.kotatsu.core.ui.widgets.ChipsView
-import org.koitharu.kotatsu.core.util.ext.consume
-import org.koitharu.kotatsu.core.util.ext.getDisplayName
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.tryLaunch
-import org.koitharu.kotatsu.databinding.SheetWelcomeBinding
-import org.koitharu.kotatsu.filter.ui.model.FilterProperty
-import org.koitharu.kotatsu.parsers.model.ContentType
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.model.titleResId
+import org.tanukis.tanuki.core.nav.router
+import org.tanukis.tanuki.core.ui.sheet.BaseAdaptiveSheet
+import org.tanukis.tanuki.core.ui.widgets.ChipsView
+import org.tanukis.tanuki.core.util.ext.consume
+import org.tanukis.tanuki.core.util.ext.getDisplayName
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.tryLaunch
+import org.tanukis.tanuki.databinding.SheetWelcomeBinding
+import org.tanukis.tanuki.filter.ui.model.FilterProperty
+import org.tanukis.tanuki.parsers.model.ContentType
 import java.util.Locale
 
 @AndroidEntryPoint

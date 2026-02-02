@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.list.ui.config
+package org.tanukis.tanuki.list.ui.config
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -14,13 +14,13 @@ import androidx.fragment.app.viewModels
 import com.google.android.material.button.MaterialButtonToggleGroup
 import com.google.android.material.slider.Slider
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.prefs.ListMode
-import org.koitharu.kotatsu.core.ui.sheet.BaseAdaptiveSheet
-import org.koitharu.kotatsu.core.util.ext.consume
-import org.koitharu.kotatsu.core.util.ext.setValueRounded
-import org.koitharu.kotatsu.core.util.progress.IntPercentLabelFormatter
-import org.koitharu.kotatsu.databinding.SheetListModeBinding
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.prefs.ListMode
+import org.tanukis.tanuki.core.ui.sheet.BaseAdaptiveSheet
+import org.tanukis.tanuki.core.util.ext.consume
+import org.tanukis.tanuki.core.util.ext.setValueRounded
+import org.tanukis.tanuki.core.util.progress.IntPercentLabelFormatter
+import org.tanukis.tanuki.databinding.SheetListModeBinding
 
 @AndroidEntryPoint
 class ListConfigBottomSheet :

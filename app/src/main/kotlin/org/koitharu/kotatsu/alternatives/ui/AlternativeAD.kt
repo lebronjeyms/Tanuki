@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.alternatives.ui
+package org.tanukis.tanuki.alternatives.ui
 
 import android.text.style.ForegroundColorSpan
 import androidx.core.content.ContextCompat
@@ -17,18 +17,18 @@ import coil3.request.placeholder
 import coil3.request.transformations
 import coil3.transform.RoundedCornersTransformation
 import com.hannesdorfmann.adapterdelegates4.dsl.adapterDelegateViewBinding
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.model.getTitle
-import org.koitharu.kotatsu.core.parser.favicon.faviconUri
-import org.koitharu.kotatsu.core.ui.image.ChipIconTarget
-import org.koitharu.kotatsu.core.ui.list.AdapterDelegateClickListenerAdapter
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.core.util.ext.enqueueWith
-import org.koitharu.kotatsu.core.util.ext.getQuantityStringSafe
-import org.koitharu.kotatsu.core.util.ext.mangaSourceExtra
-import org.koitharu.kotatsu.databinding.ItemMangaAlternativeBinding
-import org.koitharu.kotatsu.list.ui.ListModelDiffCallback
-import org.koitharu.kotatsu.list.ui.model.ListModel
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.model.getTitle
+import org.tanukis.tanuki.core.parser.favicon.faviconUri
+import org.tanukis.tanuki.core.ui.image.ChipIconTarget
+import org.tanukis.tanuki.core.ui.list.AdapterDelegateClickListenerAdapter
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.core.util.ext.enqueueWith
+import org.tanukis.tanuki.core.util.ext.getQuantityStringSafe
+import org.tanukis.tanuki.core.util.ext.mangaSourceExtra
+import org.tanukis.tanuki.databinding.ItemMangaAlternativeBinding
+import org.tanukis.tanuki.list.ui.ListModelDiffCallback
+import org.tanukis.tanuki.list.ui.model.ListModel
 import kotlin.math.sign
 import com.google.android.material.R as materialR
 

@@ -1,10 +1,10 @@
-package org.koitharu.kotatsu
+package org.tanukis.tanuki
 
 import android.content.Context
 import android.content.SharedPreferences
 import androidx.preference.PreferenceManager
 import leakcanary.LeakCanary
-import org.koitharu.kotatsu.core.BaseApp
+import org.tanukis.tanuki.core.BaseApp
 
 class KotatsuApp : BaseApp(), SharedPreferences.OnSharedPreferenceChangeListener {
 

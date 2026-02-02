@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.sources
+package org.tanukis.tanuki.settings.sources
 
 import android.content.SharedPreferences
 import android.os.Bundle
@@ -8,16 +8,16 @@ import androidx.preference.ListPreference
 import androidx.preference.Preference
 import androidx.preference.TwoStatePreference
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.nav.router
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.prefs.TriStateOption
-import org.koitharu.kotatsu.core.ui.BasePreferenceFragment
-import org.koitharu.kotatsu.core.util.ext.getQuantityStringSafe
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.setDefaultValueCompat
-import org.koitharu.kotatsu.explore.data.SourcesSortOrder
-import org.koitharu.kotatsu.parsers.util.names
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.nav.router
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.prefs.TriStateOption
+import org.tanukis.tanuki.core.ui.BasePreferenceFragment
+import org.tanukis.tanuki.core.util.ext.getQuantityStringSafe
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.setDefaultValueCompat
+import org.tanukis.tanuki.explore.data.SourcesSortOrder
+import org.tanukis.tanuki.parsers.util.names
 
 @AndroidEntryPoint
 class SourcesSettingsFragment : BasePreferenceFragment(R.string.remote_sources),

@@ -1,11 +1,11 @@
-package org.koitharu.kotatsu.details.ui.scrobbling
+package org.tanukis.tanuki.details.ui.scrobbling
 
 import com.hannesdorfmann.adapterdelegates4.dsl.adapterDelegateViewBinding
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.nav.AppRouter
-import org.koitharu.kotatsu.databinding.ItemScrobblingInfoBinding
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblingInfo
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.nav.AppRouter
+import org.tanukis.tanuki.databinding.ItemScrobblingInfoBinding
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblingInfo
 
 fun scrobblingInfoAD(
 	router: AppRouter,

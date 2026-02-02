@@ -1,14 +1,14 @@
-package org.koitharu.kotatsu.history.ui
+package org.tanukis.tanuki.history.ui
 
 import android.content.Context
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
 import androidx.core.view.MenuProvider
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.nav.AppRouter
-import org.koitharu.kotatsu.core.ui.dialog.RememberSelectionDialogListener
-import org.koitharu.kotatsu.core.ui.dialog.buildAlertDialog
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.nav.AppRouter
+import org.tanukis.tanuki.core.ui.dialog.RememberSelectionDialogListener
+import org.tanukis.tanuki.core.ui.dialog.buildAlertDialog
 import java.time.Instant
 import java.time.LocalDate
 import java.time.ZoneId

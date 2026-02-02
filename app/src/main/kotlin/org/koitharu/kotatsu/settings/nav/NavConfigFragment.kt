@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.nav
+package org.tanukis.tanuki.settings.nav
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -10,26 +10,26 @@ import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.prefs.NavItem
-import org.koitharu.kotatsu.core.ui.BaseFragment
-import org.koitharu.kotatsu.core.ui.BaseListAdapter
-import org.koitharu.kotatsu.core.ui.dialog.buildAlertDialog
-import org.koitharu.kotatsu.core.ui.dialog.setRecyclerViewList
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.core.ui.util.RecyclerViewOwner
-import org.koitharu.kotatsu.core.util.ext.consumeAllSystemBarsInsets
-import org.koitharu.kotatsu.core.util.ext.container
-import org.koitharu.kotatsu.core.util.ext.end
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.start
-import org.koitharu.kotatsu.core.util.ext.systemBarsInsets
-import org.koitharu.kotatsu.databinding.FragmentSettingsSourcesBinding
-import org.koitharu.kotatsu.list.ui.adapter.ListItemType
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.settings.nav.adapter.navAddAD
-import org.koitharu.kotatsu.settings.nav.adapter.navAvailableAD
-import org.koitharu.kotatsu.settings.nav.adapter.navConfigAD
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.prefs.NavItem
+import org.tanukis.tanuki.core.ui.BaseFragment
+import org.tanukis.tanuki.core.ui.BaseListAdapter
+import org.tanukis.tanuki.core.ui.dialog.buildAlertDialog
+import org.tanukis.tanuki.core.ui.dialog.setRecyclerViewList
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.core.ui.util.RecyclerViewOwner
+import org.tanukis.tanuki.core.util.ext.consumeAllSystemBarsInsets
+import org.tanukis.tanuki.core.util.ext.container
+import org.tanukis.tanuki.core.util.ext.end
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.start
+import org.tanukis.tanuki.core.util.ext.systemBarsInsets
+import org.tanukis.tanuki.databinding.FragmentSettingsSourcesBinding
+import org.tanukis.tanuki.list.ui.adapter.ListItemType
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.settings.nav.adapter.navAddAD
+import org.tanukis.tanuki.settings.nav.adapter.navAvailableAD
+import org.tanukis.tanuki.settings.nav.adapter.navConfigAD
 
 @AndroidEntryPoint
 class NavConfigFragment : BaseFragment<FragmentSettingsSourcesBinding>(), RecyclerViewOwner,

@@ -1,8 +1,8 @@
-package org.koitharu.kotatsu.search.domain
+package org.tanukis.tanuki.search.domain
 
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.model.MangaListFilter
-import org.koitharu.kotatsu.parsers.model.SortOrder
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaListFilter
+import org.tanukis.tanuki.parsers.model.SortOrder
 
 data class SearchResults(
 	val listFilter: MangaListFilter,

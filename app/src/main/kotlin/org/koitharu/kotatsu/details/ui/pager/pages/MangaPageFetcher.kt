@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.details.ui.pager.pages
+package org.tanukis.tanuki.details.ui.pager.pages
 
 import androidx.core.net.toUri
 import coil3.ImageLoader
@@ -17,20 +17,20 @@ import okhttp3.OkHttpClient
 import okhttp3.Response
 import okio.FileSystem
 import okio.Path.Companion.toOkioPath
-import org.koitharu.kotatsu.core.network.MangaHttpClient
-import org.koitharu.kotatsu.core.network.imageproxy.ImageProxyInterceptor
-import org.koitharu.kotatsu.core.parser.MangaRepository
-import org.koitharu.kotatsu.core.util.MimeTypes
-import org.koitharu.kotatsu.core.util.ext.fetch
-import org.koitharu.kotatsu.core.util.ext.isNetworkUri
-import org.koitharu.kotatsu.core.util.ext.toMimeTypeOrNull
-import org.koitharu.kotatsu.local.data.LocalStorageCache
-import org.koitharu.kotatsu.local.data.PageCache
-import org.koitharu.kotatsu.parsers.model.MangaPage
-import org.koitharu.kotatsu.parsers.util.mimeType
-import org.koitharu.kotatsu.parsers.util.requireBody
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
-import org.koitharu.kotatsu.reader.domain.PageLoader
+import org.tanukis.tanuki.core.network.MangaHttpClient
+import org.tanukis.tanuki.core.network.imageproxy.ImageProxyInterceptor
+import org.tanukis.tanuki.core.parser.MangaRepository
+import org.tanukis.tanuki.core.util.MimeTypes
+import org.tanukis.tanuki.core.util.ext.fetch
+import org.tanukis.tanuki.core.util.ext.isNetworkUri
+import org.tanukis.tanuki.core.util.ext.toMimeTypeOrNull
+import org.tanukis.tanuki.local.data.LocalStorageCache
+import org.tanukis.tanuki.local.data.PageCache
+import org.tanukis.tanuki.parsers.model.MangaPage
+import org.tanukis.tanuki.parsers.util.mimeType
+import org.tanukis.tanuki.parsers.util.requireBody
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.reader.domain.PageLoader
 import javax.inject.Inject
 
 class MangaPageFetcher(

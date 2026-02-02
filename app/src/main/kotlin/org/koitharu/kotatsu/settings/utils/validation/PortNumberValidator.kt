@@ -1,7 +1,7 @@
-package org.koitharu.kotatsu.settings.utils.validation
+package org.tanukis.tanuki.settings.utils.validation
 
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.util.EditTextValidator
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.util.EditTextValidator
 
 class PortNumberValidator : EditTextValidator() {
 

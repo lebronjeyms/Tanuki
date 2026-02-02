@@ -1,12 +1,12 @@
-package org.koitharu.kotatsu.backups.ui.restore
+package org.tanukis.tanuki.backups.ui.restore
 
 import com.hannesdorfmann.adapterdelegates4.dsl.adapterDelegateViewBinding
-import org.koitharu.kotatsu.core.ui.BaseListAdapter
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.core.util.ext.setChecked
-import org.koitharu.kotatsu.databinding.ItemCheckableMultipleBinding
-import org.koitharu.kotatsu.list.ui.ListModelDiffCallback.Companion.PAYLOAD_CHECKED_CHANGED
-import org.koitharu.kotatsu.list.ui.adapter.ListItemType
+import org.tanukis.tanuki.core.ui.BaseListAdapter
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.core.util.ext.setChecked
+import org.tanukis.tanuki.databinding.ItemCheckableMultipleBinding
+import org.tanukis.tanuki.list.ui.ListModelDiffCallback.Companion.PAYLOAD_CHECKED_CHANGED
+import org.tanukis.tanuki.list.ui.adapter.ListItemType
 
 class BackupSectionsAdapter(
 	clickListener: OnListItemClickListener<BackupSectionModel>,

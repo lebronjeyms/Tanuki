@@ -1,16 +1,16 @@
-package org.koitharu.kotatsu.core.parser
+package org.tanukis.tanuki.core.parser
 
 import android.util.Log
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import okhttp3.OkHttpClient
 import okhttp3.Request
-import org.koitharu.kotatsu.BuildConfig
-import org.koitharu.kotatsu.core.network.MangaHttpClient
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.parsers.model.MangaParserSource
-import org.koitharu.kotatsu.parsers.util.await
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.BuildConfig
+import org.tanukis.tanuki.core.network.MangaHttpClient
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.parsers.model.MangaParserSource
+import org.tanukis.tanuki.parsers.util.await
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
 import java.util.EnumSet
 import javax.inject.Inject
 

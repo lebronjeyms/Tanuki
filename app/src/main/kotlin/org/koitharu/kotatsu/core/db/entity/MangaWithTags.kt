@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.db.entity
+package org.tanukis.tanuki.core.db.entity
 
 import androidx.room.Embedded
 import androidx.room.Junction

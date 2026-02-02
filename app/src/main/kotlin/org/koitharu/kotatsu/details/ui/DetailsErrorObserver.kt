@@ -1,15 +1,15 @@
-package org.koitharu.kotatsu.details.ui
+package org.tanukis.tanuki.details.ui
 
 import com.google.android.material.snackbar.Snackbar
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.exceptions.UnsupportedSourceException
-import org.koitharu.kotatsu.core.exceptions.resolve.ErrorObserver
-import org.koitharu.kotatsu.core.exceptions.resolve.ExceptionResolver
-import org.koitharu.kotatsu.core.util.ext.getDisplayMessage
-import org.koitharu.kotatsu.core.util.ext.isNetworkError
-import org.koitharu.kotatsu.core.util.ext.isSerializable
-import org.koitharu.kotatsu.parsers.exception.NotFoundException
-import org.koitharu.kotatsu.parsers.exception.ParseException
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.exceptions.UnsupportedSourceException
+import org.tanukis.tanuki.core.exceptions.resolve.ErrorObserver
+import org.tanukis.tanuki.core.exceptions.resolve.ExceptionResolver
+import org.tanukis.tanuki.core.util.ext.getDisplayMessage
+import org.tanukis.tanuki.core.util.ext.isNetworkError
+import org.tanukis.tanuki.core.util.ext.isSerializable
+import org.tanukis.tanuki.parsers.exception.NotFoundException
+import org.tanukis.tanuki.parsers.exception.ParseException
 
 class DetailsErrorObserver(
 	override val activity: DetailsActivity,

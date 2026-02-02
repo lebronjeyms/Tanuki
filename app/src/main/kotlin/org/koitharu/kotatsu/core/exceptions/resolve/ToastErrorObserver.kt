@@ -1,9 +1,9 @@
-package org.koitharu.kotatsu.core.exceptions.resolve
+package org.tanukis.tanuki.core.exceptions.resolve
 
 import android.view.View
 import android.widget.Toast
 import androidx.fragment.app.Fragment
-import org.koitharu.kotatsu.core.util.ext.getDisplayMessage
+import org.tanukis.tanuki.core.util.ext.getDisplayMessage
 
 class ToastErrorObserver(
 	host: View,

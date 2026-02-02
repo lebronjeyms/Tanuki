@@ -1,25 +1,25 @@
-package org.koitharu.kotatsu.details.service
+package org.tanukis.tanuki.details.service
 
 import android.content.Context
 import android.content.Intent
 import dagger.hilt.android.AndroidEntryPoint
 import dagger.hilt.android.EntryPointAccessors
-import org.koitharu.kotatsu.core.cache.MemoryContentCache
-import org.koitharu.kotatsu.core.model.LocalMangaSource
-import org.koitharu.kotatsu.core.model.isLocal
-import org.koitharu.kotatsu.core.model.parcelable.ParcelableChapter
-import org.koitharu.kotatsu.core.model.parcelable.ParcelableManga
-import org.koitharu.kotatsu.core.parser.MangaRepository
-import org.koitharu.kotatsu.core.ui.CoroutineIntentService
-import org.koitharu.kotatsu.core.util.ext.getParcelableExtraCompat
-import org.koitharu.kotatsu.core.util.ext.isPowerSaveMode
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.history.data.HistoryRepository
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.model.MangaChapter
-import org.koitharu.kotatsu.parsers.model.MangaSource
-import org.koitharu.kotatsu.parsers.util.findById
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.core.cache.MemoryContentCache
+import org.tanukis.tanuki.core.model.LocalMangaSource
+import org.tanukis.tanuki.core.model.isLocal
+import org.tanukis.tanuki.core.model.parcelable.ParcelableChapter
+import org.tanukis.tanuki.core.model.parcelable.ParcelableManga
+import org.tanukis.tanuki.core.parser.MangaRepository
+import org.tanukis.tanuki.core.ui.CoroutineIntentService
+import org.tanukis.tanuki.core.util.ext.getParcelableExtraCompat
+import org.tanukis.tanuki.core.util.ext.isPowerSaveMode
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.history.data.HistoryRepository
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaChapter
+import org.tanukis.tanuki.parsers.model.MangaSource
+import org.tanukis.tanuki.parsers.util.findById
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
 import javax.inject.Inject
 
 @AndroidEntryPoint

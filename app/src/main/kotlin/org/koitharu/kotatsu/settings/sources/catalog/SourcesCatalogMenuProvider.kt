@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.sources.catalog
+package org.tanukis.tanuki.settings.sources.catalog
 
 import android.app.Activity
 import android.view.Menu
@@ -6,8 +6,8 @@ import android.view.MenuInflater
 import android.view.MenuItem
 import androidx.appcompat.widget.SearchView
 import androidx.core.view.MenuProvider
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.main.ui.owners.AppBarOwner
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.main.ui.owners.AppBarOwner
 
 class SourcesCatalogMenuProvider(
 	private val activity: Activity,

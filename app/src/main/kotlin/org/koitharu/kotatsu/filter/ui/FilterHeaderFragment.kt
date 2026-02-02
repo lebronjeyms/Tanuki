@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.filter.ui
+package org.tanukis.tanuki.filter.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,20 +10,20 @@ import com.google.android.material.chip.Chip
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.flowOn
-import org.koitharu.kotatsu.core.nav.router
-import org.koitharu.kotatsu.core.ui.BaseFragment
-import org.koitharu.kotatsu.core.ui.widgets.ChipsView
-import org.koitharu.kotatsu.core.util.ext.isAnimationsEnabled
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.databinding.FragmentFilterHeaderBinding
-import org.koitharu.kotatsu.filter.data.PersistableFilter
-import org.koitharu.kotatsu.filter.ui.model.FilterHeaderModel
-import org.koitharu.kotatsu.parsers.model.ContentRating
-import org.koitharu.kotatsu.parsers.model.ContentType
-import org.koitharu.kotatsu.parsers.model.Demographic
-import org.koitharu.kotatsu.parsers.model.MangaState
-import org.koitharu.kotatsu.parsers.model.MangaTag
-import org.koitharu.kotatsu.parsers.model.YEAR_UNKNOWN
+import org.tanukis.tanuki.core.nav.router
+import org.tanukis.tanuki.core.ui.BaseFragment
+import org.tanukis.tanuki.core.ui.widgets.ChipsView
+import org.tanukis.tanuki.core.util.ext.isAnimationsEnabled
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.databinding.FragmentFilterHeaderBinding
+import org.tanukis.tanuki.filter.data.PersistableFilter
+import org.tanukis.tanuki.filter.ui.model.FilterHeaderModel
+import org.tanukis.tanuki.parsers.model.ContentRating
+import org.tanukis.tanuki.parsers.model.ContentType
+import org.tanukis.tanuki.parsers.model.Demographic
+import org.tanukis.tanuki.parsers.model.MangaState
+import org.tanukis.tanuki.parsers.model.MangaTag
+import org.tanukis.tanuki.parsers.model.YEAR_UNKNOWN
 import java.util.Locale
 import javax.inject.Inject
 

@@ -1,7 +1,7 @@
-package org.koitharu.kotatsu.details.domain
+package org.tanukis.tanuki.details.domain
 
-import org.koitharu.kotatsu.core.util.LocaleStringComparator
-import org.koitharu.kotatsu.details.ui.model.MangaBranch
+import org.tanukis.tanuki.core.util.LocaleStringComparator
+import org.tanukis.tanuki.details.ui.model.MangaBranch
 
 class BranchComparator : Comparator<MangaBranch> {
 

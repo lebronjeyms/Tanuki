@@ -1,21 +1,21 @@
-package org.koitharu.kotatsu.main.domain
+package org.tanukis.tanuki.main.domain
 
 import androidx.collection.ArraySet
 import coil3.intercept.Interceptor
 import coil3.request.ErrorResult
 import coil3.request.ImageResult
-import org.koitharu.kotatsu.bookmarks.domain.Bookmark
-import org.koitharu.kotatsu.bookmarks.domain.BookmarksRepository
-import org.koitharu.kotatsu.core.model.isLocal
-import org.koitharu.kotatsu.core.parser.MangaDataRepository
-import org.koitharu.kotatsu.core.parser.MangaRepository
-import org.koitharu.kotatsu.core.util.ext.bookmarkKey
-import org.koitharu.kotatsu.core.util.ext.mangaKey
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.util.findById
-import org.koitharu.kotatsu.parsers.util.ifNullOrEmpty
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.bookmarks.domain.Bookmark
+import org.tanukis.tanuki.bookmarks.domain.BookmarksRepository
+import org.tanukis.tanuki.core.model.isLocal
+import org.tanukis.tanuki.core.parser.MangaDataRepository
+import org.tanukis.tanuki.core.parser.MangaRepository
+import org.tanukis.tanuki.core.util.ext.bookmarkKey
+import org.tanukis.tanuki.core.util.ext.mangaKey
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.util.findById
+import org.tanukis.tanuki.parsers.util.ifNullOrEmpty
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
 import java.util.Collections
 import javax.inject.Inject
 

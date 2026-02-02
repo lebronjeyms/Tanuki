@@ -1,6 +1,6 @@
-package org.koitharu.kotatsu.main.ui.owners
+package org.tanukis.tanuki.main.ui.owners
 
-import org.koitharu.kotatsu.core.ui.widgets.SlidingBottomNavigationView
+import org.tanukis.tanuki.core.ui.widgets.SlidingBottomNavigationView
 
 interface BottomNavOwner {
 

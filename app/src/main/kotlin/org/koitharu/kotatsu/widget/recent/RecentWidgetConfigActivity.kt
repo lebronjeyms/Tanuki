@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.widget.recent
+package org.tanukis.tanuki.widget.recent
 
 import android.appwidget.AppWidgetManager
 import android.content.Intent
@@ -6,12 +6,12 @@ import android.os.Bundle
 import android.view.View
 import androidx.core.view.WindowInsetsCompat
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.prefs.AppWidgetConfig
-import org.koitharu.kotatsu.core.ui.BaseActivity
-import org.koitharu.kotatsu.core.util.ext.consumeAllSystemBarsInsets
-import org.koitharu.kotatsu.core.util.ext.systemBarsInsets
-import org.koitharu.kotatsu.databinding.ActivityAppwidgetRecentBinding
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.prefs.AppWidgetConfig
+import org.tanukis.tanuki.core.ui.BaseActivity
+import org.tanukis.tanuki.core.util.ext.consumeAllSystemBarsInsets
+import org.tanukis.tanuki.core.util.ext.systemBarsInsets
+import org.tanukis.tanuki.databinding.ActivityAppwidgetRecentBinding
 
 @AndroidEntryPoint
 class RecentWidgetConfigActivity :

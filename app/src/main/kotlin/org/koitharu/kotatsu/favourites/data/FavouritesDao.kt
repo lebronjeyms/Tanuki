@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.favourites.data
+package org.tanukis.tanuki.favourites.data
 
 import android.database.DatabaseUtils.sqlEscapeString
 import androidx.room.Dao
@@ -15,13 +15,13 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.isActive
 import org.intellij.lang.annotations.Language
-import org.koitharu.kotatsu.core.db.MangaQueryBuilder
-import org.koitharu.kotatsu.core.db.TABLE_FAVOURITES
-import org.koitharu.kotatsu.core.db.entity.MangaWithTags
-import org.koitharu.kotatsu.favourites.domain.model.Cover
-import org.koitharu.kotatsu.list.domain.ListFilterOption
-import org.koitharu.kotatsu.list.domain.ListSortOrder
-import org.koitharu.kotatsu.list.domain.ReadingProgress.Companion.PROGRESS_COMPLETED
+import org.tanukis.tanuki.core.db.MangaQueryBuilder
+import org.tanukis.tanuki.core.db.TABLE_FAVOURITES
+import org.tanukis.tanuki.core.db.entity.MangaWithTags
+import org.tanukis.tanuki.favourites.domain.model.Cover
+import org.tanukis.tanuki.list.domain.ListFilterOption
+import org.tanukis.tanuki.list.domain.ListSortOrder
+import org.tanukis.tanuki.list.domain.ReadingProgress.Companion.PROGRESS_COMPLETED
 
 @Dao
 abstract class FavouritesDao : MangaQueryBuilder.ConditionCallback {

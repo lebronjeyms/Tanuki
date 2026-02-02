@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.utils
+package org.tanukis.tanuki.settings.utils
 
 import android.annotation.SuppressLint
 import android.content.ActivityNotFoundException
@@ -11,9 +11,9 @@ import androidx.core.net.toUri
 import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
 import com.google.android.material.snackbar.Snackbar
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.util.ext.powerManager
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.util.ext.powerManager
 
 @SuppressLint("BatteryLife")
 class DozeHelper(

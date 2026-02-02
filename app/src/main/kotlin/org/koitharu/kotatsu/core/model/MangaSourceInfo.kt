@@ -1,6 +1,6 @@
-package org.koitharu.kotatsu.core.model
+package org.tanukis.tanuki.core.model
 
-import org.koitharu.kotatsu.parsers.model.MangaSource
+import org.tanukis.tanuki.parsers.model.MangaSource
 
 data class MangaSourceInfo(
 	val mangaSource: MangaSource,

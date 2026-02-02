@@ -1,10 +1,10 @@
-package org.koitharu.kotatsu.backups.data.model
+package org.tanukis.tanuki.backups.data.model
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.koitharu.kotatsu.bookmarks.data.BookmarkEntity
-import org.koitharu.kotatsu.core.db.entity.MangaWithTags
-import org.koitharu.kotatsu.parsers.util.mapToSet
+import org.tanukis.tanuki.bookmarks.data.BookmarkEntity
+import org.tanukis.tanuki.core.db.entity.MangaWithTags
+import org.tanukis.tanuki.parsers.util.mapToSet
 
 @Serializable
 class BookmarkBackup(

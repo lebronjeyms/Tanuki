@@ -1,7 +1,7 @@
-package org.koitharu.kotatsu.settings.utils
+package org.tanukis.tanuki.settings.utils
 
 import javax.inject.Inject
-import org.koitharu.kotatsu.core.db.MangaDatabase
+import org.tanukis.tanuki.core.db.MangaDatabase
 
 class TagsAutoCompleteProvider @Inject constructor(
 	private val db: MangaDatabase,

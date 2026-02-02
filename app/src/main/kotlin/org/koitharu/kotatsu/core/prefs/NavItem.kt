@@ -1,10 +1,10 @@
-package org.koitharu.kotatsu.core.prefs
+package org.tanukis.tanuki.core.prefs
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.IdRes
 import androidx.annotation.Keep
 import androidx.annotation.StringRes
-import org.koitharu.kotatsu.R
+import org.tanukis.tanuki.R
 
 @Keep
 enum class NavItem(

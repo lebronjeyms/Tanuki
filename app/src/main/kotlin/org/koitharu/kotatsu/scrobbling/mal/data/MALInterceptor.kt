@@ -1,14 +1,14 @@
-package org.koitharu.kotatsu.scrobbling.mal.data
+package org.tanukis.tanuki.scrobbling.mal.data
 
 import okhttp3.Interceptor
 import okhttp3.Response
 import okio.IOException
-import org.koitharu.kotatsu.core.network.CommonHeaders
-import org.koitharu.kotatsu.parsers.util.mimeType
-import org.koitharu.kotatsu.parsers.util.parseHtml
-import org.koitharu.kotatsu.scrobbling.common.data.ScrobblerStorage
-import org.koitharu.kotatsu.scrobbling.common.domain.ScrobblerAuthRequiredException
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblerService
+import org.tanukis.tanuki.core.network.CommonHeaders
+import org.tanukis.tanuki.parsers.util.mimeType
+import org.tanukis.tanuki.parsers.util.parseHtml
+import org.tanukis.tanuki.scrobbling.common.data.ScrobblerStorage
+import org.tanukis.tanuki.scrobbling.common.domain.ScrobblerAuthRequiredException
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblerService
 import java.net.HttpURLConnection
 
 private const val JSON = "application/json"

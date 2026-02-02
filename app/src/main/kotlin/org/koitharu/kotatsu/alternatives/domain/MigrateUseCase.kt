@@ -1,20 +1,20 @@
-package org.koitharu.kotatsu.alternatives.domain
+package org.tanukis.tanuki.alternatives.domain
 
 import androidx.room.withTransaction
-import org.koitharu.kotatsu.core.db.MangaDatabase
-import org.koitharu.kotatsu.core.model.getPreferredBranch
-import org.koitharu.kotatsu.core.parser.MangaDataRepository
-import org.koitharu.kotatsu.core.parser.MangaRepository
-import org.koitharu.kotatsu.details.domain.ProgressUpdateUseCase
-import org.koitharu.kotatsu.history.data.HistoryEntity
-import org.koitharu.kotatsu.history.data.toMangaHistory
-import org.koitharu.kotatsu.list.domain.ReadingProgress.Companion.PROGRESS_NONE
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.model.MangaChapter
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
-import org.koitharu.kotatsu.scrobbling.common.domain.Scrobbler
-import org.koitharu.kotatsu.scrobbling.common.domain.model.ScrobblingStatus
-import org.koitharu.kotatsu.tracker.data.TrackEntity
+import org.tanukis.tanuki.core.db.MangaDatabase
+import org.tanukis.tanuki.core.model.getPreferredBranch
+import org.tanukis.tanuki.core.parser.MangaDataRepository
+import org.tanukis.tanuki.core.parser.MangaRepository
+import org.tanukis.tanuki.details.domain.ProgressUpdateUseCase
+import org.tanukis.tanuki.history.data.HistoryEntity
+import org.tanukis.tanuki.history.data.toMangaHistory
+import org.tanukis.tanuki.list.domain.ReadingProgress.Companion.PROGRESS_NONE
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaChapter
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.scrobbling.common.domain.Scrobbler
+import org.tanukis.tanuki.scrobbling.common.domain.model.ScrobblingStatus
+import org.tanukis.tanuki.tracker.data.TrackEntity
 import javax.inject.Inject
 
 class MigrateUseCase

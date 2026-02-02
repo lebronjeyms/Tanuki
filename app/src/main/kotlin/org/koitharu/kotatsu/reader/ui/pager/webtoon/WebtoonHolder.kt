@@ -1,13 +1,13 @@
-package org.koitharu.kotatsu.reader.ui.pager.webtoon
+package org.tanukis.tanuki.reader.ui.pager.webtoon
 
 import android.view.View
 import androidx.lifecycle.LifecycleOwner
-import org.koitharu.kotatsu.core.exceptions.resolve.ExceptionResolver
-import org.koitharu.kotatsu.core.os.NetworkState
-import org.koitharu.kotatsu.databinding.ItemPageWebtoonBinding
-import org.koitharu.kotatsu.reader.domain.PageLoader
-import org.koitharu.kotatsu.reader.ui.config.ReaderSettings
-import org.koitharu.kotatsu.reader.ui.pager.BasePageHolder
+import org.tanukis.tanuki.core.exceptions.resolve.ExceptionResolver
+import org.tanukis.tanuki.core.os.NetworkState
+import org.tanukis.tanuki.databinding.ItemPageWebtoonBinding
+import org.tanukis.tanuki.reader.domain.PageLoader
+import org.tanukis.tanuki.reader.ui.config.ReaderSettings
+import org.tanukis.tanuki.reader.ui.pager.BasePageHolder
 
 class WebtoonHolder(
 	owner: LifecycleOwner,

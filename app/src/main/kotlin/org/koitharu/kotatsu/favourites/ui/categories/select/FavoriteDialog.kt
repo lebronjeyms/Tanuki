@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.favourites.ui.categories.select
+package org.tanukis.tanuki.favourites.ui.categories.select
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -10,17 +10,17 @@ import androidx.fragment.app.viewModels
 import com.google.android.material.checkbox.MaterialCheckBox
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.nav.router
-import org.koitharu.kotatsu.core.ui.AlertDialogFragment
-import org.koitharu.kotatsu.core.ui.list.OnListItemClickListener
-import org.koitharu.kotatsu.core.util.ext.getDisplayMessage
-import org.koitharu.kotatsu.core.util.ext.joinToStringWithLimit
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.observeEvent
-import org.koitharu.kotatsu.databinding.DialogFavoriteBinding
-import org.koitharu.kotatsu.favourites.ui.categories.select.adapter.MangaCategoriesAdapter
-import org.koitharu.kotatsu.favourites.ui.categories.select.model.MangaCategoryItem
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.nav.router
+import org.tanukis.tanuki.core.ui.AlertDialogFragment
+import org.tanukis.tanuki.core.ui.list.OnListItemClickListener
+import org.tanukis.tanuki.core.util.ext.getDisplayMessage
+import org.tanukis.tanuki.core.util.ext.joinToStringWithLimit
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.observeEvent
+import org.tanukis.tanuki.databinding.DialogFavoriteBinding
+import org.tanukis.tanuki.favourites.ui.categories.select.adapter.MangaCategoriesAdapter
+import org.tanukis.tanuki.favourites.ui.categories.select.model.MangaCategoryItem
 
 @AndroidEntryPoint
 class FavoriteDialog : AlertDialogFragment<DialogFavoriteBinding>(),

@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.utils
+package org.tanukis.tanuki.settings.utils
 
 import android.content.Context
 import android.util.AttributeSet
@@ -12,7 +12,7 @@ import androidx.annotation.AttrRes
 import androidx.annotation.StyleRes
 import androidx.core.content.withStyledAttributes
 import androidx.preference.EditTextPreference
-import org.koitharu.kotatsu.R
+import org.tanukis.tanuki.R
 
 class AutoCompleteTextViewPreference @JvmOverloads constructor(
 	context: Context,

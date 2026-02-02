@@ -1,19 +1,19 @@
-package org.koitharu.kotatsu.core.parser.external
+package org.tanukis.tanuki.core.parser.external
 
 import android.content.ContentResolver
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.runInterruptible
-import org.koitharu.kotatsu.core.cache.MemoryContentCache
-import org.koitharu.kotatsu.core.parser.CachingMangaRepository
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.model.MangaChapter
-import org.koitharu.kotatsu.parsers.model.MangaListFilter
-import org.koitharu.kotatsu.parsers.model.MangaListFilterCapabilities
-import org.koitharu.kotatsu.parsers.model.MangaListFilterOptions
-import org.koitharu.kotatsu.parsers.model.MangaPage
-import org.koitharu.kotatsu.parsers.model.SortOrder
-import org.koitharu.kotatsu.parsers.util.suspendlazy.suspendLazy
+import org.tanukis.tanuki.core.cache.MemoryContentCache
+import org.tanukis.tanuki.core.parser.CachingMangaRepository
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.model.MangaChapter
+import org.tanukis.tanuki.parsers.model.MangaListFilter
+import org.tanukis.tanuki.parsers.model.MangaListFilterCapabilities
+import org.tanukis.tanuki.parsers.model.MangaListFilterOptions
+import org.tanukis.tanuki.parsers.model.MangaPage
+import org.tanukis.tanuki.parsers.model.SortOrder
+import org.tanukis.tanuki.parsers.util.suspendlazy.suspendLazy
 import java.util.EnumSet
 
 class ExternalMangaRepository(

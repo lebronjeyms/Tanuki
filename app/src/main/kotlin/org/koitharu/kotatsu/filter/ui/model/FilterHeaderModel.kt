@@ -1,7 +1,7 @@
-package org.koitharu.kotatsu.filter.ui.model
+package org.tanukis.tanuki.filter.ui.model
 
-import org.koitharu.kotatsu.core.ui.widgets.ChipsView
-import org.koitharu.kotatsu.parsers.model.SortOrder
+import org.tanukis.tanuki.core.ui.widgets.ChipsView
+import org.tanukis.tanuki.parsers.model.SortOrder
 
 data class FilterHeaderModel(
 	val chips: Collection<ChipsView.ChipModel>,

@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.tracker
+package org.tanukis.tanuki.settings.tracker
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -17,18 +17,18 @@ import androidx.preference.MultiSelectListPreference
 import androidx.preference.Preference
 import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.nav.router
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.prefs.TrackerDownloadStrategy
-import org.koitharu.kotatsu.core.ui.BasePreferenceFragment
-import org.koitharu.kotatsu.core.util.ext.observe
-import org.koitharu.kotatsu.core.util.ext.setDefaultValueCompat
-import org.koitharu.kotatsu.parsers.util.names
-import org.koitharu.kotatsu.settings.utils.DozeHelper
-import org.koitharu.kotatsu.settings.utils.MultiSummaryProvider
-import org.koitharu.kotatsu.tracker.ui.debug.TrackerDebugActivity
-import org.koitharu.kotatsu.tracker.work.TrackerNotificationHelper
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.nav.router
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.prefs.TrackerDownloadStrategy
+import org.tanukis.tanuki.core.ui.BasePreferenceFragment
+import org.tanukis.tanuki.core.util.ext.observe
+import org.tanukis.tanuki.core.util.ext.setDefaultValueCompat
+import org.tanukis.tanuki.parsers.util.names
+import org.tanukis.tanuki.settings.utils.DozeHelper
+import org.tanukis.tanuki.settings.utils.MultiSummaryProvider
+import org.tanukis.tanuki.tracker.ui.debug.TrackerDebugActivity
+import org.tanukis.tanuki.tracker.work.TrackerNotificationHelper
 import javax.inject.Inject
 
 @AndroidEntryPoint

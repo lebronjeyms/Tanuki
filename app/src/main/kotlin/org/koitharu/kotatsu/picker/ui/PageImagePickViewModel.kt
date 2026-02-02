@@ -1,11 +1,11 @@
-package org.koitharu.kotatsu.picker.ui
+package org.tanukis.tanuki.picker.ui
 
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
-import org.koitharu.kotatsu.core.ui.BaseViewModel
-import org.koitharu.kotatsu.core.util.ext.MutableEventFlow
-import org.koitharu.kotatsu.core.util.ext.call
-import org.koitharu.kotatsu.reader.ui.PageSaveHelper
+import org.tanukis.tanuki.core.ui.BaseViewModel
+import org.tanukis.tanuki.core.util.ext.MutableEventFlow
+import org.tanukis.tanuki.core.util.ext.call
+import org.tanukis.tanuki.reader.ui.PageSaveHelper
 import java.io.File
 import javax.inject.Inject
 

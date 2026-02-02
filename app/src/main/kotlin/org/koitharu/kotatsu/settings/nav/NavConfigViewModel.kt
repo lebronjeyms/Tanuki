@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.settings.nav
+package org.tanukis.tanuki.settings.nav
 
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -12,17 +12,17 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.plus
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.prefs.NavItem
-import org.koitharu.kotatsu.core.ui.BaseViewModel
-import org.koitharu.kotatsu.core.ui.util.ActivityRecreationHandle
-import org.koitharu.kotatsu.list.ui.model.ListModel
-import org.koitharu.kotatsu.main.ui.MainActivity
-import org.koitharu.kotatsu.main.ui.MainNavigationDelegate
-import org.koitharu.kotatsu.parsers.util.move
-import org.koitharu.kotatsu.settings.nav.model.NavItemAddModel
-import org.koitharu.kotatsu.settings.nav.model.NavItemConfigModel
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.prefs.NavItem
+import org.tanukis.tanuki.core.ui.BaseViewModel
+import org.tanukis.tanuki.core.ui.util.ActivityRecreationHandle
+import org.tanukis.tanuki.list.ui.model.ListModel
+import org.tanukis.tanuki.main.ui.MainActivity
+import org.tanukis.tanuki.main.ui.MainNavigationDelegate
+import org.tanukis.tanuki.parsers.util.move
+import org.tanukis.tanuki.settings.nav.model.NavItemAddModel
+import org.tanukis.tanuki.settings.nav.model.NavItemConfigModel
 import javax.inject.Inject
 
 @HiltViewModel

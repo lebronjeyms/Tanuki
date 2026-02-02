@@ -1,6 +1,6 @@
-package org.koitharu.kotatsu.reader.ui
+package org.tanukis.tanuki.reader.ui
 
-import org.koitharu.kotatsu.reader.ui.pager.ReaderPage
+import org.tanukis.tanuki.reader.ui.pager.ReaderPage
 
 data class ReaderContent(
 	val pages: List<ReaderPage>,

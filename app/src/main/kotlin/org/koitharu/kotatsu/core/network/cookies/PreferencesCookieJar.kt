@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.core.network.cookies
+package org.tanukis.tanuki.core.network.cookies
 
 import android.content.Context
 import androidx.annotation.WorkerThread
@@ -9,7 +9,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import okhttp3.Cookie
 import okhttp3.HttpUrl
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
 
 private const val PREFS_NAME = "cookies"
 

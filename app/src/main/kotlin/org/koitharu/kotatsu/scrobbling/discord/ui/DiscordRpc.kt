@@ -1,4 +1,4 @@
-package org.koitharu.kotatsu.scrobbling.discord.ui
+package org.tanukis.tanuki.scrobbling.discord.ui
 
 import android.content.Context
 import android.os.SystemClock
@@ -19,18 +19,18 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.plus
 import okio.utf8Size
-import org.koitharu.kotatsu.R
-import org.koitharu.kotatsu.core.LocalizedAppContext
-import org.koitharu.kotatsu.core.model.appUrl
-import org.koitharu.kotatsu.core.model.getTitle
-import org.koitharu.kotatsu.core.model.isNsfw
-import org.koitharu.kotatsu.core.prefs.AppSettings
-import org.koitharu.kotatsu.core.util.ext.lifecycleScope
-import org.koitharu.kotatsu.core.util.ext.printStackTraceDebug
-import org.koitharu.kotatsu.parsers.model.Manga
-import org.koitharu.kotatsu.parsers.util.runCatchingCancellable
-import org.koitharu.kotatsu.reader.ui.pager.ReaderUiState
-import org.koitharu.kotatsu.scrobbling.discord.data.DiscordRepository
+import org.tanukis.tanuki.R
+import org.tanukis.tanuki.core.LocalizedAppContext
+import org.tanukis.tanuki.core.model.appUrl
+import org.tanukis.tanuki.core.model.getTitle
+import org.tanukis.tanuki.core.model.isNsfw
+import org.tanukis.tanuki.core.prefs.AppSettings
+import org.tanukis.tanuki.core.util.ext.lifecycleScope
+import org.tanukis.tanuki.core.util.ext.printStackTraceDebug
+import org.tanukis.tanuki.parsers.model.Manga
+import org.tanukis.tanuki.parsers.util.runCatchingCancellable
+import org.tanukis.tanuki.reader.ui.pager.ReaderUiState
+import org.tanukis.tanuki.scrobbling.discord.data.DiscordRepository
 import java.util.Collections
 import javax.inject.Inject
 
