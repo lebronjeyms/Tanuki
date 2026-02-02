@@ -15,16 +15,16 @@ plugins {
 android {
 	compileSdk = 36
 	buildToolsVersion = '35.0.0'
-	namespace = 'org.koitharu.kotatsu'
+	namespace = 'org.tanukis.tanuki'
 
 	defaultConfig {
-		applicationId 'org.koitharu.kotatsu'
+		applicationId 'org.tanukis.tanuki'
 		minSdk = 23
 		targetSdk = 36
 		versionCode = 1033
 		versionName = (project.hasProperty('versionName') ? project.property('versionName') : '9.4.1').toString()
 		generatedDensities = []
-		testInstrumentationRunner 'org.koitharu.kotatsu.HiltTestRunner'
+		testInstrumentationRunner 'org.tanukis.tanuki.HiltTestRunner'
 		ksp {
 			arg('room.generateKotlin', 'true')
 		}
@@ -117,7 +117,7 @@ android {
 		unitTests.includeAndroidResources true
 		unitTests.returnDefaultValues false
 		kotlinOptions {
-			freeCompilerArgs += ['-opt-in=org.koitharu.kotatsu.parsers.InternalParsersApi']
+			freeCompilerArgs += ['-opt-in=org.tanukis.tanuki.parsers.InternalParsersApi']
 		}
 	}
 	applicationVariants.configureEach { variant ->
@@ -131,99 +131,100 @@ android {
 	}
 }
 dependencies {
-	def parsersVersion = libs.versions.parsers.get()
-	if (System.properties.containsKey('parsersVersionOverride')) {
-		// usage:
-		// -DparsersVersionOverride=$(curl -s https://api.github.com/repos/kotatsuapp/kotatsu-parsers/commits/master -H "Accept: application/vnd.github.sha" | cut -c -10)
-		parsersVersion = System.getProperty('parsersVersionOverride')
-	}
-	//noinspection UseTomlInstead
-	implementation("com.github.2lwg1cdpiW:kotatsu-parsers:0.6.8") {
-		exclude group: 'org.json', module: 'json'
+    def extsVersion = libs.versions.parsers.get()
+    if (System.properties.containsKey('parsers')) {
+        // Usage:
+        // -Dexts=$(curl -s https://api.github.com/repos/2lwg1cdpiW/tanuki-exts/commits/main -H "Accept: application/vnd.github.sha" | cut -c -10)
+        extsVersion = System.getProperty('parsers')
     }
 
-	coreLibraryDesugaring libs.desugar.jdk.libs
-	implementation libs.kotlin.stdlib
-	implementation libs.kotlinx.coroutines.android
-	implementation libs.kotlinx.coroutines.guava
+    //noinspection UseTomlInstead
+    implementation("com.github.2lwg1cdpiW:tanuki-exts:$extsVersion") {
+        exclude group: 'org.json', module: 'json'
+    }
 
-	implementation libs.androidx.appcompat
-	implementation libs.androidx.core
-	implementation libs.androidx.activity
-	implementation libs.androidx.fragment
-	implementation libs.androidx.transition
-	implementation libs.androidx.collection
-	implementation libs.lifecycle.viewmodel
-	implementation libs.lifecycle.service
-	implementation libs.lifecycle.process
-	implementation libs.androidx.constraintlayout
-	implementation libs.androidx.documentfile
-	implementation libs.androidx.swiperefreshlayout
-	implementation libs.androidx.recyclerview
-	implementation libs.androidx.viewpager2
-	implementation libs.androidx.preference
-	implementation libs.androidx.biometric
-	implementation libs.material
-	implementation libs.androidx.lifecycle.common.java8
-	implementation libs.androidx.webkit
+    coreLibraryDesugaring libs.desugar.jdk.libs
+    implementation libs.kotlin.stdlib
+    implementation libs.kotlinx.coroutines.android
+    implementation libs.kotlinx.coroutines.guava
 
-	implementation libs.androidx.work.runtime
-	implementation libs.guava
+    implementation libs.androidx.appcompat
+    implementation libs.androidx.core
+    implementation libs.androidx.activity
+    implementation libs.androidx.fragment
+    implementation libs.androidx.transition
+    implementation libs.androidx.collection
+    implementation libs.lifecycle.viewmodel
+    implementation libs.lifecycle.service
+    implementation libs.lifecycle.process
+    implementation libs.androidx.constraintlayout
+    implementation libs.androidx.documentfile
+    implementation libs.androidx.swiperefreshlayout
+    implementation libs.androidx.recyclerview
+    implementation libs.androidx.viewpager2
+    implementation libs.androidx.preference
+    implementation libs.androidx.biometric
+    implementation libs.material
+    implementation libs.androidx.lifecycle.common.java8
+    implementation libs.androidx.webkit
+
+    implementation libs.androidx.work.runtime
+    implementation libs.guava
 
     // Foldable/Window layout
     implementation libs.androidx.window
 
-	implementation libs.androidx.room.runtime
-	implementation libs.androidx.room.ktx
-	ksp libs.androidx.room.compiler
+    implementation libs.androidx.room.runtime
+    implementation libs.androidx.room.ktx
+    ksp libs.androidx.room.compiler
 
-	implementation libs.okhttp
-	implementation libs.okhttp.tls
-	implementation libs.okhttp.dnsoverhttps
-	implementation libs.okio
-	implementation libs.kotlinx.serialization.json
+    implementation libs.okhttp
+    implementation libs.okhttp.tls
+    implementation libs.okhttp.dnsoverhttps
+    implementation libs.okio
+    implementation libs.kotlinx.serialization.json
 
-	implementation libs.adapterdelegates
-	implementation libs.adapterdelegates.viewbinding
+    implementation libs.adapterdelegates
+    implementation libs.adapterdelegates.viewbinding
 
-	implementation libs.hilt.android
-	ksp libs.hilt.compiler
-	implementation libs.androidx.hilt.work
-	ksp libs.androidx.hilt.compiler
+    implementation libs.hilt.android
+    ksp libs.hilt.compiler
+    implementation libs.androidx.hilt.work
+    ksp libs.androidx.hilt.compiler
 
-	implementation libs.coil.core
-	implementation libs.coil.network
-	implementation libs.coil.gif
-	implementation libs.coil.svg
-	implementation libs.avif.decoder
-	implementation libs.ssiv
-	implementation libs.disk.lru.cache
-	implementation libs.markwon
-	implementation libs.kizzyrpc
+    implementation libs.coil.core
+    implementation libs.coil.network
+    implementation libs.coil.gif
+    implementation libs.coil.svg
+    implementation libs.avif.decoder
+    implementation libs.ssiv
+    implementation libs.disk.lru.cache
+    implementation libs.markwon
+    implementation libs.kizzyrpc
 
-	implementation libs.acra.http
-	implementation libs.acra.dialog
+    implementation libs.acra.http
+    implementation libs.acra.dialog
 
-	implementation libs.conscrypt.android
+    implementation libs.conscrypt.android
 
-	debugImplementation libs.leakcanary.android
-	nightlyImplementation libs.leakcanary.android
-	debugImplementation libs.workinspector
+    debugImplementation libs.leakcanary.android
+    nightlyImplementation libs.leakcanary.android
+    debugImplementation libs.workinspector
 
-	testImplementation libs.junit
-	testImplementation libs.json
-	testImplementation libs.kotlinx.coroutines.test
+    testImplementation libs.junit
+    testImplementation libs.json
+    testImplementation libs.kotlinx.coroutines.test
 
-	androidTestImplementation libs.androidx.runner
-	androidTestImplementation libs.androidx.rules
-	androidTestImplementation libs.androidx.test.core
-	androidTestImplementation libs.androidx.junit
+    androidTestImplementation libs.androidx.runner
+    androidTestImplementation libs.androidx.rules
+    androidTestImplementation libs.androidx.test.core
+    androidTestImplementation libs.androidx.junit
 
-	androidTestImplementation libs.kotlinx.coroutines.test
+    androidTestImplementation libs.kotlinx.coroutines.test
 
-	androidTestImplementation libs.androidx.room.testing
-	androidTestImplementation libs.moshi.kotlin
+    androidTestImplementation libs.androidx.room.testing
+    androidTestImplementation libs.moshi.kotlin
 
-	androidTestImplementation libs.hilt.android.testing
-	kspAndroidTest libs.hilt.android.compiler
+    androidTestImplementation libs.hilt.android.testing
+    kspAndroidTest libs.hilt.android.compiler
 }
