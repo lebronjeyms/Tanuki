@@ -1,9 +1,9 @@
-package org.koitharu.kotatsu.core.github
+package org.tanukis.tanuki.core.github
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Test
-import org.koitharu.kotatsu.BuildConfig
+import org.tanukis.tanuki.BuildConfig
 
 class VersionIdTest {
 
