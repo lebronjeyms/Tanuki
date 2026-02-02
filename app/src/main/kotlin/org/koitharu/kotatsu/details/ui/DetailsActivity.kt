@@ -1,3 +1,5 @@
+//app/src/main/kotlin/org/koitharu/kotatsu/details/ui/DetailsActivity.kt
+
 package org.koitharu.kotatsu.details.ui
 
 import android.app.assist.AssistContent
@@ -155,7 +157,10 @@ class DetailsActivity :
 		viewBinding.textViewDescription.addOnLayoutChangeListener(this)
 		viewBinding.swipeRefreshLayout.setOnRefreshListener(this)
 		viewBinding.textViewDescription.viewTreeObserver.addOnDrawListener(this)
-		infoBinding.textViewAuthor.movementMethod = LinkMovementMethodCompat.getInstance()
+		
+		// UPDATED: Use viewBinding instead of infoBinding for Author
+		viewBinding.textViewAuthor.movementMethod = LinkMovementMethodCompat.getInstance()
+		
 		viewBinding.textViewDescription.movementMethod = LinkMovementMethodCompat.getInstance()
 		viewBinding.chipsTags.onChipClickListener = this
 		TitleScrollCoordinator(viewBinding.textViewTitle).attach(viewBinding.scrollView)
@@ -418,6 +423,10 @@ class DetailsActivity :
 			textViewNsfw16.isVisible = manga.contentRating == ContentRating.SUGGESTIVE
 			textViewNsfw18.isVisible = manga.contentRating == ContentRating.ADULT
 			textViewDescription.text = details.description.ifNullOrEmpty { getString(R.string.no_description) }
+			
+			// UPDATED: Bind author here in viewBinding
+			textViewAuthor.textAndVisible = manga.getAuthorsString()
+			textViewAuthorLabel.isVisible = textViewAuthor.isVisible
 		}
 		with(infoBinding) {
 			val translation = details.getLocale()
@@ -429,8 +438,9 @@ class DetailsActivity :
 				TextDrawable.compound(infoBinding.textViewTranslation, it)
 			}
 			infoBinding.textViewTranslationLabel.isVisible = infoBinding.textViewTranslation.isVisible
-			textViewAuthor.textAndVisible = manga.getAuthorsString()
-			textViewAuthorLabel.isVisible = textViewAuthor.isVisible
+			
+			// REMOVED: textViewAuthor logic from here (now in viewBinding block above)
+			
 			if (manga.hasRating) {
 				ratingBarRating.rating = manga.rating * ratingBarRating.numStars
 				ratingBarRating.isVisible = true
