@@ -283,10 +283,10 @@ class CaptchaHandler @Inject constructor(
 
 		private const val CHANNEL_ID = "captcha"
 		private const val TAG = CHANNEL_ID
-		private const val GROUP_CAPTCHA = "org.koitharu.kotatsu.CAPTCHA"
+		private const val GROUP_CAPTCHA = "org.tanukis.tanuki.CAPTCHA"
 		private const val GROUP_NOTIFICATION_ID = 34
 		private const val SETTINGS_ACTION_CODE = 3
-		private const val ACTION_DISCARD = "org.koitharu.kotatsu.CAPTCHA_DISCARD"
+		private const val ACTION_DISCARD = "org.tanukis.tanuki.CAPTCHA_DISCARD"
 		private const val RESOLVE_TIMEOUT = 20_000L
 	}
 }

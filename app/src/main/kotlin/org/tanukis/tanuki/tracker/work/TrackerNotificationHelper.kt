@@ -195,7 +195,7 @@ class TrackerNotificationHelper @Inject constructor(
 
 		const val CHANNEL_ID = "tracker_chapters"
 		const val GROUP_NOTIFICATION_ID = 0
-		const val GROUP_NEW_CHAPTERS = "org.koitharu.kotatsu.NEW_CHAPTERS"
+		const val GROUP_NEW_CHAPTERS = "org.tanukis.tanuki.NEW_CHAPTERS"
 		const val TAG = "tracker"
 
 		private const val LEGACY_CHANNELS_GROUP_ID = "trackers"

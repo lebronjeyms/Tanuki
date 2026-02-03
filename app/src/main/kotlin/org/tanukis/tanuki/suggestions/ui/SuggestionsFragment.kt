@@ -73,7 +73,7 @@ class SuggestionsFragment : MangaListFragment() {
 			"",
 			ReplaceWith(
 				"SuggestionsFragment()",
-				"org.koitharu.kotatsu.suggestions.ui.SuggestionsFragment",
+				"org.tanukis.tanuki.suggestions.ui.SuggestionsFragment",
 			),
 		)
 		fun newInstance() = SuggestionsFragment()

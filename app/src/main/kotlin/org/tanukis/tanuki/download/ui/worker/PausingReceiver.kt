@@ -30,10 +30,10 @@ class PausingReceiver(
 
 	companion object {
 
-		private const val ACTION_PAUSE = "org.koitharu.kotatsu.download.PAUSE"
-		private const val ACTION_RESUME = "org.koitharu.kotatsu.download.RESUME"
-		private const val ACTION_SKIP = "org.koitharu.kotatsu.download.SKIP"
-		private const val ACTION_SKIP_ALL = "org.koitharu.kotatsu.download.SKIP_ALL"
+		private const val ACTION_PAUSE = "org.tanukis.tanuki.download.PAUSE"
+		private const val ACTION_RESUME = "org.tanukis.tanuki.download.RESUME"
+		private const val ACTION_SKIP = "org.tanukis.tanuki.download.SKIP"
+		private const val ACTION_SKIP_ALL = "org.tanukis.tanuki.download.SKIP_ALL"
 		private const val EXTRA_UUID = "uuid"
 		private const val SCHEME = "workuid"
 

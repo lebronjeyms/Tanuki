@@ -24,7 +24,7 @@ class SourcesSettingsViewModel @Inject constructor(
 	@ApplicationContext private val context: Context,
 ) : BaseViewModel() {
 
-	private val linksHandlerActivity = ComponentName(context, "org.koitharu.kotatsu.details.ui.DetailsByLinkActivity")
+	private val linksHandlerActivity = ComponentName(context, "org.tanukis.tanuki.details.ui.DetailsByLinkActivity")
 
 	val enabledSourcesCount = sourcesRepository.observeEnabledSourcesCount()
 		.withErrorHandling()

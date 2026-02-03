@@ -146,7 +146,7 @@ class MangaIndex(source: String?) {
 			item.put(KEY_ID, id)
 			list.add(item)
 		}
-		val comparator = org.koitharu.kotatsu.core.util.AlphanumComparator()
+		val comparator = org.tanukis.tanuki.core.util.AlphanumComparator()
 		list.sortWith(compareBy(comparator) { it.getString(KEY_NAME) })
 		val newJo = JSONObject()
 		list.forEachIndexed { i, obj ->
